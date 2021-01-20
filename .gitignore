@@ -1,0 +1,14 @@
+*.o
+*.so
+*.a
+*.d
+*.dylib
+*.sublime-project
+*.sublime-workspace
+*.pyc
+**/__pycache__
+**/.ipynb_checkpoints
+*.egg-info
+.eggs/
+build/
+dist/
