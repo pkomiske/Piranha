@@ -6,3 +6,7 @@ cd EventGeometry
 git submodule update --init --recursive
 make install
 cd ..
+
+# make shared library and put it in accessible location
+make shared
+cp lib*.so /usr/local/lib

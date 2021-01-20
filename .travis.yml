@@ -34,6 +34,7 @@ jobs:
 
     - name: Build wheels on Mac and deploy
       os: osx
+      osx_image: xcode11
       language: shell
       after_success: |
         pip3 install twine
@@ -46,7 +47,6 @@ env:
     - TWINE_USERNAME=__token__
     - CIBW_BEFORE_ALL_MACOS=./scripts/prepare-cibw-macos.sh
     - CIBW_BEFORE_ALL_LINUX=./scripts/prepare-cibw-linux.sh
-    - CIBW_BEFORE_BUILD="pip install numpy"
     - CIBW_BUILD="cp*_x86_64"
     - CIBW_BUILD_VERBOSITY=1
     - CIBW_ENVIRONMENT="CXXFLAGS=-std=c++14"
