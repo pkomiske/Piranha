@@ -3,7 +3,6 @@
 # homebrew packages
 brew update > /dev/null
 brew install libomp
-brew upgrade boost cgal
 
 # install fastjet
 git clone https://gitlab.com/pkomiske/fastjet.git
