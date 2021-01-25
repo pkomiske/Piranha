@@ -98,7 +98,7 @@ def run_swig():
         f_interface.write(temp.format(**contrib))
 
     # form swig options
-    opts = '-fastproxy {0} -DFASTJET_PREFIX={1} -I{1}/share'.format(fj_cxxflags, fj_prefix)
+    opts = '-fastproxy {0} -DFASTJET_PREFIX={1} -I{1}/share -I{1}/include/fastjet/contrib'.format(fj_cxxflags, fj_prefix)
 
     # handle extra options for swig
     sys.argv += extra_swig_opts.split()
