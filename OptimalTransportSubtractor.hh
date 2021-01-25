@@ -35,6 +35,11 @@
 // Piranha contrib
 #include "PiranhaUtils.hh"
 
+// this avoids unnecessary compilation of EMD templates
+#ifndef SWIG_PREPROCESSOR
+DECLARE_EMD_TEMPLATES
+#endif
+
 BEGIN_PIRANHA_NAMESPACE
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -45,13 +50,13 @@ class GhostGridBase {
 public:
 
   GhostGridBase(double drap, double dphi) : 
-    drap_(drap), dphi_(dphi)
+    drap_(drap), dphi_(dphi), constructed_points_(false)
   {
     if (drap_ < 0 || dphi_ < 0)
       throw std::invalid_argument("drap and dphi must be positive");
   }
   GhostGridBase(unsigned nrap, unsigned nphi) :
-    nrap_(nrap), nphi_(nphi)
+    nrap_(nrap), nphi_(nphi), constructed_points_(false)
   {
     if (nrap_ == 0 || nphi_ == 0)
       throw std::invalid_argument("nrap and nphi must be positive");
@@ -66,43 +71,52 @@ public:
     return oss.str();
   }
 
-  // the number of ghosts there will be
-  std::size_t nghosts() const { return points_.size(); }
+  // access parameters
+  double drap() const { return drap_; }
+  double dphi() const { return dphi_; }
+  unsigned nrap() const { return nrap_; }
+  unsigned nphi() const { return nphi_; }
 
-  // create ghosts such that their total pT is a given amount
-  const std::vector<PseudoJet> & ghosts_with_total_pt(double total_ghost_pt, double rap_offset = 0, double phi_offset = 0) {
-    return ghosts_with_pt(total_ghost_pt/nghosts(), rap_offset, phi_offset);
+  // access points/ghosts
+  const std::vector<std::pair<double, double>> & points() {
+    if (!constructed_points_)
+      construct_points();
+
+    return points_;
+  }
+  const std::vector<PseudoJet> & ghosts() const { return ghosts_; }
+
+  // the number of ghosts there will be
+  std::size_t nghosts() { return points().size(); }
+
+  // create ghosts such that their total weight is a given amount
+  template<class ParticleWeight>
+  const std::vector<PseudoJet> & ghosts_with_total_weight(double total_ghost_weight, double rap_offset = 0, double phi_offset = 0) {
+    return ghosts_with_individual_weight<ParticleWeight>(total_ghost_weight/nghosts(), rap_offset, phi_offset);
   }
 
   // create ghosts, each with a given pt
-  const std::vector<PseudoJet> & ghosts_with_pt(double ghost_pt, double rap_offset = 0, double phi_offset = 0) {
+  template<class ParticleWeight>
+  const std::vector<PseudoJet> & ghosts_with_individual_weight(double ghost_weight, double rap_offset = 0, double phi_offset = 0) {
     ghosts_.clear();
-    for (const std::pair<double, double> & p : points_)
-      ghosts_.push_back(PtYPhiM(ghost_pt, p.first + rap_offset, p.second + phi_offset));
-    return ghosts_;
+    for (const std::pair<double, double> & p : points()) {
+      ghosts_.push_back(PtYPhiM(0, p.first + rap_offset, p.second + phi_offset));
+      ParticleWeight::set_weight(ghosts_.back(), ghost_weight);
+    }
+    return ghosts();
   }
 
 protected:
 
   double drap_, dphi_, rap_start_, phi_start_;
   unsigned nrap_, nphi_;
+  bool constructed_points_;
 
   std::vector<std::pair<double, double>> points_;
   std::vector<PseudoJet> ghosts_;
 
   virtual bool keep_point(double rap, double phi) const { return true; }
-
-  void construct_points() {
-    points_.reserve(std::size_t(nrap_)*std::size_t(nphi_));
-    for (unsigned i = 0; i < nrap_; i++) {
-      double rap(rap_start_ + i*drap_);
-      for (unsigned j = 0; j < nphi_; j++) {
-        double phi(phi_start_ + j*dphi_);
-        if (keep_point(rap, phi))
-          points_.emplace_back(rap, phi);
-      }
-    }
-  }
+  void construct_points();
 
 }; // GhostGridBase
 
@@ -111,6 +125,10 @@ protected:
 ////////////////////////////////////////////////////////////////////////////////
 
 class GhostGridRectangle : public GhostGridBase {
+
+  // store the corners of the rectangle
+  std::pair<double, double> lower_left_, upper_right_;
+
 public:
 
   // partial constructors, assume full phi range and symmetric rapidity coverage
@@ -147,34 +165,16 @@ public:
     setup(rap_min, phi_min, rap_max, phi_max);
   }
 
-  std::string description() const {
-    std::ostringstream oss;
-    oss << "GhostGridRectangle\n"
-        << "  (rap_min, phi_min) - (" << rap_min_ << ", " << phi_min_ << ")\n"
-        << "  (rap_max, phi_max) - (" << rap_max_ << ", " << phi_max_ << ")\n"
-        << GhostGridBase::description();
-    return oss.str();
+  std::string description() const;
+
+  // access region as pair of points
+  std::pair<std::pair<double,double>,std::pair<double,double>> region() const {
+    return std::make_pair(lower_left_, upper_right_);
   }
 
 private:
 
-  double rap_min_, phi_min_, rap_max_, phi_max_;
-
-  void setup(double rap_min, double phi_min, double rap_max, double phi_max) {
-    if (rap_min >= rap_max)
-      throw std::invalid_argument("rap_min must be less than rap_max");
-    if (phi_min >= phi_max)
-      throw std::invalid_argument("phi_min must be less than phi_max");
-
-    rap_min_ = rap_min;
-    phi_min_ = phi_min;
-    rap_max_ = rap_max;
-    phi_max_ = phi_max;
-    rap_start_ = (rap_max_ + rap_min_)/2 - (nrap_ - 1)*drap_/2;
-    phi_start_ = (phi_max_ + phi_min_)/2 - (nphi_ - 1)*dphi_/2;
-
-    construct_points();
-  }
+  void setup(double rap_min, double phi_min, double rap_max, double phi_max);
 
 }; // GhostGridRectangle
 
@@ -185,6 +185,10 @@ private:
 // Note: the disk will always be centered at (0, 0). To get a translated disk,
 //       use the extra arguments to the `ghosts_...` functions of base class.
 class GhostGridDisk : public GhostGridBase {
+
+  // store radius and radius squared
+  double R_, R2_;
+
 public:
 
   // partial constructors, symmetric treatment of rap and phi
@@ -207,33 +211,13 @@ public:
     setup(R);
   }
 
-  std::string description() const {
-    std::ostringstream oss;
-    oss << "GhostGridDisk\n"
-        << "  R - " << R_ << '\n'
-        << GhostGridBase::description();
-    return oss.str();
-  }
+  std::string description() const;
+  double R() const { return R_; }
 
 private:
 
-  double R_, R2_;
-
-  bool keep_point(double rap, double phi) const {
-    return (rap*rap + phi*phi <= R2_);
-  }
-
-  void setup(double R) {
-    if (R <= 0)
-      throw std::invalid_argument("R must be positive");
-
-    R_ = R;
-    R2_ = R*R;
-    rap_start_ = -drap_*(nrap_ - 1)/2;
-    phi_start_ = -dphi_*(nphi_ - 1)/2;
-
-    construct_points();
-  }
+  bool keep_point(double rap, double phi) const { return (rap*rap + phi*phi <= R2_); }
+  void setup(double R);
 
 }; // GhostGridDisk
 
@@ -255,35 +239,24 @@ public:
   {}
 
   // return a description of the object
-  std::string description() const {
-    std::ostringstream oss;
-    oss << "OptimalTransportSubtractor\n"
-        << "  z - " << z_ << '\n'
-        << '\n'
-        << grid_ptr_->description() << '\n'
-        << emd_obj_.description();
-    return oss.str();
-  }
+  std::string description() const;
 
-  // access underlying EMD object
+  // access underlying objects
   const EMD & emd_obj() const { return emd_obj_; }
+  const 
+  double z() const { return z_; }
   double total_subtracted() const { return total_subtracted_; }
   
   // operate on a single PseudoJet
   std::vector<PseudoJet> operator()(const PseudoJet & jet, double min_weight_to_keep = 1e-14) {
 
+    // get constituents
     if (!jet.has_constituents())
       throw std::runtime_error("jet must have constituents in order to subtract");
-
-    // get constituents
     std::vector<PseudoJet> jet_consts(jet.constituents());
 
-    // get ghosts
-    double total_ghost_weight(z_*get_total_weight(jet_consts));
-    std::vector<PseudoJet> ghosts(grid_ptr_->ghosts_with_total_pt(total_ghost_weight, jet.rap(), jet.phi()));
-
     // do the subtracting
-    return subtract(jet_consts, ghosts, min_weight_to_keep);
+    return subtract(jet_consts, construct_ghosts(jet_consts, jet.rap(), jet.phi()), min_weight_to_keep);
   }
 
   // operator on a vector of PseudoJets
@@ -291,12 +264,8 @@ public:
                                     const PseudoJet & offset = PtYPhiM(0, 0, 0),
                                     double min_weight_to_keep = 1e-14) {
 
-    // get ghosts
-    double total_ghost_weight(z_*get_total_weight(pjs));
-    std::vector<PseudoJet> ghosts(grid_ptr_->ghosts_with_total_pt(total_ghost_weight, offset.rap(), offset.phi()));
-
     // do the subtracting
-    return subtract(pjs, ghosts, min_weight_to_keep);
+    return subtract(pjs, construct_ghosts(pjs, offset.rap(), offset.phi()), min_weight_to_keep);
   }
 
 private:
@@ -309,52 +278,14 @@ private:
   {
     if (z < 0 || z > 1)
       throw std::invalid_argument("z must be in [0,1]");
-    if (emd_obj_.norm())
+    if (emd_obj().norm())
       throw std::invalid_argument("EMD object should have norm = false");
   }
 
-  double get_total_weight(const std::vector<PseudoJet> & pjs) const {
-    double total_weight(0);
-    for (const PseudoJet & pj : pjs)
-      total_weight += EMD::ParticleWeight::weight(pj);
-    return total_weight;
-  }
-
+  std::vector<PseudoJet> construct_ghosts(const std::vector<PseudoJet> & pjs, double rap_off, double phi_off) const;
   std::vector<PseudoJet> subtract(const std::vector<PseudoJet> & pjs,
-                               const std::vector<PseudoJet> & ghosts,
-                               double min_weight_to_keep) {
-
-    // run emd computation
-    emd_obj_(pjs, ghosts);
-
-    // verify that extra particle went to the ghosts
-    if (emd_obj_.extra() == emd::ExtraParticle::Zero)
-      throw std::runtime_error("event should not have gotten an extra particle");
-
-    // get flow vector
-    std::vector<double> flows(emd_obj_.flows());
-
-    // subtract pt from each PseudoJet
-    std::vector<PseudoJet> subtracted_pjs;
-    subtracted_pjs.reserve(pjs.size());
-    total_subtracted_ = 0;
-    for (unsigned i = 0; i < pjs.size(); i++) {
-
-      // tally pt to subtract
-      double wsub_i(0);
-      for (unsigned j = 0, in1 = i*emd_obj_.n1(); j < ghosts.size(); j++)
-        wsub_i += flows[in1 + j];
-      total_subtracted_ += wsub_i;
-
-      double new_w(EMD::ParticleWeight::weight(pjs[i]) - wsub_i);
-      if (new_w > min_weight_to_keep) {
-        subtracted_pjs.push_back(pjs[i]);
-        EMD::ParticleWeight::set_weight(subtracted_pjs.back(), new_w);
-      }
-    }
-
-    return subtracted_pjs;
-  }
+                                  const std::vector<PseudoJet> & ghosts,
+                                  double min_weight_to_keep);
 
   EMD emd_obj_;
   std::shared_ptr<GhostGridBase> grid_ptr_;

@@ -53,6 +53,7 @@ DynamicVoronoiCylinder::DynamicVoronoiCylinder(SubtractionType subtype, double R
   // initialize rectangles
   primary_region_ = K::Iso_rectangle_2(xmin_, ymin_, xmax_, ymax_);
   acceptance_ = K::Iso_rectangle_2(xmin_, ymin_ - 2*ysize_, xmax_, ymax_ + 2*ysize_);
+  total_area_ = primary_region_.area();
 
   // there is some wiggle room in these choices (by design)
   double maxDist(std::sqrt(xsize_*xsize_ + ysize_*ysize_)), halfy(ymin_ + ysize_/2);

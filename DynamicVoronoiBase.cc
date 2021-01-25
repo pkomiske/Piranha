@@ -140,7 +140,7 @@ std::vector<int> DynamicVoronoiBase::neighbors(unsigned i) const {
 
   // acquire neighbor indices
   std::vector<int> nbs;
-  nbs.reserve(8);
+  nbs.reserve(16);
   Vertex_circulator vc(triangulation_.incident_vertices(delaunayVerts_[i])), done(vc);
   if (vc != nullptr)
     do nbs.push_back(vc->id());

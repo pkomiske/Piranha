@@ -36,6 +36,10 @@
 
 BEGIN_PIRANHA_NAMESPACE
 
+// these templates will already be instantiated in the library
+extern template class IteratedVoronoiSubtractorBase<DynamicVoronoiCylinder>;
+extern template class IteratedVoronoiSubtractorBase<DynamicVoronoiDisk>;
+
 ///////////////////////////////////////////////////////////////////////////////
 //
 // IteratedVoronoiSubtractorCylinder
@@ -71,7 +75,7 @@ public:
   std::vector<PseudoJet> operator()(const PseudoJet & jet) {
     individual_jet_ = true;
     if (have_bge())
-      jet_rho_ = bge_->rho(jet);
+      jet_rho_ = background_estimator()->rho(jet);
 
     std::vector<PseudoJet> consts(jet.constituents());
     preprocess(consts);
@@ -110,7 +114,7 @@ public:
   std::vector<PseudoJet> operator()(const PseudoJet & jet) {
     individual_jet_ = true;
     if (have_bge())
-      jet_rho_ = bge_->rho(jet);
+      jet_rho_ = background_estimator()->rho(jet);
 
     vor_.set_center(jet.rap(), jet.phi());
     std::vector<PseudoJet> consts(jet.constituents());
@@ -136,7 +140,7 @@ private:
   // ensure that the phi fixing is done properly
   Point process_point(const PseudoJet & pj) const {
     double phi(pj.phi());
-    return Point(pj.rap(), ensure_consistent_phi_ ? phi_fix(phi, vor_.y0()) : phi);
+    return Point(pj.rap(), ensure_consistent_phi_ ? phi_fix(phi, vor().y0()) : phi);
   }
 
   bool ensure_consistent_phi_;

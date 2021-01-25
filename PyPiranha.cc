@@ -2765,27 +2765,35 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 #define SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t_t swig_types[70]
 #define SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDot_lemon__NetworkSimplexT_t_t_t swig_types[71]
 #define SWIGTYPE_p_fastjet__contrib__piranha__PiranhaError swig_types[72]
-#define SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor swig_types[73]
-#define SWIGTYPE_p_fastjet__contrib__piranha__SubtractionHistory swig_types[74]
-#define SWIGTYPE_p_first_type swig_types[75]
-#define SWIGTYPE_p_p_PyObject swig_types[76]
-#define SWIGTYPE_p_second_type swig_types[77]
-#define SWIGTYPE_p_size_type swig_types[78]
-#define SWIGTYPE_p_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t swig_types[79]
-#define SWIGTYPE_p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t swig_types[80]
-#define SWIGTYPE_p_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t swig_types[81]
-#define SWIGTYPE_p_std__invalid_argument swig_types[82]
-#define SWIGTYPE_p_std__runtime_error swig_types[83]
-#define SWIGTYPE_p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t swig_types[84]
-#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[85]
-#define SWIGTYPE_p_std__vectorT_fastjet__contrib__piranha__SubtractionHistory_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t_t swig_types[86]
-#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[87]
-#define SWIGTYPE_p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t swig_types[88]
-#define SWIGTYPE_p_std__vectorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t_t swig_types[89]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[90]
-#define SWIGTYPE_p_value_type swig_types[91]
-static swig_type_info *swig_types[93];
-static swig_module_info swig_module = {swig_types, 92, 0, 0, 0, 0};
+#define SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t swig_types[73]
+#define SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t swig_types[74]
+#define SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t swig_types[75]
+#define SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t swig_types[76]
+#define SWIGTYPE_p_fastjet__contrib__piranha__SubtractionHistory swig_types[77]
+#define SWIGTYPE_p_first_type swig_types[78]
+#define SWIGTYPE_p_p_PyObject swig_types[79]
+#define SWIGTYPE_p_second_type swig_types[80]
+#define SWIGTYPE_p_size_type swig_types[81]
+#define SWIGTYPE_p_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t swig_types[82]
+#define SWIGTYPE_p_std__allocatorT_int_t swig_types[83]
+#define SWIGTYPE_p_std__allocatorT_std__pairT_double_double_t_t swig_types[84]
+#define SWIGTYPE_p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t swig_types[85]
+#define SWIGTYPE_p_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t swig_types[86]
+#define SWIGTYPE_p_std__invalid_argument swig_types[87]
+#define SWIGTYPE_p_std__pairT_double_double_t swig_types[88]
+#define SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t swig_types[89]
+#define SWIGTYPE_p_std__runtime_error swig_types[90]
+#define SWIGTYPE_p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t swig_types[91]
+#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[92]
+#define SWIGTYPE_p_std__vectorT_fastjet__contrib__piranha__SubtractionHistory_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t_t swig_types[93]
+#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[94]
+#define SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t swig_types[95]
+#define SWIGTYPE_p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t swig_types[96]
+#define SWIGTYPE_p_std__vectorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t_t swig_types[97]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[98]
+#define SWIGTYPE_p_value_type swig_types[99]
+static swig_type_info *swig_types[101];
+static swig_module_info swig_module = {swig_types, 100, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3426,6 +3434,9 @@ static PyObject * FastJetError_;
 using namespace fastjet::contrib;
 
 
+  #define SWIG_From_double   PyFloat_FromDouble 
+
+
 namespace swig {
   template <class Type>
   struct noconst_traits {
@@ -3702,6 +3713,201 @@ namespace swig {
   }
 }
 
+
+namespace swig {
+  template <> struct traits< double > {
+    typedef value_category category;
+    static const char* type_name() { return"double"; }
+  };
+  template <>  struct traits_asval< double > {
+    typedef double value_type;
+    static int asval(PyObject *obj, value_type *val) {
+      return SWIG_AsVal_double (obj, val);
+    }
+  };
+  template <>  struct traits_from< double > {
+    typedef double value_type;
+    static PyObject *from(const value_type& val) {
+      return SWIG_From_double  (val);
+    }
+  };
+}
+
+
+  namespace swig {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    template <class T, class U >
+    struct traits_asptr<std::pair<T,U> >  {
+      typedef std::pair<T,U> value_type;
+
+      static int get_pair(PyObject* first, PyObject* second,
+			  std::pair<T,U> **val) 
+      {
+	if (val) {
+	  value_type *vp = (new std::pair<T,U>());
+	  T *pfirst = &(vp->first);
+	  int res1 = swig::asval((PyObject*)first, pfirst);
+	  if (!SWIG_IsOK(res1)) {
+	    delete vp;
+	    return res1;
+	  }
+	  U *psecond = &(vp->second);
+	  int res2 = swig::asval((PyObject*)second, psecond);
+	  if (!SWIG_IsOK(res2)) {
+	    delete vp;
+	    return res2;
+	  }
+	  *val = vp;
+	  return SWIG_AddNewMask(res1 > res2 ? res1 : res2);
+	} else {
+	  T *pfirst = 0;
+	  int res1 = swig::asval((PyObject*)first, pfirst);
+	  if (!SWIG_IsOK(res1)) return res1;
+	  U *psecond = 0;
+	  int res2 = swig::asval((PyObject*)second, psecond);
+	  if (!SWIG_IsOK(res2)) return res2;
+	  return res1 > res2 ? res1 : res2;
+	}
+      }
+
+      static int asptr(PyObject *obj, std::pair<T,U> **val) {
+	int res = SWIG_ERROR;
+	if (PyTuple_Check(obj)) {
+	  if (PyTuple_GET_SIZE(obj) == 2) {
+	    res = get_pair(PyTuple_GET_ITEM(obj,0),PyTuple_GET_ITEM(obj,1), val);
+	  }
+	} else if (PySequence_Check(obj)) {
+	  if (PySequence_Size(obj) == 2) {
+	    swig::SwigVar_PyObject first = PySequence_GetItem(obj,0);
+	    swig::SwigVar_PyObject second = PySequence_GetItem(obj,1);
+	    res = get_pair(first, second, val);
+	  }
+	} else {
+	  value_type *p = 0;
+	  swig_type_info *descriptor = swig::type_info<value_type>();
+	  res = descriptor ? SWIG_ConvertPtr(obj, (void **)&p, descriptor, 0) : SWIG_ERROR;
+	  if (SWIG_IsOK(res) && val)  *val = p;
+	}
+	return res;
+      }
+    };
+
+
+    template <class T, class U >
+    struct traits_from<std::pair<T,U> >   {
+      static PyObject *from(const std::pair<T,U>& val) {
+	PyObject* obj = PyTuple_New(2);
+	PyTuple_SetItem(obj,0,swig::from(val.first));
+	PyTuple_SetItem(obj,1,swig::from(val.second));
+	return obj;
+      }
+    };
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      namespace swig {
+	template <>  struct traits<std::pair< double, double > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::pair<" "double" "," "double" " >";
+	  }
+	};
+      }
+    
+
+      namespace swig {
+	template <>  struct traits<std::pair< std::pair< double,double >, std::pair< double,double > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::pair<" "std::pair< double,double >" "," "std::pair< double,double >" " >";
+	  }
+	};
+      }
+    
 
 #include <functional>
 
@@ -4511,29 +4717,6 @@ namespace swig
 }
 
 
-  #define SWIG_From_double   PyFloat_FromDouble 
-
-
-namespace swig {
-  template <> struct traits< double > {
-    typedef value_category category;
-    static const char* type_name() { return"double"; }
-  };
-  template <>  struct traits_asval< double > {
-    typedef double value_type;
-    static int asval(PyObject *obj, value_type *val) {
-      return SWIG_AsVal_double (obj, val);
-    }
-  };
-  template <>  struct traits_from< double > {
-    typedef double value_type;
-    static PyObject *from(const value_type& val) {
-      return SWIG_From_double  (val);
-    }
-  };
-}
-
-
 namespace swig {
   template <class SwigPySeq, class Seq>
   inline void
@@ -5046,165 +5229,106 @@ SWIGINTERN std::vector< std::vector< fastjet::PseudoJet > >::iterator std_vector
 SWIGINTERN std::vector< std::vector< fastjet::PseudoJet > >::iterator std_vector_Sl_std_vector_Sl_fastjet_PseudoJet_Sg__Sg__insert__SWIG_0(std::vector< std::vector< fastjet::PseudoJet > > *self,std::vector< std::vector< fastjet::PseudoJet > >::iterator pos,std::vector< std::vector< fastjet::PseudoJet > >::value_type const &x){ return self->insert(pos, x); }
 SWIGINTERN void std_vector_Sl_std_vector_Sl_fastjet_PseudoJet_Sg__Sg__insert__SWIG_1(std::vector< std::vector< fastjet::PseudoJet > > *self,std::vector< std::vector< fastjet::PseudoJet > >::iterator pos,std::vector< std::vector< fastjet::PseudoJet > >::size_type n,std::vector< std::vector< fastjet::PseudoJet > >::value_type const &x){ self->insert(pos, n, x); }
 
-SWIGINTERNINLINE PyObject*
-  SWIG_From_int  (int value)
-{
-  return PyInt_FromLong((long) value);
-}
-
-
-SWIGINTERN swig_type_info*
-SWIG_pchar_descriptor(void)
-{
-  static int init = 0;
-  static swig_type_info* info = 0;
-  if (!init) {
-    info = SWIG_TypeQuery("_p_char");
-    init = 1;
-  }
-  return info;
-}
-
-
-SWIGINTERN int
-SWIG_AsCharPtrAndSize(PyObject *obj, char** cptr, size_t* psize, int *alloc)
-{
-#if PY_VERSION_HEX>=0x03000000
-#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-  if (PyBytes_Check(obj))
-#else
-  if (PyUnicode_Check(obj))
-#endif
-#else  
-  if (PyString_Check(obj))
-#endif
-  {
-    char *cstr; Py_ssize_t len;
-    int ret = SWIG_OK;
-#if PY_VERSION_HEX>=0x03000000
-#if !defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-    if (!alloc && cptr) {
-        /* We can't allow converting without allocation, since the internal
-           representation of string in Python 3 is UCS-2/UCS-4 but we require
-           a UTF-8 representation.
-           TODO(bhy) More detailed explanation */
-        return SWIG_RuntimeError;
-    }
-    obj = PyUnicode_AsUTF8String(obj);
-    if (!obj)
-      return SWIG_TypeError;
-    if (alloc)
-      *alloc = SWIG_NEWOBJ;
-#endif
-    if (PyBytes_AsStringAndSize(obj, &cstr, &len) == -1)
-      return SWIG_TypeError;
-#else
-    if (PyString_AsStringAndSize(obj, &cstr, &len) == -1)
-      return SWIG_TypeError;
-#endif
-    if (cptr) {
-      if (alloc) {
-	if (*alloc == SWIG_NEWOBJ) {
-	  *cptr = reinterpret_cast< char* >(memcpy(new char[len + 1], cstr, sizeof(char)*(len + 1)));
-	  *alloc = SWIG_NEWOBJ;
-	} else {
-	  *cptr = cstr;
-	  *alloc = SWIG_OLDOBJ;
-	}
-      } else {
-#if PY_VERSION_HEX>=0x03000000
-#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-	*cptr = PyBytes_AsString(obj);
-#else
-	assert(0); /* Should never reach here with Unicode strings in Python 3 */
-#endif
-#else
-	*cptr = SWIG_Python_str_AsChar(obj);
-        if (!*cptr)
-          ret = SWIG_TypeError;
-#endif
+      namespace swig {
+	template <>  struct traits<std::vector< std::pair< double,double >, std::allocator< std::pair< double,double > > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "std::pair< double,double >" "," "std::allocator< std::pair< double,double > >" " >";
+	  }
+	};
       }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__iterator(std::vector< std::pair< double,double > > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
     }
-    if (psize) *psize = len + 1;
-#if PY_VERSION_HEX>=0x03000000 && !defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-    Py_XDECREF(obj);
-#endif
-    return ret;
-  } else {
-#if defined(SWIG_PYTHON_2_UNICODE)
-#if defined(SWIG_PYTHON_STRICT_BYTE_CHAR)
-#error "Cannot use both SWIG_PYTHON_2_UNICODE and SWIG_PYTHON_STRICT_BYTE_CHAR at once"
-#endif
-#if PY_VERSION_HEX<0x03000000
-    if (PyUnicode_Check(obj)) {
-      char *cstr; Py_ssize_t len;
-      if (!alloc && cptr) {
-        return SWIG_RuntimeError;
+SWIGINTERN bool std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____nonzero__(std::vector< std::pair< double,double > > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____bool__(std::vector< std::pair< double,double > > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< std::pair< double,double > >::size_type std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____len__(std::vector< std::pair< double,double > > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____getslice__(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::difference_type i,std::vector< std::pair< double,double > >::difference_type j){
+      return swig::getslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setslice____SWIG_0(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::difference_type i,std::vector< std::pair< double,double > >::difference_type j){
+      swig::setslice(self, i, j, 1, std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >());
+    }
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setslice____SWIG_1(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::difference_type i,std::vector< std::pair< double,double > >::difference_type j,std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &v){
+      swig::setslice(self, i, j, 1, v);
+    }
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____delslice__(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::difference_type i,std::vector< std::pair< double,double > >::difference_type j){
+      swig::delslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____delitem____SWIG_0(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::difference_type i){
+      swig::erase(self, swig::getpos(self, i));
+    }
+SWIGINTERN std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____getitem____SWIG_0(std::vector< std::pair< double,double > > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
       }
-      obj = PyUnicode_AsUTF8String(obj);
-      if (!obj)
-        return SWIG_TypeError;
-      if (PyString_AsStringAndSize(obj, &cstr, &len) != -1) {
-        if (cptr) {
-          if (alloc) *alloc = SWIG_NEWOBJ;
-          *cptr = reinterpret_cast< char* >(memcpy(new char[len + 1], cstr, sizeof(char)*(len + 1)));
-        }
-        if (psize) *psize = len + 1;
-
-        Py_XDECREF(obj);
-        return SWIG_OK;
-      } else {
-        Py_XDECREF(obj);
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >::difference_type id = i;
+      std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >::difference_type jd = j;
+      return swig::getslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setitem____SWIG_0(std::vector< std::pair< double,double > > *self,PySliceObject *slice,std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
       }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >::difference_type id = i;
+      std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >::difference_type jd = j;
+      swig::setslice(self, id, jd, step, v);
     }
-#endif
-#endif
-
-    swig_type_info* pchar_descriptor = SWIG_pchar_descriptor();
-    if (pchar_descriptor) {
-      void* vptr = 0;
-      if (SWIG_ConvertPtr(obj, &vptr, pchar_descriptor, 0) == SWIG_OK) {
-	if (cptr) *cptr = (char *) vptr;
-	if (psize) *psize = vptr ? (strlen((char *)vptr) + 1) : 0;
-	if (alloc) *alloc = SWIG_OLDOBJ;
-	return SWIG_OK;
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setitem____SWIG_1(std::vector< std::pair< double,double > > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
       }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >::difference_type id = i;
+      std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
     }
-  }
-  return SWIG_TypeError;
-}
-
-
-SWIGINTERN int
-SWIG_AsPtr_std_string (PyObject * obj, std::string **val) 
-{
-  char* buf = 0 ; size_t size = 0; int alloc = SWIG_OLDOBJ;
-  if (SWIG_IsOK((SWIG_AsCharPtrAndSize(obj, &buf, &size, &alloc)))) {
-    if (buf) {
-      if (val) *val = new std::string(buf, size - 1);
-      if (alloc == SWIG_NEWOBJ) delete[] buf;
-      return SWIG_NEWOBJ;
-    } else {
-      if (val) *val = 0;
-      return SWIG_OLDOBJ;
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____delitem____SWIG_1(std::vector< std::pair< double,double > > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >::difference_type id = i;
+      std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
     }
-  } else {
-    static int init = 0;
-    static swig_type_info* descriptor = 0;
-    if (!init) {
-      descriptor = SWIG_TypeQuery("std::string" " *");
-      init = 1;
+SWIGINTERN std::vector< std::pair< double,double > >::value_type const &std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____getitem____SWIG_1(std::vector< std::pair< double,double > > const *self,std::vector< std::pair< double,double > >::difference_type i){
+      return *(swig::cgetpos(self, i));
     }
-    if (descriptor) {
-      std::string *vptr;
-      int res = SWIG_ConvertPtr(obj, (void**)&vptr, descriptor, 0);
-      if (SWIG_IsOK(res) && val) *val = vptr;
-      return res;
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setitem____SWIG_2(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::difference_type i,std::vector< std::pair< double,double > >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
     }
-  }
-  return SWIG_ERROR;
-}
-
+SWIGINTERN std::vector< std::pair< double,double > >::value_type std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__pop(std::vector< std::pair< double,double > > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__append(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::value_type const &x){
+      self->push_back(x);
+    }
+SWIGINTERN std::vector< std::pair< double,double > >::iterator std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__erase__SWIG_0(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::iterator pos){ return self->erase(pos); }
+SWIGINTERN std::vector< std::pair< double,double > >::iterator std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__erase__SWIG_1(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::iterator first,std::vector< std::pair< double,double > >::iterator last){ return self->erase(first, last); }
+SWIGINTERN std::vector< std::pair< double,double > >::iterator std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__insert__SWIG_0(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::iterator pos,std::vector< std::pair< double,double > >::value_type const &x){ return self->insert(pos, x); }
+SWIGINTERN void std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__insert__SWIG_1(std::vector< std::pair< double,double > > *self,std::vector< std::pair< double,double > >::iterator pos,std::vector< std::pair< double,double > >::size_type n,std::vector< std::pair< double,double > >::value_type const &x){ self->insert(pos, n, x); }
 
 SWIGINTERN int
 SWIG_AsVal_int (PyObject * obj, int *val)
@@ -5219,6 +5343,147 @@ SWIG_AsVal_int (PyObject * obj, int *val)
     }
   }  
   return res;
+}
+
+
+SWIGINTERNINLINE PyObject*
+  SWIG_From_int  (int value)
+{
+  return PyInt_FromLong((long) value);
+}
+
+
+namespace swig {
+  template <> struct traits< int > {
+    typedef value_category category;
+    static const char* type_name() { return"int"; }
+  };
+  template <>  struct traits_asval< int > {
+    typedef int value_type;
+    static int asval(PyObject *obj, value_type *val) {
+      return SWIG_AsVal_int (obj, val);
+    }
+  };
+  template <>  struct traits_from< int > {
+    typedef int value_type;
+    static PyObject *from(const value_type& val) {
+      return SWIG_From_int  (val);
+    }
+  };
+}
+
+
+      namespace swig {
+	template <>  struct traits<std::vector< int, std::allocator< int > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "int" "," "std::allocator< int >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_int_Sg__iterator(std::vector< int > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_int_Sg____nonzero__(std::vector< int > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_int_Sg____bool__(std::vector< int > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< int >::size_type std_vector_Sl_int_Sg____len__(std::vector< int > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< int,std::allocator< int > > *std_vector_Sl_int_Sg____getslice__(std::vector< int > *self,std::vector< int >::difference_type i,std::vector< int >::difference_type j){
+      return swig::getslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_int_Sg____setslice____SWIG_0(std::vector< int > *self,std::vector< int >::difference_type i,std::vector< int >::difference_type j){
+      swig::setslice(self, i, j, 1, std::vector< int,std::allocator< int > >());
+    }
+SWIGINTERN void std_vector_Sl_int_Sg____setslice____SWIG_1(std::vector< int > *self,std::vector< int >::difference_type i,std::vector< int >::difference_type j,std::vector< int,std::allocator< int > > const &v){
+      swig::setslice(self, i, j, 1, v);
+    }
+SWIGINTERN void std_vector_Sl_int_Sg____delslice__(std::vector< int > *self,std::vector< int >::difference_type i,std::vector< int >::difference_type j){
+      swig::delslice(self, i, j, 1);
+    }
+SWIGINTERN void std_vector_Sl_int_Sg____delitem____SWIG_0(std::vector< int > *self,std::vector< int >::difference_type i){
+      swig::erase(self, swig::getpos(self, i));
+    }
+SWIGINTERN std::vector< int,std::allocator< int > > *std_vector_Sl_int_Sg____getitem____SWIG_0(std::vector< int > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< int,std::allocator< int > >::difference_type id = i;
+      std::vector< int,std::allocator< int > >::difference_type jd = j;
+      return swig::getslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_int_Sg____setitem____SWIG_0(std::vector< int > *self,PySliceObject *slice,std::vector< int,std::allocator< int > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< int,std::allocator< int > >::difference_type id = i;
+      std::vector< int,std::allocator< int > >::difference_type jd = j;
+      swig::setslice(self, id, jd, step, v);
+    }
+SWIGINTERN void std_vector_Sl_int_Sg____setitem____SWIG_1(std::vector< int > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< int,std::allocator< int > >::difference_type id = i;
+      std::vector< int,std::allocator< int > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN void std_vector_Sl_int_Sg____delitem____SWIG_1(std::vector< int > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), (Py_ssize_t)self->size(), &i, &j, &step);
+      std::vector< int,std::allocator< int > >::difference_type id = i;
+      std::vector< int,std::allocator< int > >::difference_type jd = j;
+      swig::delslice(self, id, jd, step);
+    }
+SWIGINTERN std::vector< int >::value_type const &std_vector_Sl_int_Sg____getitem____SWIG_1(std::vector< int > const *self,std::vector< int >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_int_Sg____setitem____SWIG_2(std::vector< int > *self,std::vector< int >::difference_type i,std::vector< int >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN std::vector< int >::value_type std_vector_Sl_int_Sg__pop(std::vector< int > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector< int,std::allocator< int > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN void std_vector_Sl_int_Sg__append(std::vector< int > *self,std::vector< int >::value_type const &x){
+      self->push_back(x);
+    }
+SWIGINTERN std::vector< int >::iterator std_vector_Sl_int_Sg__erase__SWIG_0(std::vector< int > *self,std::vector< int >::iterator pos){ return self->erase(pos); }
+SWIGINTERN std::vector< int >::iterator std_vector_Sl_int_Sg__erase__SWIG_1(std::vector< int > *self,std::vector< int >::iterator first,std::vector< int >::iterator last){ return self->erase(first, last); }
+SWIGINTERN std::vector< int >::iterator std_vector_Sl_int_Sg__insert__SWIG_0(std::vector< int > *self,std::vector< int >::iterator pos,std::vector< int >::value_type const &x){ return self->insert(pos, x); }
+SWIGINTERN void std_vector_Sl_int_Sg__insert__SWIG_1(std::vector< int > *self,std::vector< int >::iterator pos,std::vector< int >::size_type n,std::vector< int >::value_type const &x){ self->insert(pos, n, x); }
+
+SWIGINTERN swig_type_info*
+SWIG_pchar_descriptor(void)
+{
+  static int init = 0;
+  static swig_type_info* info = 0;
+  if (!init) {
+    info = SWIG_TypeQuery("_p_char");
+    init = 1;
+  }
+  return info;
 }
 
 
@@ -5288,24 +5553,6 @@ SWIGINTERN std::string fastjet_contrib_piranha_GhostGridDisk___str__(fastjet::co
 SWIGINTERN std::string fastjet_contrib_piranha_GhostGridDisk___repr__(fastjet::contrib::piranha::GhostGridDisk const *self){
   return self->description();
 }
-SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor___str__(fastjet::contrib::piranha::RecursiveSafeSubtractor const *self){
-  return self->description();
-}
-SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor___repr__(fastjet::contrib::piranha::RecursiveSafeSubtractor const *self){
-  return self->description();
-}
-SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_operator_Sp__SP___SWIG_0(fastjet::contrib::piranha::RecursiveSafeSubtractor *self,fastjet::PseudoJet const &jet,int _=0){
-    std::forward_list<fastjet::PseudoJet> result((*self)(jet));
-    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
-  }
-SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_operator_Sp__SP___SWIG_1(fastjet::contrib::piranha::RecursiveSafeSubtractor *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs,int _=0){
-    std::forward_list<fastjet::PseudoJet> result((*self)(pjs));
-    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
-  }
-SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_apply(fastjet::contrib::piranha::RecursiveSafeSubtractor *self,double z,double f,int _=0){
-    std::forward_list<fastjet::PseudoJet> result(self->apply(z, f));
-    return std::vector<fastjet::PseudoJet>(result.begin(), result.end()); 
-  }
 
 SWIGINTERN int
 SWIG_AsVal_bool (PyObject *obj, bool *val)
@@ -5416,6 +5663,78 @@ SWIGINTERN std::string fastjet_contrib_piranha_OptimalTransportSubtractor_Sl_fas
 SWIGINTERN std::string fastjet_contrib_piranha_OptimalTransportSubtractor_Sl_fastjet_contrib_emd_EMD_Sl_emd_Energy_Sc_emd_EEArcLengthMassive_Sg__Sg____repr__(fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLengthMassive > > const *self){
   return self->description();
 }
+SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg____str__(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *self){
+  return self->description();
+}
+SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg____repr__(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *self){
+  return self->description();
+}
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg__operator_Sp__SP___SWIG_0(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *self,fastjet::PseudoJet const &jet,int _=0){
+    std::forward_list<fastjet::PseudoJet> result((*self)(jet));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
+  }
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs,int _=0){
+    std::forward_list<fastjet::PseudoJet> result((*self)(pjs));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
+  }
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg__apply(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *self,double z,double f,int _=0){
+    std::forward_list<fastjet::PseudoJet> result(self->apply(z, f));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end()); 
+  }
+SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg____str__(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *self){
+  return self->description();
+}
+SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg____repr__(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *self){
+  return self->description();
+}
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg__operator_Sp__SP___SWIG_0(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *self,fastjet::PseudoJet const &jet,int _=0){
+    std::forward_list<fastjet::PseudoJet> result((*self)(jet));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
+  }
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs,int _=0){
+    std::forward_list<fastjet::PseudoJet> result((*self)(pjs));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
+  }
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg__apply(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *self,double z,double f,int _=0){
+    std::forward_list<fastjet::PseudoJet> result(self->apply(z, f));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end()); 
+  }
+SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg____str__(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *self){
+  return self->description();
+}
+SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg____repr__(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *self){
+  return self->description();
+}
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg__operator_Sp__SP___SWIG_0(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *self,fastjet::PseudoJet const &jet,int _=0){
+    std::forward_list<fastjet::PseudoJet> result((*self)(jet));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
+  }
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs,int _=0){
+    std::forward_list<fastjet::PseudoJet> result((*self)(pjs));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
+  }
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg__apply(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *self,double z,double f,int _=0){
+    std::forward_list<fastjet::PseudoJet> result(self->apply(z, f));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end()); 
+  }
+SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg____str__(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *self){
+  return self->description();
+}
+SWIGINTERN std::string fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg____repr__(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *self){
+  return self->description();
+}
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg__operator_Sp__SP___SWIG_0(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *self,fastjet::PseudoJet const &jet,int _=0){
+    std::forward_list<fastjet::PseudoJet> result((*self)(jet));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
+  }
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs,int _=0){
+    std::forward_list<fastjet::PseudoJet> result((*self)(pjs));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
+  }
+SWIGINTERN std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg__apply(fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *self,double z,double f,int _=0){
+    std::forward_list<fastjet::PseudoJet> result(self->apply(z, f));
+    return std::vector<fastjet::PseudoJet>(result.begin(), result.end()); 
+  }
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -6127,6 +6446,524 @@ SWIGINTERN PyObject *SwigPyIterator_swigregister(PyObject *SWIGUNUSEDPARM(self),
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_swig__SwigPyIterator, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_pairDouble__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::pair< double,double > *result = 0 ;
+  
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  result = (std::pair< double,double > *)new std::pair< double,double >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_double_double_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_pairDouble__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double arg2 ;
+  double val1 ;
+  int ecode1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  std::pair< double,double > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_pairDouble" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  ecode2 = SWIG_AsVal_double(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_pairDouble" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  result = (std::pair< double,double > *)new std::pair< double,double >(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_double_double_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_pairDouble__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::pair< double,double > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::pair< double,double > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_pairDouble" "', argument " "1"" of type '" "std::pair< double,double > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_pairDouble" "', argument " "1"" of type '" "std::pair< double,double > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  result = (std::pair< double,double > *)new std::pair< double,double >((std::pair< double,double > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_double_double_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_pairDouble(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_pairDouble", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_pairDouble__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::pair< double,double >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_pairDouble__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_double(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      {
+        int res = SWIG_AsVal_double(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_new_pairDouble__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_pairDouble'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::pair< double,double >::pair()\n"
+    "    std::pair< double,double >::pair(double,double)\n"
+    "    std::pair< double,double >::pair(std::pair< double,double > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_pairDouble_first_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< double,double > *arg1 = (std::pair< double,double > *) 0 ;
+  double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "pairDouble_first_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_double_double_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "pairDouble_first_set" "', argument " "1"" of type '" "std::pair< double,double > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< double,double > * >(argp1);
+  ecode2 = SWIG_AsVal_double(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "pairDouble_first_set" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  if (arg1) (arg1)->first = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_pairDouble_first_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< double,double > *arg1 = (std::pair< double,double > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_double_double_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "pairDouble_first_get" "', argument " "1"" of type '" "std::pair< double,double > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< double,double > * >(argp1);
+  result = (double) ((arg1)->first);
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_pairDouble_second_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< double,double > *arg1 = (std::pair< double,double > *) 0 ;
+  double arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "pairDouble_second_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_double_double_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "pairDouble_second_set" "', argument " "1"" of type '" "std::pair< double,double > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< double,double > * >(argp1);
+  ecode2 = SWIG_AsVal_double(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "pairDouble_second_set" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  if (arg1) (arg1)->second = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_pairDouble_second_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< double,double > *arg1 = (std::pair< double,double > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_double_double_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "pairDouble_second_get" "', argument " "1"" of type '" "std::pair< double,double > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< double,double > * >(argp1);
+  result = (double) ((arg1)->second);
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_pairDouble(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< double,double > *arg1 = (std::pair< double,double > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_double_double_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_pairDouble" "', argument " "1"" of type '" "std::pair< double,double > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< double,double > * >(argp1);
+  {
+    try {
+      delete arg1; 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *pairDouble_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__pairT_double_double_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *pairDouble_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_pairPairDouble__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::pair< std::pair< double,double >,std::pair< double,double > > *result = 0 ;
+  
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  result = (std::pair< std::pair< double,double >,std::pair< double,double > > *)new std::pair< std::pair< double,double >,std::pair< double,double > >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_pairPairDouble__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::pair< double,double > arg1 ;
+  std::pair< double,double > arg2 ;
+  std::pair< std::pair< double,double >,std::pair< double,double > > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    int res = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "new_pairPairDouble" "', argument " "1"" of type '" "std::pair< double,double >""'"); 
+    }
+    arg1 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    int res = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "new_pairPairDouble" "', argument " "2"" of type '" "std::pair< double,double >""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  result = (std::pair< std::pair< double,double >,std::pair< double,double > > *)new std::pair< std::pair< double,double >,std::pair< double,double > >(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_pairPairDouble__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::pair< std::pair< double,double >,std::pair< double,double > > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::pair< std::pair< double,double >,std::pair< double,double > > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::pair< std::pair< double,double >,std::pair< double,double > > *ptr = (std::pair< std::pair< double,double >,std::pair< double,double > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_pairPairDouble" "', argument " "1"" of type '" "std::pair< std::pair< double,double >,std::pair< double,double > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_pairPairDouble" "', argument " "1"" of type '" "std::pair< std::pair< double,double >,std::pair< double,double > > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  result = (std::pair< std::pair< double,double >,std::pair< double,double > > *)new std::pair< std::pair< double,double >,std::pair< double,double > >((std::pair< std::pair< double,double >,std::pair< double,double > > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_pairPairDouble(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_pairPairDouble", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_pairPairDouble__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::pair< std::pair< double,double >,std::pair< double,double > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_pairPairDouble__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::pair< double,double >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::pair< double,double >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_pairPairDouble__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_pairPairDouble'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::pair< std::pair< double,double >,std::pair< double,double > >::pair()\n"
+    "    std::pair< std::pair< double,double >,std::pair< double,double > >::pair(std::pair< double,double >,std::pair< double,double >)\n"
+    "    std::pair< std::pair< double,double >,std::pair< double,double > >::pair(std::pair< std::pair< double,double >,std::pair< double,double > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_pairPairDouble_first_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< std::pair< double,double >,std::pair< double,double > > *arg1 = (std::pair< std::pair< double,double >,std::pair< double,double > > *) 0 ;
+  std::pair< double,double > *arg2 = (std::pair< double,double > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "pairPairDouble_first_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "pairPairDouble_first_set" "', argument " "1"" of type '" "std::pair< std::pair< double,double >,std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< std::pair< double,double >,std::pair< double,double > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__pairT_double_double_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "pairPairDouble_first_set" "', argument " "2"" of type '" "std::pair< double,double > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::pair< double,double > * >(argp2);
+  if (arg1) (arg1)->first = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_pairPairDouble_first_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< std::pair< double,double >,std::pair< double,double > > *arg1 = (std::pair< std::pair< double,double >,std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::pair< double,double > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "pairPairDouble_first_get" "', argument " "1"" of type '" "std::pair< std::pair< double,double >,std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< std::pair< double,double >,std::pair< double,double > > * >(argp1);
+  result = (std::pair< double,double > *)& ((arg1)->first);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_double_double_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_pairPairDouble_second_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< std::pair< double,double >,std::pair< double,double > > *arg1 = (std::pair< std::pair< double,double >,std::pair< double,double > > *) 0 ;
+  std::pair< double,double > *arg2 = (std::pair< double,double > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "pairPairDouble_second_set", 2, 2, swig_obj)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "pairPairDouble_second_set" "', argument " "1"" of type '" "std::pair< std::pair< double,double >,std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< std::pair< double,double >,std::pair< double,double > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_std__pairT_double_double_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "pairPairDouble_second_set" "', argument " "2"" of type '" "std::pair< double,double > *""'"); 
+  }
+  arg2 = reinterpret_cast< std::pair< double,double > * >(argp2);
+  if (arg1) (arg1)->second = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_pairPairDouble_second_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< std::pair< double,double >,std::pair< double,double > > *arg1 = (std::pair< std::pair< double,double >,std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::pair< double,double > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "pairPairDouble_second_get" "', argument " "1"" of type '" "std::pair< std::pair< double,double >,std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< std::pair< double,double >,std::pair< double,double > > * >(argp1);
+  result = (std::pair< double,double > *)& ((arg1)->second);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__pairT_double_double_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_pairPairDouble(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::pair< std::pair< double,double >,std::pair< double,double > > *arg1 = (std::pair< std::pair< double,double >,std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_pairPairDouble" "', argument " "1"" of type '" "std::pair< std::pair< double,double >,std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::pair< std::pair< double,double >,std::pair< double,double > > * >(argp1);
+  {
+    try {
+      delete arg1; 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *pairPairDouble_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *pairPairDouble_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
 }
 
 SWIGINTERN PyObject *_wrap_vectorVectorDouble_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
@@ -11770,6 +12607,3758 @@ SWIGINTERN PyObject *vectorVectorPseudoJet_swiginit(PyObject *SWIGUNUSEDPARM(sel
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_vectorPairDouble_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_iterator" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (swig::SwigPyIterator *)std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__iterator(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___nonzero__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (bool)std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____nonzero__((std::vector< std::pair< double,double > > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___bool__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (bool)std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____bool__((std::vector< std::pair< double,double > > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___len__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____len__((std::vector< std::pair< double,double > > const *)arg1);
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::difference_type arg2 ;
+  std::vector< std::pair< double,double > >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
+  };
+  std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *result = 0 ;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:vectorPairDouble___getslice__", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___getslice__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble___getslice__" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorPairDouble___getslice__" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val3);
+  try {
+    result = (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *)std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____getslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::difference_type arg2 ;
+  std::vector< std::pair< double,double > >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___setslice__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble___setslice__" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorPairDouble___setslice__" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val3);
+  try {
+    std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setslice____SWIG_0(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::difference_type arg2 ;
+  std::vector< std::pair< double,double > >::difference_type arg3 ;
+  std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___setslice__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble___setslice__" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorPairDouble___setslice__" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val3);
+  {
+    std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *ptr = (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "vectorPairDouble___setslice__" "', argument " "4"" of type '" "std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble___setslice__" "', argument " "4"" of type '" "std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setslice____SWIG_1(arg1,arg2,arg3,(std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &)*arg4);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___setslice__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorPairDouble___setslice__", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_vectorPairDouble___setslice____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_vectorPairDouble___setslice____SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorPairDouble___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::pair< double,double > >::__setslice__(std::vector< std::pair< double,double > >::difference_type,std::vector< std::pair< double,double > >::difference_type)\n"
+    "    std::vector< std::pair< double,double > >::__setslice__(std::vector< std::pair< double,double > >::difference_type,std::vector< std::pair< double,double > >::difference_type,std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::difference_type arg2 ;
+  std::vector< std::pair< double,double > >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:vectorPairDouble___delslice__", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___delslice__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble___delslice__" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorPairDouble___delslice__" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val3);
+  try {
+    std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____delslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___delitem__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble___delitem__" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val2);
+  try {
+    std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____delitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___getitem__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    result = (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *)std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____getitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___setitem__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  {
+    std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *ptr = (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vectorPairDouble___setitem__" "', argument " "3"" of type '" "std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble___setitem__" "', argument " "3"" of type '" "std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setitem____SWIG_0(arg1,arg2,(std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___setitem__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___delitem__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____delitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___delitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorPairDouble___delitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_vectorPairDouble___delitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_vectorPairDouble___delitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorPairDouble___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::pair< double,double > >::__delitem__(std::vector< std::pair< double,double > >::difference_type)\n"
+    "    std::vector< std::pair< double,double > >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< std::pair< double,double > >::value_type *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___getitem__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble___getitem__" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val2);
+  try {
+    result = (std::vector< std::pair< double,double > >::value_type *) &std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____getitem____SWIG_1((std::vector< std::pair< double,double > > const *)arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = swig::from(static_cast< std::pair< double,double > >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< std::pair< double,double > >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___getitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorPairDouble___getitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_vectorPairDouble___getitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_vectorPairDouble___getitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorPairDouble___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::pair< double,double > >::__getitem__(PySliceObject *)\n"
+    "    std::vector< std::pair< double,double > >::__getitem__(std::vector< std::pair< double,double > >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::difference_type arg2 ;
+  std::vector< std::pair< double,double > >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble___setitem__" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble___setitem__" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::difference_type >(val2);
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vectorPairDouble___setitem__" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble___setitem__" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg____setitem____SWIG_2(arg1,arg2,(std::pair< double,double > const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble___setitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorPairDouble___setitem__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_vectorPairDouble___setitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_vectorPairDouble___setitem____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::pair< double,double >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_vectorPairDouble___setitem____SWIG_2(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorPairDouble___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::pair< double,double > >::__setitem__(PySliceObject *,std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &)\n"
+    "    std::vector< std::pair< double,double > >::__setitem__(PySliceObject *)\n"
+    "    std::vector< std::pair< double,double > >::__setitem__(std::vector< std::pair< double,double > >::difference_type,std::vector< std::pair< double,double > >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::value_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_pop" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  try {
+    result = std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__pop(arg1);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = swig::from(static_cast< std::pair< double,double > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"x",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:vectorPairDouble_append", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_append" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vectorPairDouble_append" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble_append" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__append(arg1,(std::pair< double,double > const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorPairDouble__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *result = 0 ;
+  
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  result = (std::vector< std::pair< double,double > > *)new std::vector< std::pair< double,double > >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorPairDouble__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::vector< std::pair< double,double > > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *ptr = (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_vectorPairDouble" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_vectorPairDouble" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  result = (std::vector< std::pair< double,double > > *)new std::vector< std::pair< double,double > >((std::vector< std::pair< double,double > > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_empty" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (bool)((std::vector< std::pair< double,double > > const *)arg1)->empty();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_size" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = ((std::vector< std::pair< double,double > > const *)arg1)->size();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"v",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:vectorPairDouble_swap", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_swap" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vectorPairDouble_swap" "', argument " "2"" of type '" "std::vector< std::pair< double,double > > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble_swap" "', argument " "2"" of type '" "std::vector< std::pair< double,double > > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp2);
+  (arg1)->swap(*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_begin" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (arg1)->begin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::pair< double,double > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_end" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (arg1)->end();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::pair< double,double > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_rbegin" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (arg1)->rbegin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::pair< double,double > >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_rend" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (arg1)->rend();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::pair< double,double > >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_clear" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  (arg1)->clear();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::allocator< std::pair< double,double > > > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_get_allocator" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = ((std::vector< std::pair< double,double > > const *)arg1)->get_allocator();
+  resultobj = SWIG_NewPointerObj((new std::vector< std::pair< double,double > >::allocator_type(static_cast< const std::vector< std::pair< double,double > >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_std__pairT_double_double_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorPairDouble__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< std::pair< double,double > > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_vectorPairDouble" "', argument " "1"" of type '" "std::vector< std::pair< double,double > >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< std::pair< double,double > >::size_type >(val1);
+  result = (std::vector< std::pair< double,double > > *)new std::vector< std::pair< double,double > >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_pop_back" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  (arg1)->pop_back();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_resize" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble_resize" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::size_type >(val2);
+  (arg1)->resize(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  std::vector< std::pair< double,double > >::iterator result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_erase" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_erase" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_erase" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__erase__SWIG_0(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::pair< double,double > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::iterator arg2 ;
+  std::vector< std::pair< double,double > >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  std::vector< std::pair< double,double > >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_erase" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_erase" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_erase" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_erase" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_erase" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__erase__SWIG_1(arg1,arg2,arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::pair< double,double > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_erase(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorPairDouble_erase", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_vectorPairDouble_erase__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_vectorPairDouble_erase__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorPairDouble_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::pair< double,double > >::erase(std::vector< std::pair< double,double > >::iterator)\n"
+    "    std::vector< std::pair< double,double > >::erase(std::vector< std::pair< double,double > >::iterator,std::vector< std::pair< double,double > >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorPairDouble__SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > >::size_type arg1 ;
+  std::vector< std::pair< double,double > >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  std::vector< std::pair< double,double > > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_vectorPairDouble" "', argument " "1"" of type '" "std::vector< std::pair< double,double > >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< std::pair< double,double > >::size_type >(val1);
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_vectorPairDouble" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_vectorPairDouble" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  result = (std::vector< std::pair< double,double > > *)new std::vector< std::pair< double,double > >(arg1,(std::vector< std::pair< double,double > >::value_type const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorPairDouble(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_vectorPairDouble", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_vectorPairDouble__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_vectorPairDouble__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_vectorPairDouble__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::pair< double,double >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_vectorPairDouble__SWIG_3(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_vectorPairDouble'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::pair< double,double > >::vector()\n"
+    "    std::vector< std::pair< double,double > >::vector(std::vector< std::pair< double,double > > const &)\n"
+    "    std::vector< std::pair< double,double > >::vector(std::vector< std::pair< double,double > >::size_type)\n"
+    "    std::vector< std::pair< double,double > >::vector(std::vector< std::pair< double,double > >::size_type,std::vector< std::pair< double,double > >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"x",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:vectorPairDouble_push_back", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_push_back" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vectorPairDouble_push_back" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble_push_back" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  (arg1)->push_back((std::vector< std::pair< double,double > >::value_type const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_front" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (std::vector< std::pair< double,double > >::value_type *) &((std::vector< std::pair< double,double > > const *)arg1)->front();
+  resultobj = swig::from(static_cast< std::pair< double,double > >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< std::pair< double,double > >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_back" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = (std::vector< std::pair< double,double > >::value_type *) &((std::vector< std::pair< double,double > > const *)arg1)->back();
+  resultobj = swig::from(static_cast< std::pair< double,double > >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< std::pair< double,double > >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::size_type arg2 ;
+  std::vector< std::pair< double,double > >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"n",  (char *)"x",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:vectorPairDouble_assign", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_assign" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble_assign" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::size_type >(val2);
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    res3 = swig::asptr(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vectorPairDouble_assign" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble_assign" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  (arg1)->assign(arg2,(std::vector< std::pair< double,double > >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::size_type arg2 ;
+  std::vector< std::pair< double,double > >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_resize" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble_resize" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::size_type >(val2);
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vectorPairDouble_resize" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble_resize" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  (arg1)->resize(arg2,(std::vector< std::pair< double,double > >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_resize(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorPairDouble_resize", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_vectorPairDouble_resize__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::pair< double,double >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_vectorPairDouble_resize__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorPairDouble_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::pair< double,double > >::resize(std::vector< std::pair< double,double > >::size_type)\n"
+    "    std::vector< std::pair< double,double > >::resize(std::vector< std::pair< double,double > >::size_type,std::vector< std::pair< double,double > >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::iterator arg2 ;
+  std::vector< std::pair< double,double > >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  int res3 = SWIG_OLDOBJ ;
+  std::vector< std::pair< double,double > >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_insert" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_insert" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_insert" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+    }
+  }
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vectorPairDouble_insert" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble_insert" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  result = std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__insert__SWIG_0(arg1,arg2,(std::pair< double,double > const &)*arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< std::pair< double,double > >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::iterator arg2 ;
+  std::vector< std::pair< double,double > >::size_type arg3 ;
+  std::vector< std::pair< double,double > >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_insert" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_insert" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorPairDouble_insert" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorPairDouble_insert" "', argument " "3"" of type '" "std::vector< std::pair< double,double > >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< std::pair< double,double > >::size_type >(val3);
+  {
+    std::pair< double,double > *ptr = (std::pair< double,double > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "vectorPairDouble_insert" "', argument " "4"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorPairDouble_insert" "', argument " "4"" of type '" "std::vector< std::pair< double,double > >::value_type const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  std_vector_Sl_std_pair_Sl_double_Sc_double_Sg__Sg__insert__SWIG_1(arg1,arg2,arg3,(std::pair< double,double > const &)*arg4);
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_insert(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorPairDouble_insert", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::pair< double,double >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_vectorPairDouble_insert__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< std::pair< double,double > >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::pair< double,double >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_vectorPairDouble_insert__SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorPairDouble_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< std::pair< double,double > >::insert(std::vector< std::pair< double,double > >::iterator,std::vector< std::pair< double,double > >::value_type const &)\n"
+    "    std::vector< std::pair< double,double > >::insert(std::vector< std::pair< double,double > >::iterator,std::vector< std::pair< double,double > >::size_type,std::vector< std::pair< double,double > >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  std::vector< std::pair< double,double > >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"n",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:vectorPairDouble_reserve", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_reserve" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorPairDouble_reserve" "', argument " "2"" of type '" "std::vector< std::pair< double,double > >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< std::pair< double,double > >::size_type >(val2);
+  (arg1)->reserve(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorPairDouble_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double > >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorPairDouble_capacity" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  result = ((std::vector< std::pair< double,double > > const *)arg1)->capacity();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_vectorPairDouble(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< std::pair< double,double > > *arg1 = (std::vector< std::pair< double,double > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_vectorPairDouble" "', argument " "1"" of type '" "std::vector< std::pair< double,double > > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< std::pair< double,double > > * >(argp1);
+  {
+    try {
+      delete arg1; 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *vectorPairDouble_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *vectorPairDouble_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_vectorInt_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &swig_obj[0];
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_iterator" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (swig::SwigPyIterator *)std_vector_Sl_int_Sg__iterator(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___nonzero__" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (bool)std_vector_Sl_int_Sg____nonzero__((std::vector< int > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___bool__" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (bool)std_vector_Sl_int_Sg____bool__((std::vector< int > const *)arg1);
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___len__" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = std_vector_Sl_int_Sg____len__((std::vector< int > const *)arg1);
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::difference_type arg2 ;
+  std::vector< int >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
+  };
+  std::vector< int,std::allocator< int > > *result = 0 ;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:vectorInt___getslice__", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___getslice__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt___getslice__" "', argument " "2"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorInt___getslice__" "', argument " "3"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< int >::difference_type >(val3);
+  try {
+    result = (std::vector< int,std::allocator< int > > *)std_vector_Sl_int_Sg____getslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::difference_type arg2 ;
+  std::vector< int >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___setslice__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt___setslice__" "', argument " "2"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorInt___setslice__" "', argument " "3"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< int >::difference_type >(val3);
+  try {
+    std_vector_Sl_int_Sg____setslice____SWIG_0(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::difference_type arg2 ;
+  std::vector< int >::difference_type arg3 ;
+  std::vector< int,std::allocator< int > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___setslice__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt___setslice__" "', argument " "2"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorInt___setslice__" "', argument " "3"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< int >::difference_type >(val3);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res4 = swig::asptr(swig_obj[3], &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "vectorInt___setslice__" "', argument " "4"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorInt___setslice__" "', argument " "4"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    std_vector_Sl_int_Sg____setslice____SWIG_1(arg1,arg2,arg3,(std::vector< int,std::allocator< int > > const &)*arg4);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___setslice__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorInt___setslice__", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_vectorInt___setslice____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector< int,std::allocator< int > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_vectorInt___setslice____SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorInt___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< int >::__setslice__(std::vector< int >::difference_type,std::vector< int >::difference_type)\n"
+    "    std::vector< int >::__setslice__(std::vector< int >::difference_type,std::vector< int >::difference_type,std::vector< int,std::allocator< int > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::difference_type arg2 ;
+  std::vector< int >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:vectorInt___delslice__", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___delslice__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt___delslice__" "', argument " "2"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorInt___delslice__" "', argument " "3"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< int >::difference_type >(val3);
+  try {
+    std_vector_Sl_int_Sg____delslice__(arg1,arg2,arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___delitem__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt___delitem__" "', argument " "2"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::difference_type >(val2);
+  try {
+    std_vector_Sl_int_Sg____delitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< int,std::allocator< int > > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___getitem__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    result = (std::vector< int,std::allocator< int > > *)std_vector_Sl_int_Sg____getitem____SWIG_0(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< int,std::allocator< int > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___setitem__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "vectorInt___setitem__" "', argument " "3"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorInt___setitem__" "', argument " "3"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    std_vector_Sl_int_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< int,std::allocator< int > > const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___setitem__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_int_Sg____setitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___delitem__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  {
+    if (!PySlice_Check(swig_obj[1])) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) swig_obj[1];
+  }
+  try {
+    std_vector_Sl_int_Sg____delitem____SWIG_1(arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  } catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___delitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorInt___delitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_vectorInt___delitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_vectorInt___delitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorInt___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< int >::__delitem__(std::vector< int >::difference_type)\n"
+    "    std::vector< int >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< int >::value_type *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___getitem__" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt___getitem__" "', argument " "2"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::difference_type >(val2);
+  try {
+    result = (std::vector< int >::value_type *) &std_vector_Sl_int_Sg____getitem____SWIG_1((std::vector< int > const *)arg1,arg2);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_From_int(static_cast< int >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< int >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___getitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorInt___getitem__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_vectorInt___getitem____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_vectorInt___getitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorInt___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< int >::__getitem__(PySliceObject *)\n"
+    "    std::vector< int >::__getitem__(std::vector< int >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::difference_type arg2 ;
+  std::vector< int >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< int >::value_type temp3 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt___setitem__" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt___setitem__" "', argument " "2"" of type '" "std::vector< int >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorInt___setitem__" "', argument " "3"" of type '" "std::vector< int >::value_type""'");
+  } 
+  temp3 = static_cast< std::vector< int >::value_type >(val3);
+  arg3 = &temp3;
+  try {
+    std_vector_Sl_int_Sg____setitem____SWIG_2(arg1,arg2,(int const &)*arg3);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt___setitem__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorInt___setitem__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_vectorInt___setitem____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< int,std::allocator< int > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_vectorInt___setitem____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_vectorInt___setitem____SWIG_2(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorInt___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< int >::__setitem__(PySliceObject *,std::vector< int,std::allocator< int > > const &)\n"
+    "    std::vector< int >::__setitem__(PySliceObject *)\n"
+    "    std::vector< int >::__setitem__(std::vector< int >::difference_type,std::vector< int >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::value_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_pop" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  try {
+    result = (std::vector< int >::value_type)std_vector_Sl_int_Sg__pop(arg1);
+  } catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< int >::value_type temp2 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"x",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:vectorInt_append", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_append" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt_append" "', argument " "2"" of type '" "std::vector< int >::value_type""'");
+  } 
+  temp2 = static_cast< std::vector< int >::value_type >(val2);
+  arg2 = &temp2;
+  std_vector_Sl_int_Sg__append(arg1,(int const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorInt__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
+  PyObject *resultobj = 0;
+  std::vector< int > *result = 0 ;
+  
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
+  result = (std::vector< int > *)new std::vector< int >();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorInt__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  std::vector< int > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res1 = swig::asptr(swig_obj[0], &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_vectorInt" "', argument " "1"" of type '" "std::vector< int > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_vectorInt" "', argument " "1"" of type '" "std::vector< int > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  result = (std::vector< int > *)new std::vector< int >((std::vector< int > const &)*arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_empty" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (bool)((std::vector< int > const *)arg1)->empty();
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_size" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = ((std::vector< int > const *)arg1)->size();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"v",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:vectorInt_swap", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_swap" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "vectorInt_swap" "', argument " "2"" of type '" "std::vector< int > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "vectorInt_swap" "', argument " "2"" of type '" "std::vector< int > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< int > * >(argp2);
+  (arg1)->swap(*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_begin" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (arg1)->begin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< int >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_end" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (arg1)->end();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< int >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_rbegin" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (arg1)->rbegin();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< int >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::reverse_iterator result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_rend" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (arg1)->rend();
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< int >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_clear" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  (arg1)->clear();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  SwigValueWrapper< std::allocator< int > > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_get_allocator" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = ((std::vector< int > const *)arg1)->get_allocator();
+  resultobj = SWIG_NewPointerObj((new std::vector< int >::allocator_type(static_cast< const std::vector< int >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_int_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorInt__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< int > *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_vectorInt" "', argument " "1"" of type '" "std::vector< int >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< int >::size_type >(val1);
+  result = (std::vector< int > *)new std::vector< int >(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_pop_back" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  (arg1)->pop_back();
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_resize" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt_resize" "', argument " "2"" of type '" "std::vector< int >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::size_type >(val2);
+  (arg1)->resize(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  std::vector< int >::iterator result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_erase" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_erase" "', argument " "2"" of type '" "std::vector< int >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< int >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_erase" "', argument " "2"" of type '" "std::vector< int >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_int_Sg__erase__SWIG_0(arg1,arg2);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< int >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::iterator arg2 ;
+  std::vector< int >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  std::vector< int >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_erase" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_erase" "', argument " "2"" of type '" "std::vector< int >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< int >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_erase" "', argument " "2"" of type '" "std::vector< int >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_erase" "', argument " "3"" of type '" "std::vector< int >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< int >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_erase" "', argument " "3"" of type '" "std::vector< int >::iterator""'");
+    }
+  }
+  result = std_vector_Sl_int_Sg__erase__SWIG_1(arg1,arg2,arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< int >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_erase(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorInt_erase", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_vectorInt_erase__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_vectorInt_erase__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorInt_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< int >::erase(std::vector< int >::iterator)\n"
+    "    std::vector< int >::erase(std::vector< int >::iterator,std::vector< int >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorInt__SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int >::size_type arg1 ;
+  std::vector< int >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< int >::value_type temp2 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  std::vector< int > *result = 0 ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(swig_obj[0], &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_vectorInt" "', argument " "1"" of type '" "std::vector< int >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< int >::size_type >(val1);
+  ecode2 = SWIG_AsVal_int(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_vectorInt" "', argument " "2"" of type '" "std::vector< int >::value_type""'");
+  } 
+  temp2 = static_cast< std::vector< int >::value_type >(val2);
+  arg2 = &temp2;
+  result = (std::vector< int > *)new std::vector< int >(arg1,(std::vector< int >::value_type const &)*arg2);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_vectorInt(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_vectorInt", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_vectorInt__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_vectorInt__SWIG_2(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_vectorInt__SWIG_1(self, argc, argv);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_new_vectorInt__SWIG_3(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_vectorInt'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< int >::vector()\n"
+    "    std::vector< int >::vector(std::vector< int > const &)\n"
+    "    std::vector< int >::vector(std::vector< int >::size_type)\n"
+    "    std::vector< int >::vector(std::vector< int >::size_type,std::vector< int >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< int >::value_type temp2 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"x",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:vectorInt_push_back", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_push_back" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt_push_back" "', argument " "2"" of type '" "std::vector< int >::value_type""'");
+  } 
+  temp2 = static_cast< std::vector< int >::value_type >(val2);
+  arg2 = &temp2;
+  (arg1)->push_back((std::vector< int >::value_type const &)*arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_front" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (std::vector< int >::value_type *) &((std::vector< int > const *)arg1)->front();
+  resultobj = SWIG_From_int(static_cast< int >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< int >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::value_type *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_back" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = (std::vector< int >::value_type *) &((std::vector< int > const *)arg1)->back();
+  resultobj = SWIG_From_int(static_cast< int >(*result));
+  (void)swig::container_owner<swig::traits<std::vector< int >::value_type>::category>::back_reference(resultobj, swig_obj[0]);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::size_type arg2 ;
+  std::vector< int >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< int >::value_type temp3 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"n",  (char *)"x",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:vectorInt_assign", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_assign" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt_assign" "', argument " "2"" of type '" "std::vector< int >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::size_type >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorInt_assign" "', argument " "3"" of type '" "std::vector< int >::value_type""'");
+  } 
+  temp3 = static_cast< std::vector< int >::value_type >(val3);
+  arg3 = &temp3;
+  (arg1)->assign(arg2,(std::vector< int >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::size_type arg2 ;
+  std::vector< int >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< int >::value_type temp3 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_resize" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt_resize" "', argument " "2"" of type '" "std::vector< int >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::size_type >(val2);
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorInt_resize" "', argument " "3"" of type '" "std::vector< int >::value_type""'");
+  } 
+  temp3 = static_cast< std::vector< int >::value_type >(val3);
+  arg3 = &temp3;
+  (arg1)->resize(arg2,(std::vector< int >::value_type const &)*arg3);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_resize(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorInt_resize", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_vectorInt_resize__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_vectorInt_resize__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorInt_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< int >::resize(std::vector< int >::size_type)\n"
+    "    std::vector< int >::resize(std::vector< int >::size_type,std::vector< int >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::iterator arg2 ;
+  std::vector< int >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  std::vector< int >::value_type temp3 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  std::vector< int >::iterator result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_insert" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_insert" "', argument " "2"" of type '" "std::vector< int >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< int >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_insert" "', argument " "2"" of type '" "std::vector< int >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorInt_insert" "', argument " "3"" of type '" "std::vector< int >::value_type""'");
+  } 
+  temp3 = static_cast< std::vector< int >::value_type >(val3);
+  arg3 = &temp3;
+  result = std_vector_Sl_int_Sg__insert__SWIG_0(arg1,arg2,(int const &)*arg3);
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< int >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::iterator arg2 ;
+  std::vector< int >::size_type arg3 ;
+  std::vector< int >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  std::vector< int >::value_type temp4 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  
+  if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_insert" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_insert" "', argument " "2"" of type '" "std::vector< int >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< int >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "vectorInt_insert" "', argument " "2"" of type '" "std::vector< int >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "vectorInt_insert" "', argument " "3"" of type '" "std::vector< int >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< int >::size_type >(val3);
+  ecode4 = SWIG_AsVal_int(swig_obj[3], &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "vectorInt_insert" "', argument " "4"" of type '" "std::vector< int >::value_type""'");
+  } 
+  temp4 = static_cast< std::vector< int >::value_type >(val4);
+  arg4 = &temp4;
+  std_vector_Sl_int_Sg__insert__SWIG_1(arg1,arg2,arg3,(int const &)*arg4);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_insert(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[5] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "vectorInt_insert", 0, 4, argv))) SWIG_fail;
+  --argc;
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_vectorInt_insert__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector< int,std::allocator< int > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< int >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          {
+            int res = SWIG_AsVal_int(argv[3], NULL);
+            _v = SWIG_CheckState(res);
+          }
+          if (_v) {
+            return _wrap_vectorInt_insert__SWIG_1(self, argc, argv);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'vectorInt_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< int >::insert(std::vector< int >::iterator,std::vector< int >::value_type const &)\n"
+    "    std::vector< int >::insert(std::vector< int >::iterator,std::vector< int >::size_type,std::vector< int >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  std::vector< int >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"n",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:vectorInt_reserve", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_reserve" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "vectorInt_reserve" "', argument " "2"" of type '" "std::vector< int >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< int >::size_type >(val2);
+  (arg1)->reserve(arg2);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_vectorInt_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int >::size_type result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "vectorInt_capacity" "', argument " "1"" of type '" "std::vector< int > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  result = ((std::vector< int > const *)arg1)->capacity();
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_vectorInt(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< int > *arg1 = (std::vector< int > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_vectorInt" "', argument " "1"" of type '" "std::vector< int > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< int > * >(argp1);
+  {
+    try {
+      delete arg1; 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *vectorInt_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *vectorInt_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN int Swig_var_PI_set(PyObject *) {
   SWIG_Error(SWIG_AttributeError,"Variable PI is read-only.");
   return 1;
@@ -11838,180 +16427,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_new_PiranhaError__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::string *arg1 = 0 ;
-  int res1 = SWIG_OLDOBJ ;
-  fastjet::contrib::piranha::PiranhaError *result = 0 ;
-  
-  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
-  {
-    std::string *ptr = (std::string *)0;
-    res1 = SWIG_AsPtr_std_string(swig_obj[0], &ptr);
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_PiranhaError" "', argument " "1"" of type '" "std::string const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_PiranhaError" "', argument " "1"" of type '" "std::string const &""'"); 
-    }
-    arg1 = ptr;
-  }
-  {
-    try {
-      result = (fastjet::contrib::piranha::PiranhaError *)new fastjet::contrib::piranha::PiranhaError((std::string const &)*arg1); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__piranha__PiranhaError, SWIG_POINTER_NEW |  0 );
-  if (SWIG_IsNewObj(res1)) delete arg1;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res1)) delete arg1;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_new_PiranhaError__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  std::string *arg1 = 0 ;
-  std::string *arg2 = 0 ;
-  int arg3 ;
-  int res1 = SWIG_OLDOBJ ;
-  int res2 = SWIG_OLDOBJ ;
-  int val3 ;
-  int ecode3 = 0 ;
-  fastjet::contrib::piranha::PiranhaError *result = 0 ;
-  
-  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  {
-    std::string *ptr = (std::string *)0;
-    res1 = SWIG_AsPtr_std_string(swig_obj[0], &ptr);
-    if (!SWIG_IsOK(res1)) {
-      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_PiranhaError" "', argument " "1"" of type '" "std::string const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_PiranhaError" "', argument " "1"" of type '" "std::string const &""'"); 
-    }
-    arg1 = ptr;
-  }
-  {
-    std::string *ptr = (std::string *)0;
-    res2 = SWIG_AsPtr_std_string(swig_obj[1], &ptr);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_PiranhaError" "', argument " "2"" of type '" "std::string const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_PiranhaError" "', argument " "2"" of type '" "std::string const &""'"); 
-    }
-    arg2 = ptr;
-  }
-  ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_PiranhaError" "', argument " "3"" of type '" "int""'");
-  } 
-  arg3 = static_cast< int >(val3);
-  {
-    try {
-      result = (fastjet::contrib::piranha::PiranhaError *)new fastjet::contrib::piranha::PiranhaError((std::string const &)*arg1,(std::string const &)*arg2,arg3); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__piranha__PiranhaError, SWIG_POINTER_NEW |  0 );
-  if (SWIG_IsNewObj(res1)) delete arg1;
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res1)) delete arg1;
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_new_PiranhaError(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[4] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "new_PiranhaError", 0, 3, argv))) SWIG_fail;
-  --argc;
-  if (argc == 1) {
-    int _v;
-    int res = SWIG_AsPtr_std_string(argv[0], (std::string**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      return _wrap_new_PiranhaError__SWIG_0(self, argc, argv);
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    int res = SWIG_AsPtr_std_string(argv[0], (std::string**)(0));
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        {
-          int res = SWIG_AsVal_int(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          return _wrap_new_PiranhaError__SWIG_1(self, argc, argv);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_PiranhaError'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    fastjet::contrib::piranha::PiranhaError::PiranhaError(std::string const &)\n"
-    "    fastjet::contrib::piranha::PiranhaError::PiranhaError(std::string const &,std::string const &,int)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_delete_PiranhaError(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::PiranhaError *arg1 = (fastjet::contrib::piranha::PiranhaError *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__PiranhaError, SWIG_POINTER_DISOWN |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PiranhaError" "', argument " "1"" of type '" "fastjet::contrib::piranha::PiranhaError *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::PiranhaError * >(argp1);
-  {
-    try {
-      delete arg1; 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *PiranhaError_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *obj;
-  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__piranha__PiranhaError, SWIG_NewClientData(obj));
-  return SWIG_Py_Void();
-}
-
-SWIGINTERN PyObject *PiranhaError_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  return SWIG_Python_InitShadowInstance(args);
-}
-
 SWIGINTERN PyObject *_wrap_delete_DynamicVoronoiBase(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
@@ -12034,6 +16449,35 @@ SWIGINTERN PyObject *_wrap_delete_DynamicVoronoiBase(PyObject *SWIGUNUSEDPARM(se
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase_description" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
+  {
+    try {
+      result = ((fastjet::contrib::piranha::DynamicVoronoiBase const *)arg1)->description(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
   return resultobj;
 fail:
   return NULL;
@@ -12118,36 +16562,135 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_subtraction_type(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  std::string result;
+  fastjet::contrib::piranha::SubtractionType result;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase_description" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase_subtraction_type" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
   {
     try {
-      result = ((fastjet::contrib::piranha::DynamicVoronoiBase const *)arg1)->description(); 
+      result = (fastjet::contrib::piranha::SubtractionType)((fastjet::contrib::piranha::DynamicVoronoiBase const *)arg1)->subtraction_type(); 
     }
     CATCH_STD_RUNTIME_ERROR
     CATCH_STD_EXCEPTION
   }
-  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  resultobj = SWIG_From_int(static_cast< int >(result));
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_DynamicVoronoiBase___call__(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_track_emds(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase_track_emds" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::DynamicVoronoiBase const *)arg1)->track_emds(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_R(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase_R" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::DynamicVoronoiBase const *)arg1)->R(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase___call____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
+  std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
+  {
+    std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *ptr = (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DynamicVoronoiBase___call__" "', argument " "2"" of type '" "std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DynamicVoronoiBase___call__" "', argument " "2"" of type '" "std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (arg1)->operator ()((std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &)*arg2); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
   std::vector< fastjet::contrib::piranha::DynamicVoronoiBase::Point,std::allocator< fastjet::contrib::piranha::DynamicVoronoiBase::Point > > *arg2 = 0 ;
@@ -12155,20 +16698,14 @@ SWIGINTERN PyObject *_wrap_DynamicVoronoiBase___call__(PyObject *SWIGUNUSEDPARM(
   int res1 = 0 ;
   void *argp2 = 0 ;
   int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"points",  NULL 
-  };
-  fastjet::contrib::piranha::DynamicVoronoiBase *result = 0 ;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:DynamicVoronoiBase___call__", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t,  0  | 0);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t,  0  | 0);
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DynamicVoronoiBase___call__" "', argument " "2"" of type '" "std::vector< fastjet::contrib::piranha::DynamicVoronoiBase::Point,std::allocator< fastjet::contrib::piranha::DynamicVoronoiBase::Point > > const &""'"); 
   }
@@ -12178,15 +16715,192 @@ SWIGINTERN PyObject *_wrap_DynamicVoronoiBase___call__(PyObject *SWIGUNUSEDPARM(
   arg2 = reinterpret_cast< std::vector< fastjet::contrib::piranha::DynamicVoronoiBase::Point,std::allocator< fastjet::contrib::piranha::DynamicVoronoiBase::Point > > * >(argp2);
   {
     try {
-      result = (fastjet::contrib::piranha::DynamicVoronoiBase *) &(arg1)->operator ()((std::vector< fastjet::contrib::piranha::DynamicVoronoiBase::Point,std::allocator< fastjet::contrib::piranha::DynamicVoronoiBase::Point > > const &)*arg2); 
+      (arg1)->operator ()((std::vector< fastjet::contrib::piranha::DynamicVoronoiBase::Point,std::allocator< fastjet::contrib::piranha::DynamicVoronoiBase::Point > > const &)*arg2); 
     }
     CATCH_STD_RUNTIME_ERROR
     CATCH_STD_EXCEPTION
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase___call__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "DynamicVoronoiBase___call__", 0, 2, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_DynamicVoronoiBase___call____SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_DynamicVoronoiBase___call____SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'DynamicVoronoiBase___call__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::piranha::DynamicVoronoiBase::operator ()(std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > const &)\n"
+    "    fastjet::contrib::piranha::DynamicVoronoiBase::operator ()(std::vector< fastjet::contrib::piranha::DynamicVoronoiBase::Point,std::allocator< fastjet::contrib::piranha::DynamicVoronoiBase::Point > > const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_valid_point__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
+  fastjet::contrib::piranha::DynamicVoronoiBase::Point *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  bool result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase_valid_point" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DynamicVoronoiBase_valid_point" "', argument " "2"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase::Point const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DynamicVoronoiBase_valid_point" "', argument " "2"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase::Point const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase::Point * >(argp2);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::DynamicVoronoiBase const *)arg1)->valid_point((fastjet::contrib::piranha::DynamicVoronoiBase::Point const &)*arg2); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_valid_point__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
+  double arg2 ;
+  double arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  double val3 ;
+  int ecode3 = 0 ;
+  bool result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase_valid_point" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
+  ecode2 = SWIG_AsVal_double(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DynamicVoronoiBase_valid_point" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  ecode3 = SWIG_AsVal_double(swig_obj[2], &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "DynamicVoronoiBase_valid_point" "', argument " "3"" of type '" "double""'");
+  } 
+  arg3 = static_cast< double >(val3);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::DynamicVoronoiBase const *)arg1)->valid_point(arg2,arg3); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_valid_point(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "DynamicVoronoiBase_valid_point", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_DynamicVoronoiBase_valid_point__SWIG_0(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_double(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_double(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_DynamicVoronoiBase_valid_point__SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'DynamicVoronoiBase_valid_point'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::piranha::DynamicVoronoiBase::valid_point(fastjet::contrib::piranha::DynamicVoronoiBase::Point const &) const\n"
+    "    fastjet::contrib::piranha::DynamicVoronoiBase::valid_point(double,double) const\n");
+  return 0;
 }
 
 
@@ -12317,6 +17031,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_coincidences(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< int,std::allocator< int > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase_coincidences" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
+  {
+    try {
+      result = (std::vector< int,std::allocator< int > > *) &((fastjet::contrib::piranha::DynamicVoronoiBase const *)arg1)->coincidences(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_emd_density(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
@@ -12370,7 +17113,7 @@ SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_neighbors(PyObject *SWIGUNUSEDPARM
   char * kwnames[] = {
     (char *)"self",  (char *)"i",  NULL 
   };
-  SwigValueWrapper< std::vector< int,std::allocator< int > > > result;
+  std::vector< int,std::allocator< int > > result;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:DynamicVoronoiBase_neighbors", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
@@ -12390,7 +17133,47 @@ SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_neighbors(PyObject *SWIGUNUSEDPARM
     CATCH_STD_RUNTIME_ERROR
     CATCH_STD_EXCEPTION
   }
-  resultobj = SWIG_NewPointerObj((new std::vector< int,std::allocator< int > >(static_cast< const std::vector< int,std::allocator< int > >& >(result))), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_POINTER_OWN |  0 );
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_DynamicVoronoiBase_vertex_is_primary_and_active(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::DynamicVoronoiBase *arg1 = (fastjet::contrib::piranha::DynamicVoronoiBase *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"i",  NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:DynamicVoronoiBase_vertex_is_primary_and_active", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiBase_vertex_is_primary_and_active" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiBase * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "DynamicVoronoiBase_vertex_is_primary_and_active" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::DynamicVoronoiBase const *)arg1)->vertex_is_primary_and_active(arg2); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
   return NULL;
@@ -12551,29 +17334,29 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_DynamicVoronoiCylinder_total_area(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_DynamicVoronoiCylinder_primary_region(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::DynamicVoronoiCylinder *arg1 = (fastjet::contrib::piranha::DynamicVoronoiCylinder *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
-  double result;
+  std::pair< std::pair< double,double >,std::pair< double,double > > result;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiCylinder, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiCylinder_total_area" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiCylinder const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiCylinder_primary_region" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiCylinder const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiCylinder * >(argp1);
   {
     try {
-      result = (double)((fastjet::contrib::piranha::DynamicVoronoiCylinder const *)arg1)->total_area(); 
+      result = ((fastjet::contrib::piranha::DynamicVoronoiCylinder const *)arg1)->primary_region(); 
     }
     CATCH_STD_RUNTIME_ERROR
     CATCH_STD_EXCEPTION
   }
-  resultobj = SWIG_From_double(static_cast< double >(result));
+  resultobj = swig::from(static_cast< std::pair< std::pair< double,double >,std::pair< double,double > > >(result));
   return resultobj;
 fail:
   return NULL;
@@ -12636,7 +17419,7 @@ SWIGINTERN PyObject *_wrap_DynamicVoronoiCylinder_neighbors(PyObject *SWIGUNUSED
   char * kwnames[] = {
     (char *)"self",  (char *)"i",  NULL 
   };
-  SwigValueWrapper< std::vector< int,std::allocator< int > > > result;
+  std::vector< int,std::allocator< int > > result;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:DynamicVoronoiCylinder_neighbors", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiCylinder, 0 |  0 );
@@ -12656,7 +17439,7 @@ SWIGINTERN PyObject *_wrap_DynamicVoronoiCylinder_neighbors(PyObject *SWIGUNUSED
     CATCH_STD_RUNTIME_ERROR
     CATCH_STD_EXCEPTION
   }
-  resultobj = SWIG_NewPointerObj((new std::vector< int,std::allocator< int > >(static_cast< const std::vector< int,std::allocator< int > >& >(result))), SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t, SWIG_POINTER_OWN |  0 );
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
   return resultobj;
 fail:
   return NULL;
@@ -12978,35 +17761,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_DynamicVoronoiDisk_total_area(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::DynamicVoronoiDisk *arg1 = (fastjet::contrib::piranha::DynamicVoronoiDisk *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  double result;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__DynamicVoronoiDisk, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DynamicVoronoiDisk_total_area" "', argument " "1"" of type '" "fastjet::contrib::piranha::DynamicVoronoiDisk const *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::DynamicVoronoiDisk * >(argp1);
-  {
-    try {
-      result = (double)((fastjet::contrib::piranha::DynamicVoronoiDisk const *)arg1)->total_area(); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_From_double(static_cast< double >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_DynamicVoronoiDisk_valid_point(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::DynamicVoronoiDisk *arg1 = (fastjet::contrib::piranha::DynamicVoronoiDisk *) 0 ;
@@ -13128,6 +17882,20 @@ SWIGINTERN PyObject *DynamicVoronoiDisk_swigregister(PyObject *SWIGUNUSEDPARM(se
 SWIGINTERN PyObject *DynamicVoronoiDisk_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   return SWIG_Python_InitShadowInstance(args);
 }
+
+SWIGINTERN int Swig_var_piranha_epsilon_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable piranha_epsilon is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_piranha_epsilon_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_double(static_cast< double >(fastjet::contrib::piranha::piranha_epsilon));
+  return pyobj;
+}
+
 
 SWIGINTERN PyObject *_wrap_new_SubtractionHistory__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
   PyObject *resultobj = 0;
@@ -13847,6 +18615,180 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_GhostGridBase_drap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::GhostGridBase *arg1 = (fastjet::contrib::piranha::GhostGridBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_drap" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridBase * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::GhostGridBase const *)arg1)->drap(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GhostGridBase_dphi(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::GhostGridBase *arg1 = (fastjet::contrib::piranha::GhostGridBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_dphi" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridBase * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::GhostGridBase const *)arg1)->dphi(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GhostGridBase_nrap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::GhostGridBase *arg1 = (fastjet::contrib::piranha::GhostGridBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  unsigned int result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_nrap" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridBase * >(argp1);
+  {
+    try {
+      result = (unsigned int)((fastjet::contrib::piranha::GhostGridBase const *)arg1)->nrap(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GhostGridBase_nphi(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::GhostGridBase *arg1 = (fastjet::contrib::piranha::GhostGridBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  unsigned int result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_nphi" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridBase * >(argp1);
+  {
+    try {
+      result = (unsigned int)((fastjet::contrib::piranha::GhostGridBase const *)arg1)->nphi(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GhostGridBase_points(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::GhostGridBase *arg1 = (fastjet::contrib::piranha::GhostGridBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_points" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridBase * >(argp1);
+  {
+    try {
+      result = (std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *) &(arg1)->points(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_GhostGridBase_ghosts(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::GhostGridBase *arg1 = (fastjet::contrib::piranha::GhostGridBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridBase, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_ghosts" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridBase * >(argp1);
+  {
+    try {
+      result = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *) &((fastjet::contrib::piranha::GhostGridBase const *)arg1)->ghosts(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_GhostGridBase_nghosts(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::GhostGridBase *arg1 = (fastjet::contrib::piranha::GhostGridBase *) 0 ;
@@ -13859,141 +18801,17 @@ SWIGINTERN PyObject *_wrap_GhostGridBase_nghosts(PyObject *SWIGUNUSEDPARM(self),
   swig_obj[0] = args;
   res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridBase, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_nghosts" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_nghosts" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridBase * >(argp1);
   {
     try {
-      result = ((fastjet::contrib::piranha::GhostGridBase const *)arg1)->nghosts(); 
+      result = (arg1)->nghosts(); 
     }
     CATCH_STD_RUNTIME_ERROR
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_From_size_t(static_cast< size_t >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GhostGridBase_ghosts_with_total_pt(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::GhostGridBase *arg1 = (fastjet::contrib::piranha::GhostGridBase *) 0 ;
-  double arg2 ;
-  double arg3 = (double) 0 ;
-  double arg4 = (double) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  double val4 ;
-  int ecode4 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"total_ghost_pt",  (char *)"rap_offset",  (char *)"phi_offset",  NULL 
-  };
-  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *result = 0 ;
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO|OO:GhostGridBase_ghosts_with_total_pt", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridBase, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_ghosts_with_total_pt" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridBase * >(argp1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GhostGridBase_ghosts_with_total_pt" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  if (obj2) {
-    ecode3 = SWIG_AsVal_double(obj2, &val3);
-    if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "GhostGridBase_ghosts_with_total_pt" "', argument " "3"" of type '" "double""'");
-    } 
-    arg3 = static_cast< double >(val3);
-  }
-  if (obj3) {
-    ecode4 = SWIG_AsVal_double(obj3, &val4);
-    if (!SWIG_IsOK(ecode4)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "GhostGridBase_ghosts_with_total_pt" "', argument " "4"" of type '" "double""'");
-    } 
-    arg4 = static_cast< double >(val4);
-  }
-  {
-    try {
-      result = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *) &(arg1)->ghosts_with_total_pt(arg2,arg3,arg4); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(*result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_GhostGridBase_ghosts_with_pt(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::GhostGridBase *arg1 = (fastjet::contrib::piranha::GhostGridBase *) 0 ;
-  double arg2 ;
-  double arg3 = (double) 0 ;
-  double arg4 = (double) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  double val4 ;
-  int ecode4 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"ghost_pt",  (char *)"rap_offset",  (char *)"phi_offset",  NULL 
-  };
-  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *result = 0 ;
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO|OO:GhostGridBase_ghosts_with_pt", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridBase, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridBase_ghosts_with_pt" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridBase *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridBase * >(argp1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "GhostGridBase_ghosts_with_pt" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  if (obj2) {
-    ecode3 = SWIG_AsVal_double(obj2, &val3);
-    if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "GhostGridBase_ghosts_with_pt" "', argument " "3"" of type '" "double""'");
-    } 
-    arg3 = static_cast< double >(val3);
-  }
-  if (obj3) {
-    ecode4 = SWIG_AsVal_double(obj3, &val4);
-    if (!SWIG_IsOK(ecode4)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "GhostGridBase_ghosts_with_pt" "', argument " "4"" of type '" "double""'");
-    } 
-    arg4 = static_cast< double >(val4);
-  }
-  {
-    try {
-      result = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *) &(arg1)->ghosts_with_pt(arg2,arg3,arg4); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(*result));
   return resultobj;
 fail:
   return NULL;
@@ -14536,6 +19354,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_GhostGridRectangle_region(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::GhostGridRectangle *arg1 = (fastjet::contrib::piranha::GhostGridRectangle *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::pair< std::pair< double,double >,std::pair< double,double > > result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridRectangle, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridRectangle_region" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridRectangle const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridRectangle * >(argp1);
+  {
+    try {
+      result = ((fastjet::contrib::piranha::GhostGridRectangle const *)arg1)->region(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::pair< std::pair< double,double >,std::pair< double,double > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_GhostGridRectangle___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::GhostGridRectangle *arg1 = (fastjet::contrib::piranha::GhostGridRectangle *) 0 ;
@@ -14914,6 +19761,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_GhostGridDisk_R(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::GhostGridDisk *arg1 = (fastjet::contrib::piranha::GhostGridDisk *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__GhostGridDisk, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "GhostGridDisk_R" "', argument " "1"" of type '" "fastjet::contrib::piranha::GhostGridDisk const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::GhostGridDisk * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::GhostGridDisk const *)arg1)->R(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_GhostGridDisk___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::GhostGridDisk *arg1 = (fastjet::contrib::piranha::GhostGridDisk *) 0 ;
@@ -15011,408 +19887,6 @@ SWIGINTERN PyObject *GhostGridDisk_swiginit(PyObject *SWIGUNUSEDPARM(self), PyOb
   return SWIG_Python_InitShadowInstance(args);
 }
 
-SWIGINTERN PyObject *_wrap_new_RecursiveSafeSubtractor(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  double arg1 ;
-  double arg2 = (double) 1 ;
-  fastjet::JetAlgorithm arg3 = (fastjet::JetAlgorithm) fastjet::cambridge_algorithm ;
-  double val1 ;
-  int ecode1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  int val3 ;
-  int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"z",  (char *)"f",  (char *)"jet_alg",  NULL 
-  };
-  fastjet::contrib::piranha::RecursiveSafeSubtractor *result = 0 ;
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|OO:new_RecursiveSafeSubtractor", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  ecode1 = SWIG_AsVal_double(obj0, &val1);
-  if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_RecursiveSafeSubtractor" "', argument " "1"" of type '" "double""'");
-  } 
-  arg1 = static_cast< double >(val1);
-  if (obj1) {
-    ecode2 = SWIG_AsVal_double(obj1, &val2);
-    if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_RecursiveSafeSubtractor" "', argument " "2"" of type '" "double""'");
-    } 
-    arg2 = static_cast< double >(val2);
-  }
-  if (obj2) {
-    ecode3 = SWIG_AsVal_int(obj2, &val3);
-    if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_RecursiveSafeSubtractor" "', argument " "3"" of type '" "fastjet::JetAlgorithm""'");
-    } 
-    arg3 = static_cast< fastjet::JetAlgorithm >(val3);
-  }
-  {
-    try {
-      result = (fastjet::contrib::piranha::RecursiveSafeSubtractor *)new fastjet::contrib::piranha::RecursiveSafeSubtractor(arg1,arg2,arg3); 
-    }
-    CATCH_STD_INVALID_ARGUMENT
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, SWIG_POINTER_NEW |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractor_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::RecursiveSafeSubtractor *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::string result;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractor_description" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor const *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor * >(argp1);
-  {
-    try {
-      result = ((fastjet::contrib::piranha::RecursiveSafeSubtractor const *)arg1)->description(); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractor___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::RecursiveSafeSubtractor *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::string result;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractor___str__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor const *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor * >(argp1);
-  {
-    try {
-      result = fastjet_contrib_piranha_RecursiveSafeSubtractor___str__((fastjet::contrib::piranha::RecursiveSafeSubtractor const *)arg1); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractor___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::RecursiveSafeSubtractor *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  std::string result;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractor___repr__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor const *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor * >(argp1);
-  {
-    try {
-      result = fastjet_contrib_piranha_RecursiveSafeSubtractor___repr__((fastjet::contrib::piranha::RecursiveSafeSubtractor const *)arg1); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractor___call____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::RecursiveSafeSubtractor *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor *) 0 ;
-  fastjet::PseudoJet *arg2 = 0 ;
-  int arg3 = (int) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  int val3 ;
-  int ecode3 = 0 ;
-  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
-  
-  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractor___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor * >(argp1);
-  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractor___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractor___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
-  }
-  arg2 = reinterpret_cast< fastjet::PseudoJet * >(argp2);
-  if (swig_obj[2]) {
-    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
-    if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractor___call__" "', argument " "3"" of type '" "int""'");
-    } 
-    arg3 = static_cast< int >(val3);
-  }
-  {
-    try {
-      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_operator_Sp__SP___SWIG_0(arg1,(fastjet::PseudoJet const &)*arg2,arg3); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractor___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::RecursiveSafeSubtractor *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor *) 0 ;
-  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
-  int arg3 = (int) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int res2 = SWIG_OLDOBJ ;
-  int val3 ;
-  int ecode3 = 0 ;
-  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
-  
-  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractor___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor * >(argp1);
-  {
-    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
-    res2 = swig::asptr(swig_obj[1], &ptr);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractor___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractor___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
-    }
-    arg2 = ptr;
-  }
-  if (swig_obj[2]) {
-    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
-    if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractor___call__" "', argument " "3"" of type '" "int""'");
-    } 
-    arg3 = static_cast< int >(val3);
-  }
-  {
-    try {
-      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_operator_Sp__SP___SWIG_1(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,arg3); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractor___call__(PyObject *self, PyObject *args) {
-  Py_ssize_t argc;
-  PyObject *argv[4] = {
-    0
-  };
-  
-  if (!(argc = SWIG_Python_UnpackTuple(args, "RecursiveSafeSubtractor___call__", 0, 3, argv))) SWIG_fail;
-  --argc;
-  if ((argc >= 2) && (argc <= 3)) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        if (argc <= 2) {
-          return _wrap_RecursiveSafeSubtractor___call____SWIG_0(self, argc, argv);
-        }
-        {
-          int res = SWIG_AsVal_int(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          return _wrap_RecursiveSafeSubtractor___call____SWIG_0(self, argc, argv);
-        }
-      }
-    }
-  }
-  if ((argc >= 2) && (argc <= 3)) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        if (argc <= 2) {
-          return _wrap_RecursiveSafeSubtractor___call____SWIG_1(self, argc, argv);
-        }
-        {
-          int res = SWIG_AsVal_int(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          return _wrap_RecursiveSafeSubtractor___call____SWIG_1(self, argc, argv);
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'RecursiveSafeSubtractor___call__'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    fastjet::contrib::piranha::RecursiveSafeSubtractor::operator ()(fastjet::PseudoJet const &,int)\n"
-    "    fastjet::contrib::piranha::RecursiveSafeSubtractor::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,int)\n");
-  return 0;
-}
-
-
-SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractor_apply(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::RecursiveSafeSubtractor *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor *) 0 ;
-  double arg2 ;
-  double arg3 ;
-  int arg4 = (int) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  double val2 ;
-  int ecode2 = 0 ;
-  double val3 ;
-  int ecode3 = 0 ;
-  int val4 ;
-  int ecode4 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"z",  (char *)"f",  (char *)"_",  NULL 
-  };
-  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO|O:RecursiveSafeSubtractor_apply", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractor_apply" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor * >(argp1);
-  ecode2 = SWIG_AsVal_double(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RecursiveSafeSubtractor_apply" "', argument " "2"" of type '" "double""'");
-  } 
-  arg2 = static_cast< double >(val2);
-  ecode3 = SWIG_AsVal_double(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractor_apply" "', argument " "3"" of type '" "double""'");
-  } 
-  arg3 = static_cast< double >(val3);
-  if (obj3) {
-    ecode4 = SWIG_AsVal_int(obj3, &val4);
-    if (!SWIG_IsOK(ecode4)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RecursiveSafeSubtractor_apply" "', argument " "4"" of type '" "int""'");
-    } 
-    arg4 = static_cast< int >(val4);
-  }
-  {
-    try {
-      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_apply(arg1,arg2,arg3,arg4); 
-    }
-    CATCH_STD_INVALID_ARGUMENT
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_delete_RecursiveSafeSubtractor(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::RecursiveSafeSubtractor *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject *swig_obj[1] ;
-  
-  if (!args) SWIG_fail;
-  swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, SWIG_POINTER_DISOWN |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_RecursiveSafeSubtractor" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor * >(argp1);
-  {
-    try {
-      delete arg1; 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *RecursiveSafeSubtractor_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *obj;
-  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractor, SWIG_NewClientData(obj));
-  return SWIG_Py_Void();
-}
-
-SWIGINTERN PyObject *RecursiveSafeSubtractor_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  return SWIG_Python_InitShadowInstance(args);
-}
-
 SWIGINTERN PyObject *_wrap_new_IteratedVoronoiSubtractorDiskBase(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *result = 0 ;
@@ -15490,86 +19964,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_background_estimator(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
-  fastjet::BackgroundEstimatorBase *arg2 = (fastjet::BackgroundEstimatorBase *) nullptr ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"bge",  NULL 
-  };
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:IteratedVoronoiSubtractorDiskBase_set_background_estimator", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_set_background_estimator" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
-  if (obj1) {
-    res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_fastjet__BackgroundEstimatorBase, 0 |  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "IteratedVoronoiSubtractorDiskBase_set_background_estimator" "', argument " "2"" of type '" "fastjet::BackgroundEstimatorBase *""'"); 
-    }
-    arg2 = reinterpret_cast< fastjet::BackgroundEstimatorBase * >(argp2);
-  }
-  {
-    try {
-      (arg1)->set_background_estimator(arg2); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"b",  NULL 
-  };
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
-  ecode2 = SWIG_AsVal_bool(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho" "', argument " "2"" of type '" "bool""'");
-  } 
-  arg2 = static_cast< bool >(val2);
-  {
-    try {
-      (arg1)->set_jet_constituents_use_same_rho(arg2); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
@@ -15620,7 +20014,7 @@ SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_zpt(PyObject *S
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   char * kwnames[] = {
-    (char *)"self",  (char *)"zpt",  NULL 
+    (char *)"self",  (char *)"z",  NULL 
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorDiskBase_set_zpt", kwnames, &obj0, &obj1)) SWIG_fail;
@@ -15659,7 +20053,7 @@ SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_zemd(PyObject *
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   char * kwnames[] = {
-    (char *)"self",  (char *)"zemd",  NULL 
+    (char *)"self",  (char *)"z",  NULL 
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorDiskBase_set_zemd", kwnames, &obj0, &obj1)) SWIG_fail;
@@ -15676,6 +20070,123 @@ SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_zemd(PyObject *
   {
     try {
       (arg1)->set_zemd(arg2); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_background_estimator(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  fastjet::BackgroundEstimatorBase *arg2 = (fastjet::BackgroundEstimatorBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"bge",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorDiskBase_set_background_estimator", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_set_background_estimator" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_fastjet__BackgroundEstimatorBase, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "IteratedVoronoiSubtractorDiskBase_set_background_estimator" "', argument " "2"" of type '" "fastjet::BackgroundEstimatorBase *""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::BackgroundEstimatorBase * >(argp2);
+  {
+    try {
+      (arg1)->set_background_estimator(arg2); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_rho_subtraction_mode(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  fastjet::contrib::piranha::RhoSubtractionMode arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"rho_mode",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorDiskBase_set_rho_subtraction_mode", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_set_rho_subtraction_mode" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IteratedVoronoiSubtractorDiskBase_set_rho_subtraction_mode" "', argument " "2"" of type '" "fastjet::contrib::piranha::RhoSubtractionMode""'");
+  } 
+  arg2 = static_cast< fastjet::contrib::piranha::RhoSubtractionMode >(val2);
+  {
+    try {
+      (arg1)->set_rho_subtraction_mode(arg2); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"b",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    try {
+      (arg1)->set_jet_constituents_use_same_rho(arg2); 
     }
     CATCH_STD_RUNTIME_ERROR
     CATCH_STD_EXCEPTION
@@ -15837,6 +20348,386 @@ SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_set_store_history(P
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_zpt(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_zpt" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->zpt(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_zemd(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_zemd" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->zemd(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_background_estimator__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  fastjet::BackgroundEstimatorBase *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_background_estimator" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (fastjet::BackgroundEstimatorBase *)(arg1)->background_estimator(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__BackgroundEstimatorBase, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_background_estimator__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  fastjet::BackgroundEstimatorBase *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_background_estimator" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (fastjet::BackgroundEstimatorBase *)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->background_estimator(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__BackgroundEstimatorBase, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_background_estimator(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "IteratedVoronoiSubtractorDiskBase_background_estimator", 0, 1, argv))) SWIG_fail;
+  --argc;
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_IteratedVoronoiSubtractorDiskBase_background_estimator__SWIG_0(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_IteratedVoronoiSubtractorDiskBase_background_estimator__SWIG_1(self, argc, argv);
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'IteratedVoronoiSubtractorDiskBase_background_estimator'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk >::background_estimator()\n"
+    "    fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk >::background_estimator() const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_jet_constituents_use_same_rho(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_jet_constituents_use_same_rho" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->jet_constituents_use_same_rho(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_rho_subtraction_mode(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::contrib::piranha::RhoSubtractionMode result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_rho_subtraction_mode" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (fastjet::contrib::piranha::RhoSubtractionMode)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->rho_subtraction_mode(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_track_emds(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_track_emds" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->track_emds(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_total_area(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_total_area" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->total_area(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_subtraction_type(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::contrib::piranha::SubtractionType result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_subtraction_type" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (fastjet::contrib::piranha::SubtractionType)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->subtraction_type(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_R(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_R" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->R(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_allow_repeats(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_allow_repeats" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->allow_repeats(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorDiskBase_store_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiDisk_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorDiskBase_store_history" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > * >(argp1);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > const *)arg1)->store_history(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
   return NULL;
@@ -16233,86 +21124,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_background_estimator(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
-  fastjet::BackgroundEstimatorBase *arg2 = (fastjet::BackgroundEstimatorBase *) nullptr ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"bge",  NULL 
-  };
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:IteratedVoronoiSubtractorCylinderBase_set_background_estimator", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_background_estimator" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
-  if (obj1) {
-    res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_fastjet__BackgroundEstimatorBase, 0 |  0 );
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_background_estimator" "', argument " "2"" of type '" "fastjet::BackgroundEstimatorBase *""'"); 
-    }
-    arg2 = reinterpret_cast< fastjet::BackgroundEstimatorBase * >(argp2);
-  }
-  {
-    try {
-      (arg1)->set_background_estimator(arg2); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
-  bool arg2 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  bool val2 ;
-  int ecode2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"b",  NULL 
-  };
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *""'"); 
-  }
-  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
-  ecode2 = SWIG_AsVal_bool(obj1, &val2);
-  if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho" "', argument " "2"" of type '" "bool""'");
-  } 
-  arg2 = static_cast< bool >(val2);
-  {
-    try {
-      (arg1)->set_jet_constituents_use_same_rho(arg2); 
-    }
-    CATCH_STD_RUNTIME_ERROR
-    CATCH_STD_EXCEPTION
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
@@ -16363,7 +21174,7 @@ SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_zpt(PyObjec
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   char * kwnames[] = {
-    (char *)"self",  (char *)"zpt",  NULL 
+    (char *)"self",  (char *)"z",  NULL 
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorCylinderBase_set_zpt", kwnames, &obj0, &obj1)) SWIG_fail;
@@ -16402,7 +21213,7 @@ SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_zemd(PyObje
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   char * kwnames[] = {
-    (char *)"self",  (char *)"zemd",  NULL 
+    (char *)"self",  (char *)"z",  NULL 
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorCylinderBase_set_zemd", kwnames, &obj0, &obj1)) SWIG_fail;
@@ -16419,6 +21230,123 @@ SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_zemd(PyObje
   {
     try {
       (arg1)->set_zemd(arg2); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_background_estimator(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  fastjet::BackgroundEstimatorBase *arg2 = (fastjet::BackgroundEstimatorBase *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"bge",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorCylinderBase_set_background_estimator", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_background_estimator" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_fastjet__BackgroundEstimatorBase, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_background_estimator" "', argument " "2"" of type '" "fastjet::BackgroundEstimatorBase *""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::BackgroundEstimatorBase * >(argp2);
+  {
+    try {
+      (arg1)->set_background_estimator(arg2); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_rho_subtraction_mode(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  fastjet::contrib::piranha::RhoSubtractionMode arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"rho_mode",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorCylinderBase_set_rho_subtraction_mode", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_rho_subtraction_mode" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_rho_subtraction_mode" "', argument " "2"" of type '" "fastjet::contrib::piranha::RhoSubtractionMode""'");
+  } 
+  arg2 = static_cast< fastjet::contrib::piranha::RhoSubtractionMode >(val2);
+  {
+    try {
+      (arg1)->set_rho_subtraction_mode(arg2); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"b",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  {
+    try {
+      (arg1)->set_jet_constituents_use_same_rho(arg2); 
     }
     CATCH_STD_RUNTIME_ERROR
     CATCH_STD_EXCEPTION
@@ -16580,6 +21508,386 @@ SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_set_store_histo
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_zpt(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_zpt" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->zpt(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_zemd(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_zemd" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->zemd(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_background_estimator__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  fastjet::BackgroundEstimatorBase *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_background_estimator" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (fastjet::BackgroundEstimatorBase *)(arg1)->background_estimator(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__BackgroundEstimatorBase, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_background_estimator__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  fastjet::BackgroundEstimatorBase *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_background_estimator" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (fastjet::BackgroundEstimatorBase *)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->background_estimator(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__BackgroundEstimatorBase, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_background_estimator(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "IteratedVoronoiSubtractorCylinderBase_background_estimator", 0, 1, argv))) SWIG_fail;
+  --argc;
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_IteratedVoronoiSubtractorCylinderBase_background_estimator__SWIG_0(self, argc, argv);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_IteratedVoronoiSubtractorCylinderBase_background_estimator__SWIG_1(self, argc, argv);
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'IteratedVoronoiSubtractorCylinderBase_background_estimator'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder >::background_estimator()\n"
+    "    fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder >::background_estimator() const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_jet_constituents_use_same_rho(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_jet_constituents_use_same_rho" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->jet_constituents_use_same_rho(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_rho_subtraction_mode(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::contrib::piranha::RhoSubtractionMode result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_rho_subtraction_mode" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (fastjet::contrib::piranha::RhoSubtractionMode)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->rho_subtraction_mode(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_track_emds(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_track_emds" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->track_emds(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_total_area(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_total_area" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->total_area(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_subtraction_type(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::contrib::piranha::SubtractionType result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_subtraction_type" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (fastjet::contrib::piranha::SubtractionType)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->subtraction_type(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_R(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_R" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->R(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_allow_repeats(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_allow_repeats" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->allow_repeats(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IteratedVoronoiSubtractorCylinderBase_store_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *arg1 = (fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__IteratedVoronoiSubtractorBaseT_fastjet__contrib__piranha__DynamicVoronoiCylinder_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IteratedVoronoiSubtractorCylinderBase_store_history" "', argument " "1"" of type '" "fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > * >(argp1);
+  {
+    try {
+      result = (bool)((fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > const *)arg1)->store_history(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
 fail:
   return NULL;
@@ -17109,6 +22417,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::DeltaR > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::DeltaR > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__DeltaR_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorTransverseMomentumDeltaR_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::DeltaR > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::DeltaR > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::DeltaR > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_total_subtracted(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::DeltaR > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::DeltaR > > *) 0 ;
@@ -17622,6 +22959,35 @@ SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseMomentumHadronicD
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__emd__EMDT_fastjet__contrib__emd__TransverseMomentum_fastjet__contrib__emd__HadronicDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDot > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDot > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDot_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorTransverseMomentumHadronicDot_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDot > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDot > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDot > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
   return NULL;
@@ -18147,6 +23513,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDotMassive > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDotMassive > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDotMassive > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDotMassive > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDotMassive > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_total_subtracted(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDotMassive > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDotMassive > > *) 0 ;
@@ -18660,6 +24055,35 @@ SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_emd_
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__emd__EMDT_fastjet__contrib__emd__TransverseEnergy_fastjet__contrib__emd__DeltaR_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::DeltaR > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::DeltaR > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseEnergy_emd__DeltaR_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorTransverseEnergyDeltaR_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::DeltaR > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::DeltaR > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::DeltaR > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
   return NULL;
@@ -19185,6 +24609,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDot > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDot > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseEnergy_emd__HadronicDot_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorTransverseEnergyHadronicDot_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDot > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDot > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDot > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_total_subtracted(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDot > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDot > > *) 0 ;
@@ -19698,6 +25151,35 @@ SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__emd__EMDT_fastjet__contrib__emd__TransverseEnergy_fastjet__contrib__emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDotMassive > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDotMassive > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseEnergy_emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDotMassive > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDotMassive > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseEnergy,emd::HadronicDotMassive > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
   return NULL;
@@ -20223,6 +25705,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorMomentumEEDot_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDot > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDot > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__Momentum_emd__EEDot_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorMomentumEEDot_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDot > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDot > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDot > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorMomentumEEDot_total_subtracted(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDot > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDot > > *) 0 ;
@@ -20736,6 +26247,35 @@ SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorMomentumEEDotMassive_emd_ob
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__emd__EMDT_fastjet__contrib__emd__Momentum_fastjet__contrib__emd__EEDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorMomentumEEDotMassive_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDotMassive > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDotMassive > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__Momentum_emd__EEDotMassive_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorMomentumEEDotMassive_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDotMassive > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDotMassive > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEDotMassive > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
   return NULL;
@@ -21261,6 +26801,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorMomentumEEArcLength_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLength > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLength > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__Momentum_emd__EEArcLength_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorMomentumEEArcLength_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLength > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLength > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLength > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorMomentumEEArcLength_total_subtracted(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLength > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLength > > *) 0 ;
@@ -21774,6 +27343,35 @@ SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__emd__EMDT_fastjet__contrib__emd__Momentum_fastjet__contrib__emd__EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLengthMassive > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLengthMassive > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__Momentum_emd__EEArcLengthMassive_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorMomentumEEArcLengthMassive_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLengthMassive > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLengthMassive > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Momentum,emd::EEArcLengthMassive > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
   return NULL;
@@ -22299,6 +27897,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorEnergyEEDot_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDot > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDot > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__Energy_emd__EEDot_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorEnergyEEDot_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDot > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDot > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDot > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorEnergyEEDot_total_subtracted(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDot > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDot > > *) 0 ;
@@ -22812,6 +28439,35 @@ SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorEnergyEEDotMassive_emd_obj(
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__emd__EMDT_fastjet__contrib__emd__Energy_fastjet__contrib__emd__EEDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorEnergyEEDotMassive_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDotMassive > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDotMassive > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__Energy_emd__EEDotMassive_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorEnergyEEDotMassive_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDotMassive > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDotMassive > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEDotMassive > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
   return NULL;
@@ -23337,6 +28993,35 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorEnergyEEArcLength_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLength > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLength > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__Energy_emd__EEArcLength_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorEnergyEEArcLength_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLength > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLength > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLength > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorEnergyEEArcLength_total_subtracted(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLength > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLength > > *) 0 ;
@@ -23850,6 +29535,35 @@ SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_em
     CATCH_STD_EXCEPTION
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__emd__EMDT_fastjet__contrib__emd__Energy_fastjet__contrib__emd__EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLengthMassive > > *arg1 = (fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLengthMassive > > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__Energy_emd__EEArcLengthMassive_lemon__NetworkSimplexT_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "OptimalTransportSubtractorEnergyEEArcLengthMassive_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLengthMassive > > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLengthMassive > > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::Energy,emd::EEArcLengthMassive > > const *)arg1)->z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
 fail:
   return NULL;
@@ -24923,6 +30637,2310 @@ SWIGINTERN PyObject *IteratedVoronoiSubtractorDisk_swiginit(PyObject *SWIGUNUSED
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_new_RecursiveSafeSubtractorTransverseMomentum(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double arg2 = (double) 1 ;
+  fastjet::JetAlgorithm arg3 = (fastjet::JetAlgorithm) fastjet::cambridge_algorithm ;
+  double val1 ;
+  int ecode1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"z",  (char *)"f",  (char *)"jet_alg",  NULL 
+  };
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *result = 0 ;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|OO:new_RecursiveSafeSubtractorTransverseMomentum", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_RecursiveSafeSubtractorTransverseMomentum" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  if (obj1) {
+    ecode2 = SWIG_AsVal_double(obj1, &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_RecursiveSafeSubtractorTransverseMomentum" "', argument " "2"" of type '" "double""'");
+    } 
+    arg2 = static_cast< double >(val2);
+  }
+  if (obj2) {
+    ecode3 = SWIG_AsVal_int(obj2, &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_RecursiveSafeSubtractorTransverseMomentum" "', argument " "3"" of type '" "fastjet::JetAlgorithm""'");
+    } 
+    arg3 = static_cast< fastjet::JetAlgorithm >(val3);
+  }
+  {
+    try {
+      result = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *)new fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum >(arg1,arg2,arg3); 
+    }
+    CATCH_STD_INVALID_ARGUMENT
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum_description" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      result = ((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *)arg1)->description(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum_default_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum_default_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *)arg1)->default_z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum_default_f(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum_default_f" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *)arg1)->default_f(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum_jet_alg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::JetAlgorithm result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum_jet_alg" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      result = (fastjet::JetAlgorithm)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *)arg1)->jet_alg(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum_weight_sums(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< double,std::allocator< double > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum_weight_sums" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      result = (std::vector< double,std::allocator< double > > *) &((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *)arg1)->weight_sums(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< double,std::allocator< double > > >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum_total_weight(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum_total_weight" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *)arg1)->total_weight(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum_reclustered_jet(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::PseudoJet *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum_reclustered_jet" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      result = (fastjet::PseudoJet *) &((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *)arg1)->reclustered_jet(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__PseudoJet, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum___str__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg____str__((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *)arg1); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum___repr__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg____repr__((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > const *)arg1); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum___call____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  fastjet::PseudoJet *arg2 = 0 ;
+  int arg3 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractorTransverseMomentum___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractorTransverseMomentum___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJet * >(argp2);
+  if (swig_obj[2]) {
+    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorTransverseMomentum___call__" "', argument " "3"" of type '" "int""'");
+    } 
+    arg3 = static_cast< int >(val3);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg__operator_Sp__SP___SWIG_0(arg1,(fastjet::PseudoJet const &)*arg2,arg3); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  int arg3 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int val3 ;
+  int ecode3 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractorTransverseMomentum___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractorTransverseMomentum___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (swig_obj[2]) {
+    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorTransverseMomentum___call__" "', argument " "3"" of type '" "int""'");
+    } 
+    arg3 = static_cast< int >(val3);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg__operator_Sp__SP___SWIG_1(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,arg3); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum___call__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "RecursiveSafeSubtractorTransverseMomentum___call__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if ((argc >= 2) && (argc <= 3)) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        if (argc <= 2) {
+          return _wrap_RecursiveSafeSubtractorTransverseMomentum___call____SWIG_0(self, argc, argv);
+        }
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_RecursiveSafeSubtractorTransverseMomentum___call____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if ((argc >= 2) && (argc <= 3)) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        if (argc <= 2) {
+          return _wrap_RecursiveSafeSubtractorTransverseMomentum___call____SWIG_1(self, argc, argv);
+        }
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_RecursiveSafeSubtractorTransverseMomentum___call____SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'RecursiveSafeSubtractorTransverseMomentum___call__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum >::operator ()(fastjet::PseudoJet const &,int)\n"
+    "    fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseMomentum_apply(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  double arg2 ;
+  double arg3 ;
+  int arg4 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  double val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"z",  (char *)"f",  (char *)"_",  NULL 
+  };
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO|O:RecursiveSafeSubtractorTransverseMomentum_apply", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseMomentum_apply" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RecursiveSafeSubtractorTransverseMomentum_apply" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  ecode3 = SWIG_AsVal_double(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorTransverseMomentum_apply" "', argument " "3"" of type '" "double""'");
+  } 
+  arg3 = static_cast< double >(val3);
+  if (obj3) {
+    ecode4 = SWIG_AsVal_int(obj3, &val4);
+    if (!SWIG_IsOK(ecode4)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RecursiveSafeSubtractorTransverseMomentum_apply" "', argument " "4"" of type '" "int""'");
+    } 
+    arg4 = static_cast< int >(val4);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseMomentum_Sg__apply(arg1,arg2,arg3,arg4); 
+    }
+    CATCH_STD_INVALID_ARGUMENT
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_RecursiveSafeSubtractorTransverseMomentum(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_RecursiveSafeSubtractorTransverseMomentum" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > * >(argp1);
+  {
+    try {
+      delete arg1; 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *RecursiveSafeSubtractorTransverseMomentum_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *RecursiveSafeSubtractorTransverseMomentum_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_RecursiveSafeSubtractorTransverseEnergy(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double arg2 = (double) 1 ;
+  fastjet::JetAlgorithm arg3 = (fastjet::JetAlgorithm) fastjet::cambridge_algorithm ;
+  double val1 ;
+  int ecode1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"z",  (char *)"f",  (char *)"jet_alg",  NULL 
+  };
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *result = 0 ;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|OO:new_RecursiveSafeSubtractorTransverseEnergy", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_RecursiveSafeSubtractorTransverseEnergy" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  if (obj1) {
+    ecode2 = SWIG_AsVal_double(obj1, &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_RecursiveSafeSubtractorTransverseEnergy" "', argument " "2"" of type '" "double""'");
+    } 
+    arg2 = static_cast< double >(val2);
+  }
+  if (obj2) {
+    ecode3 = SWIG_AsVal_int(obj2, &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_RecursiveSafeSubtractorTransverseEnergy" "', argument " "3"" of type '" "fastjet::JetAlgorithm""'");
+    } 
+    arg3 = static_cast< fastjet::JetAlgorithm >(val3);
+  }
+  {
+    try {
+      result = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *)new fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy >(arg1,arg2,arg3); 
+    }
+    CATCH_STD_INVALID_ARGUMENT
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy_description" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      result = ((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *)arg1)->description(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy_default_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy_default_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *)arg1)->default_z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy_default_f(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy_default_f" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *)arg1)->default_f(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy_jet_alg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::JetAlgorithm result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy_jet_alg" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      result = (fastjet::JetAlgorithm)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *)arg1)->jet_alg(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy_weight_sums(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< double,std::allocator< double > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy_weight_sums" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      result = (std::vector< double,std::allocator< double > > *) &((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *)arg1)->weight_sums(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< double,std::allocator< double > > >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy_total_weight(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy_total_weight" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *)arg1)->total_weight(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy_reclustered_jet(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::PseudoJet *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy_reclustered_jet" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      result = (fastjet::PseudoJet *) &((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *)arg1)->reclustered_jet(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__PseudoJet, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy___str__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg____str__((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *)arg1); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy___repr__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg____repr__((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > const *)arg1); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy___call____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  fastjet::PseudoJet *arg2 = 0 ;
+  int arg3 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractorTransverseEnergy___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractorTransverseEnergy___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJet * >(argp2);
+  if (swig_obj[2]) {
+    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorTransverseEnergy___call__" "', argument " "3"" of type '" "int""'");
+    } 
+    arg3 = static_cast< int >(val3);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg__operator_Sp__SP___SWIG_0(arg1,(fastjet::PseudoJet const &)*arg2,arg3); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  int arg3 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int val3 ;
+  int ecode3 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractorTransverseEnergy___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractorTransverseEnergy___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (swig_obj[2]) {
+    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorTransverseEnergy___call__" "', argument " "3"" of type '" "int""'");
+    } 
+    arg3 = static_cast< int >(val3);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg__operator_Sp__SP___SWIG_1(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,arg3); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy___call__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "RecursiveSafeSubtractorTransverseEnergy___call__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if ((argc >= 2) && (argc <= 3)) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        if (argc <= 2) {
+          return _wrap_RecursiveSafeSubtractorTransverseEnergy___call____SWIG_0(self, argc, argv);
+        }
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_RecursiveSafeSubtractorTransverseEnergy___call____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if ((argc >= 2) && (argc <= 3)) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        if (argc <= 2) {
+          return _wrap_RecursiveSafeSubtractorTransverseEnergy___call____SWIG_1(self, argc, argv);
+        }
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_RecursiveSafeSubtractorTransverseEnergy___call____SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'RecursiveSafeSubtractorTransverseEnergy___call__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy >::operator ()(fastjet::PseudoJet const &,int)\n"
+    "    fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorTransverseEnergy_apply(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  double arg2 ;
+  double arg3 ;
+  int arg4 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  double val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"z",  (char *)"f",  (char *)"_",  NULL 
+  };
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO|O:RecursiveSafeSubtractorTransverseEnergy_apply", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorTransverseEnergy_apply" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RecursiveSafeSubtractorTransverseEnergy_apply" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  ecode3 = SWIG_AsVal_double(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorTransverseEnergy_apply" "', argument " "3"" of type '" "double""'");
+  } 
+  arg3 = static_cast< double >(val3);
+  if (obj3) {
+    ecode4 = SWIG_AsVal_int(obj3, &val4);
+    if (!SWIG_IsOK(ecode4)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RecursiveSafeSubtractorTransverseEnergy_apply" "', argument " "4"" of type '" "int""'");
+    } 
+    arg4 = static_cast< int >(val4);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_TransverseEnergy_Sg__apply(arg1,arg2,arg3,arg4); 
+    }
+    CATCH_STD_INVALID_ARGUMENT
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_RecursiveSafeSubtractorTransverseEnergy(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_RecursiveSafeSubtractorTransverseEnergy" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > * >(argp1);
+  {
+    try {
+      delete arg1; 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *RecursiveSafeSubtractorTransverseEnergy_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *RecursiveSafeSubtractorTransverseEnergy_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_RecursiveSafeSubtractorEnergy(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double arg2 = (double) 1 ;
+  fastjet::JetAlgorithm arg3 = (fastjet::JetAlgorithm) fastjet::cambridge_algorithm ;
+  double val1 ;
+  int ecode1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"z",  (char *)"f",  (char *)"jet_alg",  NULL 
+  };
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *result = 0 ;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|OO:new_RecursiveSafeSubtractorEnergy", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_RecursiveSafeSubtractorEnergy" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  if (obj1) {
+    ecode2 = SWIG_AsVal_double(obj1, &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_RecursiveSafeSubtractorEnergy" "', argument " "2"" of type '" "double""'");
+    } 
+    arg2 = static_cast< double >(val2);
+  }
+  if (obj2) {
+    ecode3 = SWIG_AsVal_int(obj2, &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_RecursiveSafeSubtractorEnergy" "', argument " "3"" of type '" "fastjet::JetAlgorithm""'");
+    } 
+    arg3 = static_cast< fastjet::JetAlgorithm >(val3);
+  }
+  {
+    try {
+      result = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *)new fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy >(arg1,arg2,arg3); 
+    }
+    CATCH_STD_INVALID_ARGUMENT
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy_description" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      result = ((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *)arg1)->description(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy_default_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy_default_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *)arg1)->default_z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy_default_f(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy_default_f" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *)arg1)->default_f(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy_jet_alg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::JetAlgorithm result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy_jet_alg" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      result = (fastjet::JetAlgorithm)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *)arg1)->jet_alg(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy_weight_sums(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< double,std::allocator< double > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy_weight_sums" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      result = (std::vector< double,std::allocator< double > > *) &((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *)arg1)->weight_sums(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< double,std::allocator< double > > >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy_total_weight(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy_total_weight" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *)arg1)->total_weight(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy_reclustered_jet(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::PseudoJet *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy_reclustered_jet" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      result = (fastjet::PseudoJet *) &((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *)arg1)->reclustered_jet(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__PseudoJet, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy___str__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg____str__((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *)arg1); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy___repr__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg____repr__((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > const *)arg1); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy___call____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  fastjet::PseudoJet *arg2 = 0 ;
+  int arg3 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractorEnergy___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractorEnergy___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJet * >(argp2);
+  if (swig_obj[2]) {
+    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorEnergy___call__" "', argument " "3"" of type '" "int""'");
+    } 
+    arg3 = static_cast< int >(val3);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg__operator_Sp__SP___SWIG_0(arg1,(fastjet::PseudoJet const &)*arg2,arg3); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  int arg3 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int val3 ;
+  int ecode3 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractorEnergy___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractorEnergy___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (swig_obj[2]) {
+    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorEnergy___call__" "', argument " "3"" of type '" "int""'");
+    } 
+    arg3 = static_cast< int >(val3);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg__operator_Sp__SP___SWIG_1(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,arg3); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy___call__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "RecursiveSafeSubtractorEnergy___call__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if ((argc >= 2) && (argc <= 3)) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        if (argc <= 2) {
+          return _wrap_RecursiveSafeSubtractorEnergy___call____SWIG_0(self, argc, argv);
+        }
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_RecursiveSafeSubtractorEnergy___call____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if ((argc >= 2) && (argc <= 3)) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        if (argc <= 2) {
+          return _wrap_RecursiveSafeSubtractorEnergy___call____SWIG_1(self, argc, argv);
+        }
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_RecursiveSafeSubtractorEnergy___call____SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'RecursiveSafeSubtractorEnergy___call__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy >::operator ()(fastjet::PseudoJet const &,int)\n"
+    "    fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorEnergy_apply(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  double arg2 ;
+  double arg3 ;
+  int arg4 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  double val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"z",  (char *)"f",  (char *)"_",  NULL 
+  };
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO|O:RecursiveSafeSubtractorEnergy_apply", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorEnergy_apply" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RecursiveSafeSubtractorEnergy_apply" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  ecode3 = SWIG_AsVal_double(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorEnergy_apply" "', argument " "3"" of type '" "double""'");
+  } 
+  arg3 = static_cast< double >(val3);
+  if (obj3) {
+    ecode4 = SWIG_AsVal_int(obj3, &val4);
+    if (!SWIG_IsOK(ecode4)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RecursiveSafeSubtractorEnergy_apply" "', argument " "4"" of type '" "int""'");
+    } 
+    arg4 = static_cast< int >(val4);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Energy_Sg__apply(arg1,arg2,arg3,arg4); 
+    }
+    CATCH_STD_INVALID_ARGUMENT
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_RecursiveSafeSubtractorEnergy(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_RecursiveSafeSubtractorEnergy" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > * >(argp1);
+  {
+    try {
+      delete arg1; 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *RecursiveSafeSubtractorEnergy_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *RecursiveSafeSubtractorEnergy_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
+SWIGINTERN PyObject *_wrap_new_RecursiveSafeSubtractorMomentum(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  double arg1 ;
+  double arg2 = (double) 1 ;
+  fastjet::JetAlgorithm arg3 = (fastjet::JetAlgorithm) fastjet::cambridge_algorithm ;
+  double val1 ;
+  int ecode1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"z",  (char *)"f",  (char *)"jet_alg",  NULL 
+  };
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *result = 0 ;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|OO:new_RecursiveSafeSubtractorMomentum", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_double(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_RecursiveSafeSubtractorMomentum" "', argument " "1"" of type '" "double""'");
+  } 
+  arg1 = static_cast< double >(val1);
+  if (obj1) {
+    ecode2 = SWIG_AsVal_double(obj1, &val2);
+    if (!SWIG_IsOK(ecode2)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_RecursiveSafeSubtractorMomentum" "', argument " "2"" of type '" "double""'");
+    } 
+    arg2 = static_cast< double >(val2);
+  }
+  if (obj2) {
+    ecode3 = SWIG_AsVal_int(obj2, &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_RecursiveSafeSubtractorMomentum" "', argument " "3"" of type '" "fastjet::JetAlgorithm""'");
+    } 
+    arg3 = static_cast< fastjet::JetAlgorithm >(val3);
+  }
+  {
+    try {
+      result = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *)new fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum >(arg1,arg2,arg3); 
+    }
+    CATCH_STD_INVALID_ARGUMENT
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum_description" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      result = ((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *)arg1)->description(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum_default_z(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum_default_z" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *)arg1)->default_z(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum_default_f(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum_default_f" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *)arg1)->default_f(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum_jet_alg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::JetAlgorithm result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum_jet_alg" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      result = (fastjet::JetAlgorithm)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *)arg1)->jet_alg(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum_weight_sums(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::vector< double,std::allocator< double > > *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum_weight_sums" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      result = (std::vector< double,std::allocator< double > > *) &((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *)arg1)->weight_sums(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< double,std::allocator< double > > >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum_total_weight(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum_total_weight" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      result = (double)((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *)arg1)->total_weight(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum_reclustered_jet(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  fastjet::PseudoJet *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum_reclustered_jet" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      result = (fastjet::PseudoJet *) &((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *)arg1)->reclustered_jet(); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__PseudoJet, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum___str__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum___str__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg____str__((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *)arg1); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  std::string result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum___repr__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg____repr__((fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > const *)arg1); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum___call____SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  fastjet::PseudoJet *arg2 = 0 ;
+  int arg3 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractorMomentum___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractorMomentum___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJet * >(argp2);
+  if (swig_obj[2]) {
+    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorMomentum___call__" "', argument " "3"" of type '" "int""'");
+    } 
+    arg3 = static_cast< int >(val3);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg__operator_Sp__SP___SWIG_0(arg1,(fastjet::PseudoJet const &)*arg2,arg3); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  int arg3 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int val3 ;
+  int ecode3 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum___call__" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "RecursiveSafeSubtractorMomentum___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RecursiveSafeSubtractorMomentum___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  if (swig_obj[2]) {
+    ecode3 = SWIG_AsVal_int(swig_obj[2], &val3);
+    if (!SWIG_IsOK(ecode3)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorMomentum___call__" "', argument " "3"" of type '" "int""'");
+    } 
+    arg3 = static_cast< int >(val3);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg__operator_Sp__SP___SWIG_1(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,arg3); 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum___call__(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "RecursiveSafeSubtractorMomentum___call__", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if ((argc >= 2) && (argc <= 3)) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        if (argc <= 2) {
+          return _wrap_RecursiveSafeSubtractorMomentum___call____SWIG_0(self, argc, argv);
+        }
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_RecursiveSafeSubtractorMomentum___call____SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  if ((argc >= 2) && (argc <= 3)) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        if (argc <= 2) {
+          return _wrap_RecursiveSafeSubtractorMomentum___call____SWIG_1(self, argc, argv);
+        }
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_RecursiveSafeSubtractorMomentum___call____SWIG_1(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'RecursiveSafeSubtractorMomentum___call__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum >::operator ()(fastjet::PseudoJet const &,int)\n"
+    "    fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_RecursiveSafeSubtractorMomentum_apply(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  double arg2 ;
+  double arg3 ;
+  int arg4 = (int) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  double val2 ;
+  int ecode2 = 0 ;
+  double val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"z",  (char *)"f",  (char *)"_",  NULL 
+  };
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO|O:RecursiveSafeSubtractorMomentum_apply", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RecursiveSafeSubtractorMomentum_apply" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  ecode2 = SWIG_AsVal_double(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "RecursiveSafeSubtractorMomentum_apply" "', argument " "2"" of type '" "double""'");
+  } 
+  arg2 = static_cast< double >(val2);
+  ecode3 = SWIG_AsVal_double(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "RecursiveSafeSubtractorMomentum_apply" "', argument " "3"" of type '" "double""'");
+  } 
+  arg3 = static_cast< double >(val3);
+  if (obj3) {
+    ecode4 = SWIG_AsVal_int(obj3, &val4);
+    if (!SWIG_IsOK(ecode4)) {
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "RecursiveSafeSubtractorMomentum_apply" "', argument " "4"" of type '" "int""'");
+    } 
+    arg4 = static_cast< int >(val4);
+  }
+  {
+    try {
+      result = fastjet_contrib_piranha_RecursiveSafeSubtractor_Sl_emd_Momentum_Sg__apply(arg1,arg2,arg3,arg4); 
+    }
+    CATCH_STD_INVALID_ARGUMENT
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = swig::from(static_cast< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_RecursiveSafeSubtractorMomentum(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *arg1 = (fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_RecursiveSafeSubtractorMomentum" "', argument " "1"" of type '" "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > * >(argp1);
+  {
+    try {
+      delete arg1; 
+    }
+    CATCH_STD_RUNTIME_ERROR
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *RecursiveSafeSubtractorMomentum_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *RecursiveSafeSubtractorMomentum_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 static PyMethodDef SwigMethods[] = {
 	 { "SWIG_PyInstanceMethod_New", SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { "SWIG_PyStaticMethod_New", SWIG_PyStaticMethod_New, METH_O, NULL},
@@ -24944,6 +32962,22 @@ static PyMethodDef SwigMethods[] = {
 	 { "SwigPyIterator___add__", (PyCFunction)(void(*)(void))_wrap_SwigPyIterator___add__, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, NULL},
 	 { "SwigPyIterator_swigregister", SwigPyIterator_swigregister, METH_O, NULL},
+	 { "new_pairDouble", _wrap_new_pairDouble, METH_VARARGS, NULL},
+	 { "pairDouble_first_set", _wrap_pairDouble_first_set, METH_VARARGS, NULL},
+	 { "pairDouble_first_get", _wrap_pairDouble_first_get, METH_O, NULL},
+	 { "pairDouble_second_set", _wrap_pairDouble_second_set, METH_VARARGS, NULL},
+	 { "pairDouble_second_get", _wrap_pairDouble_second_get, METH_O, NULL},
+	 { "delete_pairDouble", _wrap_delete_pairDouble, METH_O, NULL},
+	 { "pairDouble_swigregister", pairDouble_swigregister, METH_O, NULL},
+	 { "pairDouble_swiginit", pairDouble_swiginit, METH_VARARGS, NULL},
+	 { "new_pairPairDouble", _wrap_new_pairPairDouble, METH_VARARGS, NULL},
+	 { "pairPairDouble_first_set", _wrap_pairPairDouble_first_set, METH_VARARGS, NULL},
+	 { "pairPairDouble_first_get", _wrap_pairPairDouble_first_get, METH_O, NULL},
+	 { "pairPairDouble_second_set", _wrap_pairPairDouble_second_set, METH_VARARGS, NULL},
+	 { "pairPairDouble_second_get", _wrap_pairPairDouble_second_get, METH_O, NULL},
+	 { "delete_pairPairDouble", _wrap_delete_pairPairDouble, METH_O, NULL},
+	 { "pairPairDouble_swigregister", pairPairDouble_swigregister, METH_O, NULL},
+	 { "pairPairDouble_swiginit", pairPairDouble_swiginit, METH_VARARGS, NULL},
 	 { "vectorVectorDouble_iterator", _wrap_vectorVectorDouble_iterator, METH_O, NULL},
 	 { "vectorVectorDouble___nonzero__", _wrap_vectorVectorDouble___nonzero__, METH_O, NULL},
 	 { "vectorVectorDouble___bool__", _wrap_vectorVectorDouble___bool__, METH_O, NULL},
@@ -25049,25 +33083,97 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_vectorVectorPseudoJet", _wrap_delete_vectorVectorPseudoJet, METH_O, NULL},
 	 { "vectorVectorPseudoJet_swigregister", vectorVectorPseudoJet_swigregister, METH_O, NULL},
 	 { "vectorVectorPseudoJet_swiginit", vectorVectorPseudoJet_swiginit, METH_VARARGS, NULL},
+	 { "vectorPairDouble_iterator", _wrap_vectorPairDouble_iterator, METH_O, NULL},
+	 { "vectorPairDouble___nonzero__", _wrap_vectorPairDouble___nonzero__, METH_O, NULL},
+	 { "vectorPairDouble___bool__", _wrap_vectorPairDouble___bool__, METH_O, NULL},
+	 { "vectorPairDouble___len__", _wrap_vectorPairDouble___len__, METH_O, NULL},
+	 { "vectorPairDouble___getslice__", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble___getslice__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble___setslice__", _wrap_vectorPairDouble___setslice__, METH_VARARGS, NULL},
+	 { "vectorPairDouble___delslice__", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble___delslice__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble___delitem__", _wrap_vectorPairDouble___delitem__, METH_VARARGS, NULL},
+	 { "vectorPairDouble___getitem__", _wrap_vectorPairDouble___getitem__, METH_VARARGS, NULL},
+	 { "vectorPairDouble___setitem__", _wrap_vectorPairDouble___setitem__, METH_VARARGS, NULL},
+	 { "vectorPairDouble_pop", _wrap_vectorPairDouble_pop, METH_O, NULL},
+	 { "vectorPairDouble_append", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_append, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_empty", _wrap_vectorPairDouble_empty, METH_O, NULL},
+	 { "vectorPairDouble_size", _wrap_vectorPairDouble_size, METH_O, NULL},
+	 { "vectorPairDouble_swap", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_swap, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_begin", _wrap_vectorPairDouble_begin, METH_O, NULL},
+	 { "vectorPairDouble_end", _wrap_vectorPairDouble_end, METH_O, NULL},
+	 { "vectorPairDouble_rbegin", _wrap_vectorPairDouble_rbegin, METH_O, NULL},
+	 { "vectorPairDouble_rend", _wrap_vectorPairDouble_rend, METH_O, NULL},
+	 { "vectorPairDouble_clear", _wrap_vectorPairDouble_clear, METH_O, NULL},
+	 { "vectorPairDouble_get_allocator", _wrap_vectorPairDouble_get_allocator, METH_O, NULL},
+	 { "vectorPairDouble_pop_back", _wrap_vectorPairDouble_pop_back, METH_O, NULL},
+	 { "vectorPairDouble_erase", _wrap_vectorPairDouble_erase, METH_VARARGS, NULL},
+	 { "new_vectorPairDouble", _wrap_new_vectorPairDouble, METH_VARARGS, NULL},
+	 { "vectorPairDouble_push_back", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_push_back, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_front", _wrap_vectorPairDouble_front, METH_O, NULL},
+	 { "vectorPairDouble_back", _wrap_vectorPairDouble_back, METH_O, NULL},
+	 { "vectorPairDouble_assign", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_assign, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_resize", _wrap_vectorPairDouble_resize, METH_VARARGS, NULL},
+	 { "vectorPairDouble_insert", _wrap_vectorPairDouble_insert, METH_VARARGS, NULL},
+	 { "vectorPairDouble_reserve", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_reserve, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_capacity", _wrap_vectorPairDouble_capacity, METH_O, NULL},
+	 { "delete_vectorPairDouble", _wrap_delete_vectorPairDouble, METH_O, NULL},
+	 { "vectorPairDouble_swigregister", vectorPairDouble_swigregister, METH_O, NULL},
+	 { "vectorPairDouble_swiginit", vectorPairDouble_swiginit, METH_VARARGS, NULL},
+	 { "vectorInt_iterator", _wrap_vectorInt_iterator, METH_O, NULL},
+	 { "vectorInt___nonzero__", _wrap_vectorInt___nonzero__, METH_O, NULL},
+	 { "vectorInt___bool__", _wrap_vectorInt___bool__, METH_O, NULL},
+	 { "vectorInt___len__", _wrap_vectorInt___len__, METH_O, NULL},
+	 { "vectorInt___getslice__", (PyCFunction)(void(*)(void))_wrap_vectorInt___getslice__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt___setslice__", _wrap_vectorInt___setslice__, METH_VARARGS, NULL},
+	 { "vectorInt___delslice__", (PyCFunction)(void(*)(void))_wrap_vectorInt___delslice__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt___delitem__", _wrap_vectorInt___delitem__, METH_VARARGS, NULL},
+	 { "vectorInt___getitem__", _wrap_vectorInt___getitem__, METH_VARARGS, NULL},
+	 { "vectorInt___setitem__", _wrap_vectorInt___setitem__, METH_VARARGS, NULL},
+	 { "vectorInt_pop", _wrap_vectorInt_pop, METH_O, NULL},
+	 { "vectorInt_append", (PyCFunction)(void(*)(void))_wrap_vectorInt_append, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_empty", _wrap_vectorInt_empty, METH_O, NULL},
+	 { "vectorInt_size", _wrap_vectorInt_size, METH_O, NULL},
+	 { "vectorInt_swap", (PyCFunction)(void(*)(void))_wrap_vectorInt_swap, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_begin", _wrap_vectorInt_begin, METH_O, NULL},
+	 { "vectorInt_end", _wrap_vectorInt_end, METH_O, NULL},
+	 { "vectorInt_rbegin", _wrap_vectorInt_rbegin, METH_O, NULL},
+	 { "vectorInt_rend", _wrap_vectorInt_rend, METH_O, NULL},
+	 { "vectorInt_clear", _wrap_vectorInt_clear, METH_O, NULL},
+	 { "vectorInt_get_allocator", _wrap_vectorInt_get_allocator, METH_O, NULL},
+	 { "vectorInt_pop_back", _wrap_vectorInt_pop_back, METH_O, NULL},
+	 { "vectorInt_erase", _wrap_vectorInt_erase, METH_VARARGS, NULL},
+	 { "new_vectorInt", _wrap_new_vectorInt, METH_VARARGS, NULL},
+	 { "vectorInt_push_back", (PyCFunction)(void(*)(void))_wrap_vectorInt_push_back, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_front", _wrap_vectorInt_front, METH_O, NULL},
+	 { "vectorInt_back", _wrap_vectorInt_back, METH_O, NULL},
+	 { "vectorInt_assign", (PyCFunction)(void(*)(void))_wrap_vectorInt_assign, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_resize", _wrap_vectorInt_resize, METH_VARARGS, NULL},
+	 { "vectorInt_insert", _wrap_vectorInt_insert, METH_VARARGS, NULL},
+	 { "vectorInt_reserve", (PyCFunction)(void(*)(void))_wrap_vectorInt_reserve, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_capacity", _wrap_vectorInt_capacity, METH_O, NULL},
+	 { "delete_vectorInt", _wrap_delete_vectorInt, METH_O, NULL},
+	 { "vectorInt_swigregister", vectorInt_swigregister, METH_O, NULL},
+	 { "vectorInt_swiginit", vectorInt_swiginit, METH_VARARGS, NULL},
 	 { "phi_fix", (PyCFunction)(void(*)(void))_wrap_phi_fix, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "new_PiranhaError", _wrap_new_PiranhaError, METH_VARARGS, NULL},
-	 { "delete_PiranhaError", _wrap_delete_PiranhaError, METH_O, NULL},
-	 { "PiranhaError_swigregister", PiranhaError_swigregister, METH_O, NULL},
-	 { "PiranhaError_swiginit", PiranhaError_swiginit, METH_VARARGS, NULL},
 	 { "delete_DynamicVoronoiBase", _wrap_delete_DynamicVoronoiBase, METH_O, NULL},
+	 { "DynamicVoronoiBase_description", _wrap_DynamicVoronoiBase_description, METH_O, NULL},
 	 { "DynamicVoronoiBase_set_subtraction_type", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_set_subtraction_type, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiBase_set_R", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_set_R, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "DynamicVoronoiBase_description", _wrap_DynamicVoronoiBase_description, METH_O, NULL},
-	 { "DynamicVoronoiBase___call__", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase___call__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "DynamicVoronoiBase_subtraction_type", _wrap_DynamicVoronoiBase_subtraction_type, METH_O, NULL},
+	 { "DynamicVoronoiBase_track_emds", _wrap_DynamicVoronoiBase_track_emds, METH_O, NULL},
+	 { "DynamicVoronoiBase_R", _wrap_DynamicVoronoiBase_R, METH_O, NULL},
+	 { "DynamicVoronoiBase___call__", _wrap_DynamicVoronoiBase___call__, METH_VARARGS, NULL},
+	 { "DynamicVoronoiBase_valid_point", _wrap_DynamicVoronoiBase_valid_point, METH_VARARGS, NULL},
 	 { "DynamicVoronoiBase_number_of_primary_delaunay_vertices", _wrap_DynamicVoronoiBase_number_of_primary_delaunay_vertices, METH_O, NULL},
 	 { "DynamicVoronoiBase_total_area", _wrap_DynamicVoronoiBase_total_area, METH_O, NULL},
 	 { "DynamicVoronoiBase_areas", _wrap_DynamicVoronoiBase_areas, METH_O, NULL},
 	 { "DynamicVoronoiBase_area", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_area, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "DynamicVoronoiBase_coincidences", _wrap_DynamicVoronoiBase_coincidences, METH_O, NULL},
 	 { "DynamicVoronoiBase_emd_density", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_emd_density, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiBase_neighbors", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_neighbors, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "DynamicVoronoiBase_vertex_is_primary_and_active", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_vertex_is_primary_and_active, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiBase_swigregister", DynamicVoronoiBase_swigregister, METH_O, NULL},
 	 { "new_DynamicVoronoiCylinder", _wrap_new_DynamicVoronoiCylinder, METH_VARARGS, NULL},
-	 { "DynamicVoronoiCylinder_total_area", _wrap_DynamicVoronoiCylinder_total_area, METH_O, NULL},
+	 { "DynamicVoronoiCylinder_primary_region", _wrap_DynamicVoronoiCylinder_primary_region, METH_O, NULL},
 	 { "DynamicVoronoiCylinder_valid_point", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiCylinder_valid_point, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiCylinder_neighbors", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiCylinder_neighbors, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiCylinder_remove", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiCylinder_remove, METH_VARARGS|METH_KEYWORDS, NULL},
@@ -25079,7 +33185,6 @@ static PyMethodDef SwigMethods[] = {
 	 { "DynamicVoronoiDisk_set_center", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiDisk_set_center, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiDisk_x0", _wrap_DynamicVoronoiDisk_x0, METH_O, NULL},
 	 { "DynamicVoronoiDisk_y0", _wrap_DynamicVoronoiDisk_y0, METH_O, NULL},
-	 { "DynamicVoronoiDisk_total_area", _wrap_DynamicVoronoiDisk_total_area, METH_O, NULL},
 	 { "DynamicVoronoiDisk_valid_point", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiDisk_valid_point, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiDisk_remove", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiDisk_remove, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "delete_DynamicVoronoiDisk", _wrap_delete_DynamicVoronoiDisk, METH_O, NULL},
@@ -25098,13 +33203,18 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_GhostGridBase", _wrap_new_GhostGridBase, METH_VARARGS, NULL},
 	 { "delete_GhostGridBase", _wrap_delete_GhostGridBase, METH_O, NULL},
 	 { "GhostGridBase_description", _wrap_GhostGridBase_description, METH_O, NULL},
+	 { "GhostGridBase_drap", _wrap_GhostGridBase_drap, METH_O, NULL},
+	 { "GhostGridBase_dphi", _wrap_GhostGridBase_dphi, METH_O, NULL},
+	 { "GhostGridBase_nrap", _wrap_GhostGridBase_nrap, METH_O, NULL},
+	 { "GhostGridBase_nphi", _wrap_GhostGridBase_nphi, METH_O, NULL},
+	 { "GhostGridBase_points", _wrap_GhostGridBase_points, METH_O, NULL},
+	 { "GhostGridBase_ghosts", _wrap_GhostGridBase_ghosts, METH_O, NULL},
 	 { "GhostGridBase_nghosts", _wrap_GhostGridBase_nghosts, METH_O, NULL},
-	 { "GhostGridBase_ghosts_with_total_pt", (PyCFunction)(void(*)(void))_wrap_GhostGridBase_ghosts_with_total_pt, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "GhostGridBase_ghosts_with_pt", (PyCFunction)(void(*)(void))_wrap_GhostGridBase_ghosts_with_pt, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "GhostGridBase_swigregister", GhostGridBase_swigregister, METH_O, NULL},
 	 { "GhostGridBase_swiginit", GhostGridBase_swiginit, METH_VARARGS, NULL},
 	 { "new_GhostGridRectangle", _wrap_new_GhostGridRectangle, METH_VARARGS, NULL},
 	 { "GhostGridRectangle_description", _wrap_GhostGridRectangle_description, METH_O, NULL},
+	 { "GhostGridRectangle_region", _wrap_GhostGridRectangle_region, METH_O, NULL},
 	 { "GhostGridRectangle___str__", _wrap_GhostGridRectangle___str__, METH_O, NULL},
 	 { "GhostGridRectangle___repr__", _wrap_GhostGridRectangle___repr__, METH_O, NULL},
 	 { "delete_GhostGridRectangle", _wrap_delete_GhostGridRectangle, METH_O, NULL},
@@ -25112,32 +33222,36 @@ static PyMethodDef SwigMethods[] = {
 	 { "GhostGridRectangle_swiginit", GhostGridRectangle_swiginit, METH_VARARGS, NULL},
 	 { "new_GhostGridDisk", _wrap_new_GhostGridDisk, METH_VARARGS, NULL},
 	 { "GhostGridDisk_description", _wrap_GhostGridDisk_description, METH_O, NULL},
+	 { "GhostGridDisk_R", _wrap_GhostGridDisk_R, METH_O, NULL},
 	 { "GhostGridDisk___str__", _wrap_GhostGridDisk___str__, METH_O, NULL},
 	 { "GhostGridDisk___repr__", _wrap_GhostGridDisk___repr__, METH_O, NULL},
 	 { "delete_GhostGridDisk", _wrap_delete_GhostGridDisk, METH_O, NULL},
 	 { "GhostGridDisk_swigregister", GhostGridDisk_swigregister, METH_O, NULL},
 	 { "GhostGridDisk_swiginit", GhostGridDisk_swiginit, METH_VARARGS, NULL},
-	 { "new_RecursiveSafeSubtractor", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractor, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "RecursiveSafeSubtractor_description", _wrap_RecursiveSafeSubtractor_description, METH_O, NULL},
-	 { "RecursiveSafeSubtractor___str__", _wrap_RecursiveSafeSubtractor___str__, METH_O, NULL},
-	 { "RecursiveSafeSubtractor___repr__", _wrap_RecursiveSafeSubtractor___repr__, METH_O, NULL},
-	 { "RecursiveSafeSubtractor___call__", _wrap_RecursiveSafeSubtractor___call__, METH_VARARGS, NULL},
-	 { "RecursiveSafeSubtractor_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractor_apply, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "delete_RecursiveSafeSubtractor", _wrap_delete_RecursiveSafeSubtractor, METH_O, NULL},
-	 { "RecursiveSafeSubtractor_swigregister", RecursiveSafeSubtractor_swigregister, METH_O, NULL},
-	 { "RecursiveSafeSubtractor_swiginit", RecursiveSafeSubtractor_swiginit, METH_VARARGS, NULL},
 	 { "new_IteratedVoronoiSubtractorDiskBase", _wrap_new_IteratedVoronoiSubtractorDiskBase, METH_NOARGS, NULL},
 	 { "delete_IteratedVoronoiSubtractorDiskBase", _wrap_delete_IteratedVoronoiSubtractorDiskBase, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_description", _wrap_IteratedVoronoiSubtractorDiskBase_description, METH_O, NULL},
-	 { "IteratedVoronoiSubtractorDiskBase_set_background_estimator", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_background_estimator, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_z", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_z, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_zpt", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_zpt, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_zemd", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_zemd, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_set_background_estimator", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_background_estimator, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_set_rho_subtraction_mode", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_rho_subtraction_mode, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_subtraction_type", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_subtraction_type, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_R", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_R, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_allow_repeats", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_allow_repeats, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_store_history", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_store_history, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_zpt", _wrap_IteratedVoronoiSubtractorDiskBase_zpt, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_zemd", _wrap_IteratedVoronoiSubtractorDiskBase_zemd, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_background_estimator", _wrap_IteratedVoronoiSubtractorDiskBase_background_estimator, METH_VARARGS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_jet_constituents_use_same_rho", _wrap_IteratedVoronoiSubtractorDiskBase_jet_constituents_use_same_rho, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_rho_subtraction_mode", _wrap_IteratedVoronoiSubtractorDiskBase_rho_subtraction_mode, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_track_emds", _wrap_IteratedVoronoiSubtractorDiskBase_track_emds, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_total_area", _wrap_IteratedVoronoiSubtractorDiskBase_total_area, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_subtraction_type", _wrap_IteratedVoronoiSubtractorDiskBase_subtraction_type, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_R", _wrap_IteratedVoronoiSubtractorDiskBase_R, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_allow_repeats", _wrap_IteratedVoronoiSubtractorDiskBase_allow_repeats, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_store_history", _wrap_IteratedVoronoiSubtractorDiskBase_store_history, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_vor", _wrap_IteratedVoronoiSubtractorDiskBase_vor, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_reapply", _wrap_IteratedVoronoiSubtractorDiskBase_reapply, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_emd", _wrap_IteratedVoronoiSubtractorDiskBase_emd, METH_O, NULL},
@@ -25153,15 +33267,27 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_IteratedVoronoiSubtractorCylinderBase", _wrap_new_IteratedVoronoiSubtractorCylinderBase, METH_NOARGS, NULL},
 	 { "delete_IteratedVoronoiSubtractorCylinderBase", _wrap_delete_IteratedVoronoiSubtractorCylinderBase, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_description", _wrap_IteratedVoronoiSubtractorCylinderBase_description, METH_O, NULL},
-	 { "IteratedVoronoiSubtractorCylinderBase_set_background_estimator", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_background_estimator, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_z", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_z, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_zpt", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_zpt, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_zemd", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_zemd, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_set_background_estimator", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_background_estimator, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_set_rho_subtraction_mode", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_rho_subtraction_mode, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_subtraction_type", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_subtraction_type, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_R", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_R, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_allow_repeats", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_allow_repeats, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_store_history", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_store_history, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_zpt", _wrap_IteratedVoronoiSubtractorCylinderBase_zpt, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_zemd", _wrap_IteratedVoronoiSubtractorCylinderBase_zemd, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_background_estimator", _wrap_IteratedVoronoiSubtractorCylinderBase_background_estimator, METH_VARARGS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_jet_constituents_use_same_rho", _wrap_IteratedVoronoiSubtractorCylinderBase_jet_constituents_use_same_rho, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_rho_subtraction_mode", _wrap_IteratedVoronoiSubtractorCylinderBase_rho_subtraction_mode, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_track_emds", _wrap_IteratedVoronoiSubtractorCylinderBase_track_emds, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_total_area", _wrap_IteratedVoronoiSubtractorCylinderBase_total_area, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_subtraction_type", _wrap_IteratedVoronoiSubtractorCylinderBase_subtraction_type, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_R", _wrap_IteratedVoronoiSubtractorCylinderBase_R, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_allow_repeats", _wrap_IteratedVoronoiSubtractorCylinderBase_allow_repeats, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_store_history", _wrap_IteratedVoronoiSubtractorCylinderBase_store_history, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_vor", _wrap_IteratedVoronoiSubtractorCylinderBase_vor, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_reapply", _wrap_IteratedVoronoiSubtractorCylinderBase_reapply, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_emd", _wrap_IteratedVoronoiSubtractorCylinderBase_emd, METH_O, NULL},
@@ -25177,6 +33303,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorTransverseMomentumDeltaR", _wrap_new_OptimalTransportSubtractorTransverseMomentumDeltaR, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR_description", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR_emd_obj", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseMomentumDeltaR_z", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR_total_subtracted", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR___call__", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR___str__", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR___str__, METH_O, NULL},
@@ -25187,6 +33314,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorTransverseMomentumHadronicDot", _wrap_new_OptimalTransportSubtractorTransverseMomentumHadronicDot, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot_description", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot_emd_obj", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot_z", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot_total_subtracted", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot___call__", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot___str__", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot___str__, METH_O, NULL},
@@ -25197,6 +33325,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive", _wrap_new_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_description", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_emd_obj", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_z", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_total_subtracted", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___call__", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___str__", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___str__, METH_O, NULL},
@@ -25207,6 +33336,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorTransverseEnergyDeltaR", _wrap_new_OptimalTransportSubtractorTransverseEnergyDeltaR, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR_description", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR_emd_obj", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseEnergyDeltaR_z", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR_total_subtracted", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR___call__", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR___str__", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR___str__, METH_O, NULL},
@@ -25217,6 +33347,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorTransverseEnergyHadronicDot", _wrap_new_OptimalTransportSubtractorTransverseEnergyHadronicDot, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot_description", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot_emd_obj", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot_z", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot_total_subtracted", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot___call__", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot___str__", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot___str__, METH_O, NULL},
@@ -25227,6 +33358,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive", _wrap_new_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_description", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_emd_obj", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_z", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_total_subtracted", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___call__", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___str__", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___str__, METH_O, NULL},
@@ -25237,6 +33369,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorMomentumEEDot", _wrap_new_OptimalTransportSubtractorMomentumEEDot, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot_description", _wrap_OptimalTransportSubtractorMomentumEEDot_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot_emd_obj", _wrap_OptimalTransportSubtractorMomentumEEDot_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorMomentumEEDot_z", _wrap_OptimalTransportSubtractorMomentumEEDot_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot_total_subtracted", _wrap_OptimalTransportSubtractorMomentumEEDot_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot___call__", _wrap_OptimalTransportSubtractorMomentumEEDot___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot___str__", _wrap_OptimalTransportSubtractorMomentumEEDot___str__, METH_O, NULL},
@@ -25247,6 +33380,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorMomentumEEDotMassive", _wrap_new_OptimalTransportSubtractorMomentumEEDotMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive_description", _wrap_OptimalTransportSubtractorMomentumEEDotMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive_emd_obj", _wrap_OptimalTransportSubtractorMomentumEEDotMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorMomentumEEDotMassive_z", _wrap_OptimalTransportSubtractorMomentumEEDotMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive_total_subtracted", _wrap_OptimalTransportSubtractorMomentumEEDotMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive___call__", _wrap_OptimalTransportSubtractorMomentumEEDotMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive___str__", _wrap_OptimalTransportSubtractorMomentumEEDotMassive___str__, METH_O, NULL},
@@ -25257,6 +33391,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorMomentumEEArcLength", _wrap_new_OptimalTransportSubtractorMomentumEEArcLength, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength_description", _wrap_OptimalTransportSubtractorMomentumEEArcLength_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength_emd_obj", _wrap_OptimalTransportSubtractorMomentumEEArcLength_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorMomentumEEArcLength_z", _wrap_OptimalTransportSubtractorMomentumEEArcLength_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength_total_subtracted", _wrap_OptimalTransportSubtractorMomentumEEArcLength_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength___call__", _wrap_OptimalTransportSubtractorMomentumEEArcLength___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength___str__", _wrap_OptimalTransportSubtractorMomentumEEArcLength___str__, METH_O, NULL},
@@ -25267,6 +33402,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorMomentumEEArcLengthMassive", _wrap_new_OptimalTransportSubtractorMomentumEEArcLengthMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive_description", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive_emd_obj", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive_z", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive_total_subtracted", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive___call__", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive___str__", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive___str__, METH_O, NULL},
@@ -25277,6 +33413,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorEnergyEEDot", _wrap_new_OptimalTransportSubtractorEnergyEEDot, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot_description", _wrap_OptimalTransportSubtractorEnergyEEDot_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot_emd_obj", _wrap_OptimalTransportSubtractorEnergyEEDot_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorEnergyEEDot_z", _wrap_OptimalTransportSubtractorEnergyEEDot_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot_total_subtracted", _wrap_OptimalTransportSubtractorEnergyEEDot_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot___call__", _wrap_OptimalTransportSubtractorEnergyEEDot___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot___str__", _wrap_OptimalTransportSubtractorEnergyEEDot___str__, METH_O, NULL},
@@ -25287,6 +33424,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorEnergyEEDotMassive", _wrap_new_OptimalTransportSubtractorEnergyEEDotMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive_description", _wrap_OptimalTransportSubtractorEnergyEEDotMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive_emd_obj", _wrap_OptimalTransportSubtractorEnergyEEDotMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorEnergyEEDotMassive_z", _wrap_OptimalTransportSubtractorEnergyEEDotMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive_total_subtracted", _wrap_OptimalTransportSubtractorEnergyEEDotMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive___call__", _wrap_OptimalTransportSubtractorEnergyEEDotMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive___str__", _wrap_OptimalTransportSubtractorEnergyEEDotMassive___str__, METH_O, NULL},
@@ -25297,6 +33435,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorEnergyEEArcLength", _wrap_new_OptimalTransportSubtractorEnergyEEArcLength, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength_description", _wrap_OptimalTransportSubtractorEnergyEEArcLength_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength_emd_obj", _wrap_OptimalTransportSubtractorEnergyEEArcLength_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorEnergyEEArcLength_z", _wrap_OptimalTransportSubtractorEnergyEEArcLength_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength_total_subtracted", _wrap_OptimalTransportSubtractorEnergyEEArcLength_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength___call__", _wrap_OptimalTransportSubtractorEnergyEEArcLength___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength___str__", _wrap_OptimalTransportSubtractorEnergyEEArcLength___str__, METH_O, NULL},
@@ -25307,6 +33446,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "new_OptimalTransportSubtractorEnergyEEArcLengthMassive", _wrap_new_OptimalTransportSubtractorEnergyEEArcLengthMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive_description", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive_emd_obj", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive_z", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive_total_subtracted", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive___call__", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive___str__", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive___str__, METH_O, NULL},
@@ -25324,6 +33464,66 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_IteratedVoronoiSubtractorDisk", _wrap_delete_IteratedVoronoiSubtractorDisk, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDisk_swigregister", IteratedVoronoiSubtractorDisk_swigregister, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDisk_swiginit", IteratedVoronoiSubtractorDisk_swiginit, METH_VARARGS, NULL},
+	 { "new_RecursiveSafeSubtractorTransverseMomentum", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractorTransverseMomentum, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_description", _wrap_RecursiveSafeSubtractorTransverseMomentum_description, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_default_z", _wrap_RecursiveSafeSubtractorTransverseMomentum_default_z, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_default_f", _wrap_RecursiveSafeSubtractorTransverseMomentum_default_f, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_jet_alg", _wrap_RecursiveSafeSubtractorTransverseMomentum_jet_alg, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_weight_sums", _wrap_RecursiveSafeSubtractorTransverseMomentum_weight_sums, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_total_weight", _wrap_RecursiveSafeSubtractorTransverseMomentum_total_weight, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_reclustered_jet", _wrap_RecursiveSafeSubtractorTransverseMomentum_reclustered_jet, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum___str__", _wrap_RecursiveSafeSubtractorTransverseMomentum___str__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum___repr__", _wrap_RecursiveSafeSubtractorTransverseMomentum___repr__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum___call__", _wrap_RecursiveSafeSubtractorTransverseMomentum___call__, METH_VARARGS, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractorTransverseMomentum_apply, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "delete_RecursiveSafeSubtractorTransverseMomentum", _wrap_delete_RecursiveSafeSubtractorTransverseMomentum, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_swigregister", RecursiveSafeSubtractorTransverseMomentum_swigregister, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_swiginit", RecursiveSafeSubtractorTransverseMomentum_swiginit, METH_VARARGS, NULL},
+	 { "new_RecursiveSafeSubtractorTransverseEnergy", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractorTransverseEnergy, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_description", _wrap_RecursiveSafeSubtractorTransverseEnergy_description, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_default_z", _wrap_RecursiveSafeSubtractorTransverseEnergy_default_z, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_default_f", _wrap_RecursiveSafeSubtractorTransverseEnergy_default_f, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_jet_alg", _wrap_RecursiveSafeSubtractorTransverseEnergy_jet_alg, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_weight_sums", _wrap_RecursiveSafeSubtractorTransverseEnergy_weight_sums, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_total_weight", _wrap_RecursiveSafeSubtractorTransverseEnergy_total_weight, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_reclustered_jet", _wrap_RecursiveSafeSubtractorTransverseEnergy_reclustered_jet, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy___str__", _wrap_RecursiveSafeSubtractorTransverseEnergy___str__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy___repr__", _wrap_RecursiveSafeSubtractorTransverseEnergy___repr__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy___call__", _wrap_RecursiveSafeSubtractorTransverseEnergy___call__, METH_VARARGS, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractorTransverseEnergy_apply, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "delete_RecursiveSafeSubtractorTransverseEnergy", _wrap_delete_RecursiveSafeSubtractorTransverseEnergy, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_swigregister", RecursiveSafeSubtractorTransverseEnergy_swigregister, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_swiginit", RecursiveSafeSubtractorTransverseEnergy_swiginit, METH_VARARGS, NULL},
+	 { "new_RecursiveSafeSubtractorEnergy", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractorEnergy, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "RecursiveSafeSubtractorEnergy_description", _wrap_RecursiveSafeSubtractorEnergy_description, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_default_z", _wrap_RecursiveSafeSubtractorEnergy_default_z, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_default_f", _wrap_RecursiveSafeSubtractorEnergy_default_f, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_jet_alg", _wrap_RecursiveSafeSubtractorEnergy_jet_alg, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_weight_sums", _wrap_RecursiveSafeSubtractorEnergy_weight_sums, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_total_weight", _wrap_RecursiveSafeSubtractorEnergy_total_weight, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_reclustered_jet", _wrap_RecursiveSafeSubtractorEnergy_reclustered_jet, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy___str__", _wrap_RecursiveSafeSubtractorEnergy___str__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy___repr__", _wrap_RecursiveSafeSubtractorEnergy___repr__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy___call__", _wrap_RecursiveSafeSubtractorEnergy___call__, METH_VARARGS, NULL},
+	 { "RecursiveSafeSubtractorEnergy_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractorEnergy_apply, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "delete_RecursiveSafeSubtractorEnergy", _wrap_delete_RecursiveSafeSubtractorEnergy, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_swigregister", RecursiveSafeSubtractorEnergy_swigregister, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_swiginit", RecursiveSafeSubtractorEnergy_swiginit, METH_VARARGS, NULL},
+	 { "new_RecursiveSafeSubtractorMomentum", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractorMomentum, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "RecursiveSafeSubtractorMomentum_description", _wrap_RecursiveSafeSubtractorMomentum_description, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_default_z", _wrap_RecursiveSafeSubtractorMomentum_default_z, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_default_f", _wrap_RecursiveSafeSubtractorMomentum_default_f, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_jet_alg", _wrap_RecursiveSafeSubtractorMomentum_jet_alg, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_weight_sums", _wrap_RecursiveSafeSubtractorMomentum_weight_sums, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_total_weight", _wrap_RecursiveSafeSubtractorMomentum_total_weight, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_reclustered_jet", _wrap_RecursiveSafeSubtractorMomentum_reclustered_jet, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum___str__", _wrap_RecursiveSafeSubtractorMomentum___str__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum___repr__", _wrap_RecursiveSafeSubtractorMomentum___repr__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum___call__", _wrap_RecursiveSafeSubtractorMomentum___call__, METH_VARARGS, NULL},
+	 { "RecursiveSafeSubtractorMomentum_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractorMomentum_apply, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "delete_RecursiveSafeSubtractorMomentum", _wrap_delete_RecursiveSafeSubtractorMomentum, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_swigregister", RecursiveSafeSubtractorMomentum_swigregister, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_swiginit", RecursiveSafeSubtractorMomentum_swiginit, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -25348,6 +33548,22 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "SwigPyIterator___add__", (PyCFunction)(void(*)(void))_wrap_SwigPyIterator___add__, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, NULL},
 	 { "SwigPyIterator_swigregister", SwigPyIterator_swigregister, METH_O, NULL},
+	 { "new_pairDouble", _wrap_new_pairDouble, METH_VARARGS, NULL},
+	 { "pairDouble_first_set", _wrap_pairDouble_first_set, METH_VARARGS, NULL},
+	 { "pairDouble_first_get", _wrap_pairDouble_first_get, METH_O, NULL},
+	 { "pairDouble_second_set", _wrap_pairDouble_second_set, METH_VARARGS, NULL},
+	 { "pairDouble_second_get", _wrap_pairDouble_second_get, METH_O, NULL},
+	 { "delete_pairDouble", _wrap_delete_pairDouble, METH_O, NULL},
+	 { "pairDouble_swigregister", pairDouble_swigregister, METH_O, NULL},
+	 { "pairDouble_swiginit", pairDouble_swiginit, METH_VARARGS, NULL},
+	 { "new_pairPairDouble", _wrap_new_pairPairDouble, METH_VARARGS, NULL},
+	 { "pairPairDouble_first_set", _wrap_pairPairDouble_first_set, METH_VARARGS, NULL},
+	 { "pairPairDouble_first_get", _wrap_pairPairDouble_first_get, METH_O, NULL},
+	 { "pairPairDouble_second_set", _wrap_pairPairDouble_second_set, METH_VARARGS, NULL},
+	 { "pairPairDouble_second_get", _wrap_pairPairDouble_second_get, METH_O, NULL},
+	 { "delete_pairPairDouble", _wrap_delete_pairPairDouble, METH_O, NULL},
+	 { "pairPairDouble_swigregister", pairPairDouble_swigregister, METH_O, NULL},
+	 { "pairPairDouble_swiginit", pairPairDouble_swiginit, METH_VARARGS, NULL},
 	 { "vectorVectorDouble_iterator", _wrap_vectorVectorDouble_iterator, METH_O, NULL},
 	 { "vectorVectorDouble___nonzero__", _wrap_vectorVectorDouble___nonzero__, METH_O, NULL},
 	 { "vectorVectorDouble___bool__", _wrap_vectorVectorDouble___bool__, METH_O, NULL},
@@ -25453,25 +33669,97 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "delete_vectorVectorPseudoJet", _wrap_delete_vectorVectorPseudoJet, METH_O, NULL},
 	 { "vectorVectorPseudoJet_swigregister", vectorVectorPseudoJet_swigregister, METH_O, NULL},
 	 { "vectorVectorPseudoJet_swiginit", vectorVectorPseudoJet_swiginit, METH_VARARGS, NULL},
+	 { "vectorPairDouble_iterator", _wrap_vectorPairDouble_iterator, METH_O, NULL},
+	 { "vectorPairDouble___nonzero__", _wrap_vectorPairDouble___nonzero__, METH_O, NULL},
+	 { "vectorPairDouble___bool__", _wrap_vectorPairDouble___bool__, METH_O, NULL},
+	 { "vectorPairDouble___len__", _wrap_vectorPairDouble___len__, METH_O, NULL},
+	 { "vectorPairDouble___getslice__", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble___getslice__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble___setslice__", _wrap_vectorPairDouble___setslice__, METH_VARARGS, NULL},
+	 { "vectorPairDouble___delslice__", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble___delslice__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble___delitem__", _wrap_vectorPairDouble___delitem__, METH_VARARGS, NULL},
+	 { "vectorPairDouble___getitem__", _wrap_vectorPairDouble___getitem__, METH_VARARGS, NULL},
+	 { "vectorPairDouble___setitem__", _wrap_vectorPairDouble___setitem__, METH_VARARGS, NULL},
+	 { "vectorPairDouble_pop", _wrap_vectorPairDouble_pop, METH_O, NULL},
+	 { "vectorPairDouble_append", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_append, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_empty", _wrap_vectorPairDouble_empty, METH_O, NULL},
+	 { "vectorPairDouble_size", _wrap_vectorPairDouble_size, METH_O, NULL},
+	 { "vectorPairDouble_swap", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_swap, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_begin", _wrap_vectorPairDouble_begin, METH_O, NULL},
+	 { "vectorPairDouble_end", _wrap_vectorPairDouble_end, METH_O, NULL},
+	 { "vectorPairDouble_rbegin", _wrap_vectorPairDouble_rbegin, METH_O, NULL},
+	 { "vectorPairDouble_rend", _wrap_vectorPairDouble_rend, METH_O, NULL},
+	 { "vectorPairDouble_clear", _wrap_vectorPairDouble_clear, METH_O, NULL},
+	 { "vectorPairDouble_get_allocator", _wrap_vectorPairDouble_get_allocator, METH_O, NULL},
+	 { "vectorPairDouble_pop_back", _wrap_vectorPairDouble_pop_back, METH_O, NULL},
+	 { "vectorPairDouble_erase", _wrap_vectorPairDouble_erase, METH_VARARGS, NULL},
+	 { "new_vectorPairDouble", _wrap_new_vectorPairDouble, METH_VARARGS, NULL},
+	 { "vectorPairDouble_push_back", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_push_back, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_front", _wrap_vectorPairDouble_front, METH_O, NULL},
+	 { "vectorPairDouble_back", _wrap_vectorPairDouble_back, METH_O, NULL},
+	 { "vectorPairDouble_assign", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_assign, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_resize", _wrap_vectorPairDouble_resize, METH_VARARGS, NULL},
+	 { "vectorPairDouble_insert", _wrap_vectorPairDouble_insert, METH_VARARGS, NULL},
+	 { "vectorPairDouble_reserve", (PyCFunction)(void(*)(void))_wrap_vectorPairDouble_reserve, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorPairDouble_capacity", _wrap_vectorPairDouble_capacity, METH_O, NULL},
+	 { "delete_vectorPairDouble", _wrap_delete_vectorPairDouble, METH_O, NULL},
+	 { "vectorPairDouble_swigregister", vectorPairDouble_swigregister, METH_O, NULL},
+	 { "vectorPairDouble_swiginit", vectorPairDouble_swiginit, METH_VARARGS, NULL},
+	 { "vectorInt_iterator", _wrap_vectorInt_iterator, METH_O, NULL},
+	 { "vectorInt___nonzero__", _wrap_vectorInt___nonzero__, METH_O, NULL},
+	 { "vectorInt___bool__", _wrap_vectorInt___bool__, METH_O, NULL},
+	 { "vectorInt___len__", _wrap_vectorInt___len__, METH_O, NULL},
+	 { "vectorInt___getslice__", (PyCFunction)(void(*)(void))_wrap_vectorInt___getslice__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt___setslice__", _wrap_vectorInt___setslice__, METH_VARARGS, NULL},
+	 { "vectorInt___delslice__", (PyCFunction)(void(*)(void))_wrap_vectorInt___delslice__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt___delitem__", _wrap_vectorInt___delitem__, METH_VARARGS, NULL},
+	 { "vectorInt___getitem__", _wrap_vectorInt___getitem__, METH_VARARGS, NULL},
+	 { "vectorInt___setitem__", _wrap_vectorInt___setitem__, METH_VARARGS, NULL},
+	 { "vectorInt_pop", _wrap_vectorInt_pop, METH_O, NULL},
+	 { "vectorInt_append", (PyCFunction)(void(*)(void))_wrap_vectorInt_append, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_empty", _wrap_vectorInt_empty, METH_O, NULL},
+	 { "vectorInt_size", _wrap_vectorInt_size, METH_O, NULL},
+	 { "vectorInt_swap", (PyCFunction)(void(*)(void))_wrap_vectorInt_swap, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_begin", _wrap_vectorInt_begin, METH_O, NULL},
+	 { "vectorInt_end", _wrap_vectorInt_end, METH_O, NULL},
+	 { "vectorInt_rbegin", _wrap_vectorInt_rbegin, METH_O, NULL},
+	 { "vectorInt_rend", _wrap_vectorInt_rend, METH_O, NULL},
+	 { "vectorInt_clear", _wrap_vectorInt_clear, METH_O, NULL},
+	 { "vectorInt_get_allocator", _wrap_vectorInt_get_allocator, METH_O, NULL},
+	 { "vectorInt_pop_back", _wrap_vectorInt_pop_back, METH_O, NULL},
+	 { "vectorInt_erase", _wrap_vectorInt_erase, METH_VARARGS, NULL},
+	 { "new_vectorInt", _wrap_new_vectorInt, METH_VARARGS, NULL},
+	 { "vectorInt_push_back", (PyCFunction)(void(*)(void))_wrap_vectorInt_push_back, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_front", _wrap_vectorInt_front, METH_O, NULL},
+	 { "vectorInt_back", _wrap_vectorInt_back, METH_O, NULL},
+	 { "vectorInt_assign", (PyCFunction)(void(*)(void))_wrap_vectorInt_assign, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_resize", _wrap_vectorInt_resize, METH_VARARGS, NULL},
+	 { "vectorInt_insert", _wrap_vectorInt_insert, METH_VARARGS, NULL},
+	 { "vectorInt_reserve", (PyCFunction)(void(*)(void))_wrap_vectorInt_reserve, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "vectorInt_capacity", _wrap_vectorInt_capacity, METH_O, NULL},
+	 { "delete_vectorInt", _wrap_delete_vectorInt, METH_O, NULL},
+	 { "vectorInt_swigregister", vectorInt_swigregister, METH_O, NULL},
+	 { "vectorInt_swiginit", vectorInt_swiginit, METH_VARARGS, NULL},
 	 { "phi_fix", (PyCFunction)(void(*)(void))_wrap_phi_fix, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "new_PiranhaError", _wrap_new_PiranhaError, METH_VARARGS, NULL},
-	 { "delete_PiranhaError", _wrap_delete_PiranhaError, METH_O, NULL},
-	 { "PiranhaError_swigregister", PiranhaError_swigregister, METH_O, NULL},
-	 { "PiranhaError_swiginit", PiranhaError_swiginit, METH_VARARGS, NULL},
 	 { "delete_DynamicVoronoiBase", _wrap_delete_DynamicVoronoiBase, METH_O, NULL},
+	 { "DynamicVoronoiBase_description", _wrap_DynamicVoronoiBase_description, METH_O, NULL},
 	 { "DynamicVoronoiBase_set_subtraction_type", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_set_subtraction_type, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiBase_set_R", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_set_R, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "DynamicVoronoiBase_description", _wrap_DynamicVoronoiBase_description, METH_O, NULL},
-	 { "DynamicVoronoiBase___call__", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase___call__, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "DynamicVoronoiBase_subtraction_type", _wrap_DynamicVoronoiBase_subtraction_type, METH_O, NULL},
+	 { "DynamicVoronoiBase_track_emds", _wrap_DynamicVoronoiBase_track_emds, METH_O, NULL},
+	 { "DynamicVoronoiBase_R", _wrap_DynamicVoronoiBase_R, METH_O, NULL},
+	 { "DynamicVoronoiBase___call__", _wrap_DynamicVoronoiBase___call__, METH_VARARGS, NULL},
+	 { "DynamicVoronoiBase_valid_point", _wrap_DynamicVoronoiBase_valid_point, METH_VARARGS, NULL},
 	 { "DynamicVoronoiBase_number_of_primary_delaunay_vertices", _wrap_DynamicVoronoiBase_number_of_primary_delaunay_vertices, METH_O, NULL},
 	 { "DynamicVoronoiBase_total_area", _wrap_DynamicVoronoiBase_total_area, METH_O, NULL},
 	 { "DynamicVoronoiBase_areas", _wrap_DynamicVoronoiBase_areas, METH_O, NULL},
 	 { "DynamicVoronoiBase_area", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_area, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "DynamicVoronoiBase_coincidences", _wrap_DynamicVoronoiBase_coincidences, METH_O, NULL},
 	 { "DynamicVoronoiBase_emd_density", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_emd_density, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiBase_neighbors", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_neighbors, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "DynamicVoronoiBase_vertex_is_primary_and_active", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiBase_vertex_is_primary_and_active, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiBase_swigregister", DynamicVoronoiBase_swigregister, METH_O, NULL},
 	 { "new_DynamicVoronoiCylinder", _wrap_new_DynamicVoronoiCylinder, METH_VARARGS, NULL},
-	 { "DynamicVoronoiCylinder_total_area", _wrap_DynamicVoronoiCylinder_total_area, METH_O, NULL},
+	 { "DynamicVoronoiCylinder_primary_region", _wrap_DynamicVoronoiCylinder_primary_region, METH_O, NULL},
 	 { "DynamicVoronoiCylinder_valid_point", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiCylinder_valid_point, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiCylinder_neighbors", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiCylinder_neighbors, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiCylinder_remove", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiCylinder_remove, METH_VARARGS|METH_KEYWORDS, NULL},
@@ -25483,7 +33771,6 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "DynamicVoronoiDisk_set_center", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiDisk_set_center, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiDisk_x0", _wrap_DynamicVoronoiDisk_x0, METH_O, NULL},
 	 { "DynamicVoronoiDisk_y0", _wrap_DynamicVoronoiDisk_y0, METH_O, NULL},
-	 { "DynamicVoronoiDisk_total_area", _wrap_DynamicVoronoiDisk_total_area, METH_O, NULL},
 	 { "DynamicVoronoiDisk_valid_point", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiDisk_valid_point, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "DynamicVoronoiDisk_remove", (PyCFunction)(void(*)(void))_wrap_DynamicVoronoiDisk_remove, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "delete_DynamicVoronoiDisk", _wrap_delete_DynamicVoronoiDisk, METH_O, NULL},
@@ -25502,13 +33789,18 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_GhostGridBase", _wrap_new_GhostGridBase, METH_VARARGS, NULL},
 	 { "delete_GhostGridBase", _wrap_delete_GhostGridBase, METH_O, NULL},
 	 { "GhostGridBase_description", _wrap_GhostGridBase_description, METH_O, NULL},
+	 { "GhostGridBase_drap", _wrap_GhostGridBase_drap, METH_O, NULL},
+	 { "GhostGridBase_dphi", _wrap_GhostGridBase_dphi, METH_O, NULL},
+	 { "GhostGridBase_nrap", _wrap_GhostGridBase_nrap, METH_O, NULL},
+	 { "GhostGridBase_nphi", _wrap_GhostGridBase_nphi, METH_O, NULL},
+	 { "GhostGridBase_points", _wrap_GhostGridBase_points, METH_O, NULL},
+	 { "GhostGridBase_ghosts", _wrap_GhostGridBase_ghosts, METH_O, NULL},
 	 { "GhostGridBase_nghosts", _wrap_GhostGridBase_nghosts, METH_O, NULL},
-	 { "GhostGridBase_ghosts_with_total_pt", (PyCFunction)(void(*)(void))_wrap_GhostGridBase_ghosts_with_total_pt, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "GhostGridBase_ghosts_with_pt", (PyCFunction)(void(*)(void))_wrap_GhostGridBase_ghosts_with_pt, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "GhostGridBase_swigregister", GhostGridBase_swigregister, METH_O, NULL},
 	 { "GhostGridBase_swiginit", GhostGridBase_swiginit, METH_VARARGS, NULL},
 	 { "new_GhostGridRectangle", _wrap_new_GhostGridRectangle, METH_VARARGS, NULL},
 	 { "GhostGridRectangle_description", _wrap_GhostGridRectangle_description, METH_O, NULL},
+	 { "GhostGridRectangle_region", _wrap_GhostGridRectangle_region, METH_O, NULL},
 	 { "GhostGridRectangle___str__", _wrap_GhostGridRectangle___str__, METH_O, NULL},
 	 { "GhostGridRectangle___repr__", _wrap_GhostGridRectangle___repr__, METH_O, NULL},
 	 { "delete_GhostGridRectangle", _wrap_delete_GhostGridRectangle, METH_O, NULL},
@@ -25516,32 +33808,36 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "GhostGridRectangle_swiginit", GhostGridRectangle_swiginit, METH_VARARGS, NULL},
 	 { "new_GhostGridDisk", _wrap_new_GhostGridDisk, METH_VARARGS, NULL},
 	 { "GhostGridDisk_description", _wrap_GhostGridDisk_description, METH_O, NULL},
+	 { "GhostGridDisk_R", _wrap_GhostGridDisk_R, METH_O, NULL},
 	 { "GhostGridDisk___str__", _wrap_GhostGridDisk___str__, METH_O, NULL},
 	 { "GhostGridDisk___repr__", _wrap_GhostGridDisk___repr__, METH_O, NULL},
 	 { "delete_GhostGridDisk", _wrap_delete_GhostGridDisk, METH_O, NULL},
 	 { "GhostGridDisk_swigregister", GhostGridDisk_swigregister, METH_O, NULL},
 	 { "GhostGridDisk_swiginit", GhostGridDisk_swiginit, METH_VARARGS, NULL},
-	 { "new_RecursiveSafeSubtractor", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractor, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "RecursiveSafeSubtractor_description", _wrap_RecursiveSafeSubtractor_description, METH_O, NULL},
-	 { "RecursiveSafeSubtractor___str__", _wrap_RecursiveSafeSubtractor___str__, METH_O, NULL},
-	 { "RecursiveSafeSubtractor___repr__", _wrap_RecursiveSafeSubtractor___repr__, METH_O, NULL},
-	 { "RecursiveSafeSubtractor___call__", _wrap_RecursiveSafeSubtractor___call__, METH_VARARGS, NULL},
-	 { "RecursiveSafeSubtractor_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractor_apply, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "delete_RecursiveSafeSubtractor", _wrap_delete_RecursiveSafeSubtractor, METH_O, NULL},
-	 { "RecursiveSafeSubtractor_swigregister", RecursiveSafeSubtractor_swigregister, METH_O, NULL},
-	 { "RecursiveSafeSubtractor_swiginit", RecursiveSafeSubtractor_swiginit, METH_VARARGS, NULL},
 	 { "new_IteratedVoronoiSubtractorDiskBase", _wrap_new_IteratedVoronoiSubtractorDiskBase, METH_NOARGS, NULL},
 	 { "delete_IteratedVoronoiSubtractorDiskBase", _wrap_delete_IteratedVoronoiSubtractorDiskBase, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_description", _wrap_IteratedVoronoiSubtractorDiskBase_description, METH_O, NULL},
-	 { "IteratedVoronoiSubtractorDiskBase_set_background_estimator", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_background_estimator, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_z", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_z, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_zpt", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_zpt, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_zemd", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_zemd, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_set_background_estimator", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_background_estimator, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_set_rho_subtraction_mode", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_rho_subtraction_mode, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_jet_constituents_use_same_rho, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_subtraction_type", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_subtraction_type, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_R", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_R, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_allow_repeats", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_allow_repeats, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_set_store_history", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorDiskBase_set_store_history, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_zpt", _wrap_IteratedVoronoiSubtractorDiskBase_zpt, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_zemd", _wrap_IteratedVoronoiSubtractorDiskBase_zemd, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_background_estimator", _wrap_IteratedVoronoiSubtractorDiskBase_background_estimator, METH_VARARGS, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_jet_constituents_use_same_rho", _wrap_IteratedVoronoiSubtractorDiskBase_jet_constituents_use_same_rho, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_rho_subtraction_mode", _wrap_IteratedVoronoiSubtractorDiskBase_rho_subtraction_mode, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_track_emds", _wrap_IteratedVoronoiSubtractorDiskBase_track_emds, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_total_area", _wrap_IteratedVoronoiSubtractorDiskBase_total_area, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_subtraction_type", _wrap_IteratedVoronoiSubtractorDiskBase_subtraction_type, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_R", _wrap_IteratedVoronoiSubtractorDiskBase_R, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_allow_repeats", _wrap_IteratedVoronoiSubtractorDiskBase_allow_repeats, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorDiskBase_store_history", _wrap_IteratedVoronoiSubtractorDiskBase_store_history, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_vor", _wrap_IteratedVoronoiSubtractorDiskBase_vor, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_reapply", _wrap_IteratedVoronoiSubtractorDiskBase_reapply, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDiskBase_emd", _wrap_IteratedVoronoiSubtractorDiskBase_emd, METH_O, NULL},
@@ -25557,15 +33853,27 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_IteratedVoronoiSubtractorCylinderBase", _wrap_new_IteratedVoronoiSubtractorCylinderBase, METH_NOARGS, NULL},
 	 { "delete_IteratedVoronoiSubtractorCylinderBase", _wrap_delete_IteratedVoronoiSubtractorCylinderBase, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_description", _wrap_IteratedVoronoiSubtractorCylinderBase_description, METH_O, NULL},
-	 { "IteratedVoronoiSubtractorCylinderBase_set_background_estimator", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_background_estimator, METH_VARARGS|METH_KEYWORDS, NULL},
-	 { "IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_z", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_z, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_zpt", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_zpt, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_zemd", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_zemd, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_set_background_estimator", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_background_estimator, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_set_rho_subtraction_mode", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_rho_subtraction_mode, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_jet_constituents_use_same_rho, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_subtraction_type", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_subtraction_type, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_R", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_R, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_allow_repeats", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_allow_repeats, METH_VARARGS|METH_KEYWORDS, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_set_store_history", (PyCFunction)(void(*)(void))_wrap_IteratedVoronoiSubtractorCylinderBase_set_store_history, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_zpt", _wrap_IteratedVoronoiSubtractorCylinderBase_zpt, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_zemd", _wrap_IteratedVoronoiSubtractorCylinderBase_zemd, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_background_estimator", _wrap_IteratedVoronoiSubtractorCylinderBase_background_estimator, METH_VARARGS, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_jet_constituents_use_same_rho", _wrap_IteratedVoronoiSubtractorCylinderBase_jet_constituents_use_same_rho, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_rho_subtraction_mode", _wrap_IteratedVoronoiSubtractorCylinderBase_rho_subtraction_mode, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_track_emds", _wrap_IteratedVoronoiSubtractorCylinderBase_track_emds, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_total_area", _wrap_IteratedVoronoiSubtractorCylinderBase_total_area, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_subtraction_type", _wrap_IteratedVoronoiSubtractorCylinderBase_subtraction_type, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_R", _wrap_IteratedVoronoiSubtractorCylinderBase_R, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_allow_repeats", _wrap_IteratedVoronoiSubtractorCylinderBase_allow_repeats, METH_O, NULL},
+	 { "IteratedVoronoiSubtractorCylinderBase_store_history", _wrap_IteratedVoronoiSubtractorCylinderBase_store_history, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_vor", _wrap_IteratedVoronoiSubtractorCylinderBase_vor, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_reapply", _wrap_IteratedVoronoiSubtractorCylinderBase_reapply, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorCylinderBase_emd", _wrap_IteratedVoronoiSubtractorCylinderBase_emd, METH_O, NULL},
@@ -25581,6 +33889,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorTransverseMomentumDeltaR", _wrap_new_OptimalTransportSubtractorTransverseMomentumDeltaR, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR_description", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR_emd_obj", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseMomentumDeltaR_z", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR_total_subtracted", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR___call__", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumDeltaR___str__", _wrap_OptimalTransportSubtractorTransverseMomentumDeltaR___str__, METH_O, NULL},
@@ -25591,6 +33900,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorTransverseMomentumHadronicDot", _wrap_new_OptimalTransportSubtractorTransverseMomentumHadronicDot, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot_description", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot_emd_obj", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot_z", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot_total_subtracted", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot___call__", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDot___str__", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDot___str__, METH_O, NULL},
@@ -25601,6 +33911,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive", _wrap_new_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_description", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_emd_obj", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_z", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_total_subtracted", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___call__", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___str__", _wrap_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___str__, METH_O, NULL},
@@ -25611,6 +33922,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorTransverseEnergyDeltaR", _wrap_new_OptimalTransportSubtractorTransverseEnergyDeltaR, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR_description", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR_emd_obj", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseEnergyDeltaR_z", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR_total_subtracted", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR___call__", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyDeltaR___str__", _wrap_OptimalTransportSubtractorTransverseEnergyDeltaR___str__, METH_O, NULL},
@@ -25621,6 +33933,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorTransverseEnergyHadronicDot", _wrap_new_OptimalTransportSubtractorTransverseEnergyHadronicDot, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot_description", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot_emd_obj", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot_z", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot_total_subtracted", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot___call__", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDot___str__", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDot___str__, METH_O, NULL},
@@ -25631,6 +33944,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive", _wrap_new_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_description", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_emd_obj", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_z", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_total_subtracted", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___call__", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___str__", _wrap_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___str__, METH_O, NULL},
@@ -25641,6 +33955,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorMomentumEEDot", _wrap_new_OptimalTransportSubtractorMomentumEEDot, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot_description", _wrap_OptimalTransportSubtractorMomentumEEDot_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot_emd_obj", _wrap_OptimalTransportSubtractorMomentumEEDot_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorMomentumEEDot_z", _wrap_OptimalTransportSubtractorMomentumEEDot_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot_total_subtracted", _wrap_OptimalTransportSubtractorMomentumEEDot_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot___call__", _wrap_OptimalTransportSubtractorMomentumEEDot___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDot___str__", _wrap_OptimalTransportSubtractorMomentumEEDot___str__, METH_O, NULL},
@@ -25651,6 +33966,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorMomentumEEDotMassive", _wrap_new_OptimalTransportSubtractorMomentumEEDotMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive_description", _wrap_OptimalTransportSubtractorMomentumEEDotMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive_emd_obj", _wrap_OptimalTransportSubtractorMomentumEEDotMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorMomentumEEDotMassive_z", _wrap_OptimalTransportSubtractorMomentumEEDotMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive_total_subtracted", _wrap_OptimalTransportSubtractorMomentumEEDotMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive___call__", _wrap_OptimalTransportSubtractorMomentumEEDotMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEDotMassive___str__", _wrap_OptimalTransportSubtractorMomentumEEDotMassive___str__, METH_O, NULL},
@@ -25661,6 +33977,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorMomentumEEArcLength", _wrap_new_OptimalTransportSubtractorMomentumEEArcLength, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength_description", _wrap_OptimalTransportSubtractorMomentumEEArcLength_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength_emd_obj", _wrap_OptimalTransportSubtractorMomentumEEArcLength_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorMomentumEEArcLength_z", _wrap_OptimalTransportSubtractorMomentumEEArcLength_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength_total_subtracted", _wrap_OptimalTransportSubtractorMomentumEEArcLength_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength___call__", _wrap_OptimalTransportSubtractorMomentumEEArcLength___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLength___str__", _wrap_OptimalTransportSubtractorMomentumEEArcLength___str__, METH_O, NULL},
@@ -25671,6 +33988,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorMomentumEEArcLengthMassive", _wrap_new_OptimalTransportSubtractorMomentumEEArcLengthMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive_description", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive_emd_obj", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive_z", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive_total_subtracted", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive___call__", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorMomentumEEArcLengthMassive___str__", _wrap_OptimalTransportSubtractorMomentumEEArcLengthMassive___str__, METH_O, NULL},
@@ -25681,6 +33999,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorEnergyEEDot", _wrap_new_OptimalTransportSubtractorEnergyEEDot, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot_description", _wrap_OptimalTransportSubtractorEnergyEEDot_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot_emd_obj", _wrap_OptimalTransportSubtractorEnergyEEDot_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorEnergyEEDot_z", _wrap_OptimalTransportSubtractorEnergyEEDot_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot_total_subtracted", _wrap_OptimalTransportSubtractorEnergyEEDot_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot___call__", _wrap_OptimalTransportSubtractorEnergyEEDot___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDot___str__", _wrap_OptimalTransportSubtractorEnergyEEDot___str__, METH_O, NULL},
@@ -25691,6 +34010,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorEnergyEEDotMassive", _wrap_new_OptimalTransportSubtractorEnergyEEDotMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive_description", _wrap_OptimalTransportSubtractorEnergyEEDotMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive_emd_obj", _wrap_OptimalTransportSubtractorEnergyEEDotMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorEnergyEEDotMassive_z", _wrap_OptimalTransportSubtractorEnergyEEDotMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive_total_subtracted", _wrap_OptimalTransportSubtractorEnergyEEDotMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive___call__", _wrap_OptimalTransportSubtractorEnergyEEDotMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEDotMassive___str__", _wrap_OptimalTransportSubtractorEnergyEEDotMassive___str__, METH_O, NULL},
@@ -25701,6 +34021,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorEnergyEEArcLength", _wrap_new_OptimalTransportSubtractorEnergyEEArcLength, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength_description", _wrap_OptimalTransportSubtractorEnergyEEArcLength_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength_emd_obj", _wrap_OptimalTransportSubtractorEnergyEEArcLength_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorEnergyEEArcLength_z", _wrap_OptimalTransportSubtractorEnergyEEArcLength_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength_total_subtracted", _wrap_OptimalTransportSubtractorEnergyEEArcLength_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength___call__", _wrap_OptimalTransportSubtractorEnergyEEArcLength___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLength___str__", _wrap_OptimalTransportSubtractorEnergyEEArcLength___str__, METH_O, NULL},
@@ -25711,6 +34032,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "new_OptimalTransportSubtractorEnergyEEArcLengthMassive", _wrap_new_OptimalTransportSubtractorEnergyEEArcLengthMassive, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive_description", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_description, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive_emd_obj", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_emd_obj, METH_O, NULL},
+	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive_z", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_z, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive_total_subtracted", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive_total_subtracted, METH_O, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive___call__", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive___call__, METH_VARARGS, NULL},
 	 { "OptimalTransportSubtractorEnergyEEArcLengthMassive___str__", _wrap_OptimalTransportSubtractorEnergyEEArcLengthMassive___str__, METH_O, NULL},
@@ -25728,6 +34050,66 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "delete_IteratedVoronoiSubtractorDisk", _wrap_delete_IteratedVoronoiSubtractorDisk, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDisk_swigregister", IteratedVoronoiSubtractorDisk_swigregister, METH_O, NULL},
 	 { "IteratedVoronoiSubtractorDisk_swiginit", IteratedVoronoiSubtractorDisk_swiginit, METH_VARARGS, NULL},
+	 { "new_RecursiveSafeSubtractorTransverseMomentum", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractorTransverseMomentum, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_description", _wrap_RecursiveSafeSubtractorTransverseMomentum_description, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_default_z", _wrap_RecursiveSafeSubtractorTransverseMomentum_default_z, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_default_f", _wrap_RecursiveSafeSubtractorTransverseMomentum_default_f, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_jet_alg", _wrap_RecursiveSafeSubtractorTransverseMomentum_jet_alg, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_weight_sums", _wrap_RecursiveSafeSubtractorTransverseMomentum_weight_sums, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_total_weight", _wrap_RecursiveSafeSubtractorTransverseMomentum_total_weight, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_reclustered_jet", _wrap_RecursiveSafeSubtractorTransverseMomentum_reclustered_jet, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum___str__", _wrap_RecursiveSafeSubtractorTransverseMomentum___str__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum___repr__", _wrap_RecursiveSafeSubtractorTransverseMomentum___repr__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum___call__", _wrap_RecursiveSafeSubtractorTransverseMomentum___call__, METH_VARARGS, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractorTransverseMomentum_apply, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "delete_RecursiveSafeSubtractorTransverseMomentum", _wrap_delete_RecursiveSafeSubtractorTransverseMomentum, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_swigregister", RecursiveSafeSubtractorTransverseMomentum_swigregister, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseMomentum_swiginit", RecursiveSafeSubtractorTransverseMomentum_swiginit, METH_VARARGS, NULL},
+	 { "new_RecursiveSafeSubtractorTransverseEnergy", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractorTransverseEnergy, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_description", _wrap_RecursiveSafeSubtractorTransverseEnergy_description, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_default_z", _wrap_RecursiveSafeSubtractorTransverseEnergy_default_z, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_default_f", _wrap_RecursiveSafeSubtractorTransverseEnergy_default_f, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_jet_alg", _wrap_RecursiveSafeSubtractorTransverseEnergy_jet_alg, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_weight_sums", _wrap_RecursiveSafeSubtractorTransverseEnergy_weight_sums, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_total_weight", _wrap_RecursiveSafeSubtractorTransverseEnergy_total_weight, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_reclustered_jet", _wrap_RecursiveSafeSubtractorTransverseEnergy_reclustered_jet, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy___str__", _wrap_RecursiveSafeSubtractorTransverseEnergy___str__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy___repr__", _wrap_RecursiveSafeSubtractorTransverseEnergy___repr__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy___call__", _wrap_RecursiveSafeSubtractorTransverseEnergy___call__, METH_VARARGS, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractorTransverseEnergy_apply, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "delete_RecursiveSafeSubtractorTransverseEnergy", _wrap_delete_RecursiveSafeSubtractorTransverseEnergy, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_swigregister", RecursiveSafeSubtractorTransverseEnergy_swigregister, METH_O, NULL},
+	 { "RecursiveSafeSubtractorTransverseEnergy_swiginit", RecursiveSafeSubtractorTransverseEnergy_swiginit, METH_VARARGS, NULL},
+	 { "new_RecursiveSafeSubtractorEnergy", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractorEnergy, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "RecursiveSafeSubtractorEnergy_description", _wrap_RecursiveSafeSubtractorEnergy_description, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_default_z", _wrap_RecursiveSafeSubtractorEnergy_default_z, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_default_f", _wrap_RecursiveSafeSubtractorEnergy_default_f, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_jet_alg", _wrap_RecursiveSafeSubtractorEnergy_jet_alg, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_weight_sums", _wrap_RecursiveSafeSubtractorEnergy_weight_sums, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_total_weight", _wrap_RecursiveSafeSubtractorEnergy_total_weight, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_reclustered_jet", _wrap_RecursiveSafeSubtractorEnergy_reclustered_jet, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy___str__", _wrap_RecursiveSafeSubtractorEnergy___str__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy___repr__", _wrap_RecursiveSafeSubtractorEnergy___repr__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy___call__", _wrap_RecursiveSafeSubtractorEnergy___call__, METH_VARARGS, NULL},
+	 { "RecursiveSafeSubtractorEnergy_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractorEnergy_apply, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "delete_RecursiveSafeSubtractorEnergy", _wrap_delete_RecursiveSafeSubtractorEnergy, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_swigregister", RecursiveSafeSubtractorEnergy_swigregister, METH_O, NULL},
+	 { "RecursiveSafeSubtractorEnergy_swiginit", RecursiveSafeSubtractorEnergy_swiginit, METH_VARARGS, NULL},
+	 { "new_RecursiveSafeSubtractorMomentum", (PyCFunction)(void(*)(void))_wrap_new_RecursiveSafeSubtractorMomentum, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "RecursiveSafeSubtractorMomentum_description", _wrap_RecursiveSafeSubtractorMomentum_description, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_default_z", _wrap_RecursiveSafeSubtractorMomentum_default_z, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_default_f", _wrap_RecursiveSafeSubtractorMomentum_default_f, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_jet_alg", _wrap_RecursiveSafeSubtractorMomentum_jet_alg, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_weight_sums", _wrap_RecursiveSafeSubtractorMomentum_weight_sums, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_total_weight", _wrap_RecursiveSafeSubtractorMomentum_total_weight, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_reclustered_jet", _wrap_RecursiveSafeSubtractorMomentum_reclustered_jet, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum___str__", _wrap_RecursiveSafeSubtractorMomentum___str__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum___repr__", _wrap_RecursiveSafeSubtractorMomentum___repr__, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum___call__", _wrap_RecursiveSafeSubtractorMomentum___call__, METH_VARARGS, NULL},
+	 { "RecursiveSafeSubtractorMomentum_apply", (PyCFunction)(void(*)(void))_wrap_RecursiveSafeSubtractorMomentum_apply, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "delete_RecursiveSafeSubtractorMomentum", _wrap_delete_RecursiveSafeSubtractorMomentum, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_swigregister", RecursiveSafeSubtractorMomentum_swigregister, METH_O, NULL},
+	 { "RecursiveSafeSubtractorMomentum_swiginit", RecursiveSafeSubtractorMomentum_swiginit, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -25833,22 +34215,30 @@ static swig_type_info _swigt__p_fastjet__contrib__piranha__OptimalTransportSubtr
 static swig_type_info _swigt__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__DeltaR_lemon__NetworkSimplexT_t_t_t = {"_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__DeltaR_lemon__NetworkSimplexT_t_t_t", "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::DeltaR > > *|fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::DeltaR,lemon::NetworkSimplex< > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t_t = {"_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t_t", "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDotMassive > > *|fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDotMassive,lemon::NetworkSimplex< > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDot_lemon__NetworkSimplexT_t_t_t = {"_p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDot_lemon__NetworkSimplexT_t_t_t", "fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDot > > *|fastjet::contrib::piranha::OptimalTransportSubtractor< fastjet::contrib::emd::EMD< emd::TransverseMomentum,emd::HadronicDot,lemon::NetworkSimplex< > > > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_fastjet__contrib__piranha__PiranhaError = {"_p_fastjet__contrib__piranha__PiranhaError", "fastjet::contrib::piranha::PiranhaError *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractor = {"_p_fastjet__contrib__piranha__RecursiveSafeSubtractor", "fastjet::contrib::piranha::RecursiveSafeSubtractor *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t = {"_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t", "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Energy > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t = {"_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t", "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::Momentum > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t = {"_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t", "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseEnergy > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t = {"_p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t", "fastjet::contrib::piranha::RecursiveSafeSubtractor< emd::TransverseMomentum > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__piranha__SubtractionHistory = {"_p_fastjet__contrib__piranha__SubtractionHistory", "fastjet::contrib::piranha::SubtractionHistory *|std::vector< fastjet::contrib::piranha::SubtractionHistory >::value_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_first_type = {"_p_first_type", "first_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_PyObject = {"_p_p_PyObject", "PyObject **", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_second_type = {"_p_second_type", "second_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t = {"_p_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t", "std::allocator< fastjet::contrib::piranha::SubtractionHistory > *|std::vector< fastjet::contrib::piranha::SubtractionHistory >::allocator_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_int_t = {"_p_std__allocatorT_int_t", "std::vector< int >::allocator_type *|std::allocator< int > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_std__pairT_double_double_t_t = {"_p_std__allocatorT_std__pairT_double_double_t_t", "std::allocator< std::pair< double,double > > *|std::vector< std::pair< double,double > >::allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t = {"_p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t", "std::vector< std::vector< double > >::allocator_type *|std::allocator< std::vector< double,std::allocator< double > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t = {"_p_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t", "std::allocator< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > > *|std::vector< std::vector< fastjet::PseudoJet > >::allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__invalid_argument = {"_p_std__invalid_argument", "std::invalid_argument *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__pairT_double_double_t = {"_p_std__pairT_double_double_t", "std::pair< double,double > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t = {"_p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t", "std::pair< std::pair< double,double >,std::pair< double,double > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__runtime_error = {"_p_std__runtime_error", "std::runtime_error *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fastjet__contrib__piranha__PiranhaError = {"_p_fastjet__contrib__piranha__PiranhaError", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t = {"_p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t", "std::vector< fastjet::contrib::piranha::DynamicVoronoiBase::Point,std::allocator< fastjet::contrib::piranha::DynamicVoronoiBase::Point > > *|std::vector< CGAL::Delaunay_triangulation_2< fastjet::contrib::piranha::DynamicVoronoiBase::K,fastjet::contrib::piranha::DynamicVoronoiBase::Tds2 >::Point,std::allocator< CGAL::Delaunay_triangulation_2< fastjet::contrib::piranha::DynamicVoronoiBase::K,fastjet::contrib::piranha::DynamicVoronoiBase::Tds2 >::Point > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_double_std__allocatorT_double_t_t = {"_p_std__vectorT_double_std__allocatorT_double_t_t", "std::vector< double,std::allocator< double > > *|fastjet::contrib::emd::ValueVector *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_fastjet__contrib__piranha__SubtractionHistory_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t_t = {"_p_std__vectorT_fastjet__contrib__piranha__SubtractionHistory_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t_t", "std::vector< fastjet::contrib::piranha::SubtractionHistory > *|std::vector< fastjet::contrib::piranha::SubtractionHistory,std::allocator< fastjet::contrib::piranha::SubtractionHistory > > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_int_std__allocatorT_int_t_t = {"_p_std__vectorT_int_std__allocatorT_int_t_t", "std::vector< int,std::allocator< int > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_int_std__allocatorT_int_t_t = {"_p_std__vectorT_int_std__allocatorT_int_t_t", "std::vector< int,std::allocator< int > > *|std::vector< int > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t = {"_p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t", "std::vector< std::pair< double,double > > *|std::vector< std::pair< double,double >,std::allocator< std::pair< double,double > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t = {"_p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t", "std::vector< std::vector< double > > *|std::vector< std::vector< double,std::allocator< double > >,std::allocator< std::vector< double,std::allocator< double > > > > *|std::vector< std::vector< double,std::allocator< double > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t_t = {"_p_std__vectorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t_t", "std::vector< std::vector< fastjet::PseudoJet > > *|std::vector< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >,std::allocator< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > > > *|std::vector< std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_swig__SwigPyIterator = {"_p_swig__SwigPyIterator", "swig::SwigPyIterator *", 0, 0, (void*)0, 0};
@@ -25928,21 +34318,29 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t_t,
   &_swigt__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDot_lemon__NetworkSimplexT_t_t_t,
   &_swigt__p_fastjet__contrib__piranha__PiranhaError,
-  &_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractor,
+  &_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t,
+  &_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t,
+  &_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t,
+  &_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t,
   &_swigt__p_fastjet__contrib__piranha__SubtractionHistory,
   &_swigt__p_first_type,
   &_swigt__p_p_PyObject,
   &_swigt__p_second_type,
   &_swigt__p_size_type,
   &_swigt__p_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t,
+  &_swigt__p_std__allocatorT_int_t,
+  &_swigt__p_std__allocatorT_std__pairT_double_double_t_t,
   &_swigt__p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t,
   &_swigt__p_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t,
   &_swigt__p_std__invalid_argument,
+  &_swigt__p_std__pairT_double_double_t,
+  &_swigt__p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t,
   &_swigt__p_std__runtime_error,
   &_swigt__p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t,
   &_swigt__p_std__vectorT_double_std__allocatorT_double_t_t,
   &_swigt__p_std__vectorT_fastjet__contrib__piranha__SubtractionHistory_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t_t,
   &_swigt__p_std__vectorT_int_std__allocatorT_int_t_t,
+  &_swigt__p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t,
   &_swigt__p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t,
   &_swigt__p_std__vectorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t_t,
   &_swigt__p_swig__SwigPyIterator,
@@ -26021,22 +34419,30 @@ static swig_cast_info _swigc__p_fastjet__contrib__piranha__OptimalTransportSubtr
 static swig_cast_info _swigc__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__DeltaR_lemon__NetworkSimplexT_t_t_t[] = {  {&_swigt__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__DeltaR_lemon__NetworkSimplexT_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t_t[] = {  {&_swigt__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDot_lemon__NetworkSimplexT_t_t_t[] = {  {&_swigt__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDot_lemon__NetworkSimplexT_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_fastjet__contrib__piranha__PiranhaError[] = {  {&_swigt__p_fastjet__contrib__piranha__PiranhaError, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractor[] = {  {&_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractor, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t[] = {  {&_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t[] = {  {&_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t[] = {  {&_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t[] = {  {&_swigt__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__piranha__SubtractionHistory[] = {  {&_swigt__p_fastjet__contrib__piranha__SubtractionHistory, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_first_type[] = {  {&_swigt__p_first_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_PyObject[] = {  {&_swigt__p_p_PyObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_second_type[] = {  {&_swigt__p_second_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t[] = {  {&_swigt__p_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_int_t[] = {  {&_swigt__p_std__allocatorT_int_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_std__pairT_double_double_t_t[] = {  {&_swigt__p_std__allocatorT_std__pairT_double_double_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t[] = {  {&_swigt__p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t[] = {  {&_swigt__p_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__invalid_argument[] = {  {&_swigt__p_std__invalid_argument, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__pairT_double_double_t[] = {  {&_swigt__p_std__pairT_double_double_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t[] = {  {&_swigt__p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__piranha__PiranhaError[] = {{&_swigt__p_fastjet__contrib__piranha__PiranhaError, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__runtime_error[] = {  {&_swigt__p_std__runtime_error, 0, 0, 0},  {&_swigt__p_fastjet__contrib__piranha__PiranhaError, _p_fastjet__contrib__piranha__PiranhaErrorTo_p_std__runtime_error, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t[] = {  {&_swigt__p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_double_std__allocatorT_double_t_t[] = {  {&_swigt__p_std__vectorT_double_std__allocatorT_double_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_fastjet__contrib__piranha__SubtractionHistory_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t_t[] = {  {&_swigt__p_std__vectorT_fastjet__contrib__piranha__SubtractionHistory_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_int_std__allocatorT_int_t_t[] = {  {&_swigt__p_std__vectorT_int_std__allocatorT_int_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t[] = {  {&_swigt__p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t[] = {  {&_swigt__p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t_t[] = {  {&_swigt__p_std__vectorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_swig__SwigPyIterator[] = {  {&_swigt__p_swig__SwigPyIterator, 0, 0, 0},{0, 0, 0, 0}};
@@ -26116,21 +34522,29 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDotMassive_lemon__NetworkSimplexT_t_t_t,
   _swigc__p_fastjet__contrib__piranha__OptimalTransportSubtractorT_fastjet__contrib__emd__EMDT_emd__TransverseMomentum_emd__HadronicDot_lemon__NetworkSimplexT_t_t_t,
   _swigc__p_fastjet__contrib__piranha__PiranhaError,
-  _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractor,
+  _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Energy_t,
+  _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__Momentum_t,
+  _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseEnergy_t,
+  _swigc__p_fastjet__contrib__piranha__RecursiveSafeSubtractorT_emd__TransverseMomentum_t,
   _swigc__p_fastjet__contrib__piranha__SubtractionHistory,
   _swigc__p_first_type,
   _swigc__p_p_PyObject,
   _swigc__p_second_type,
   _swigc__p_size_type,
   _swigc__p_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t,
+  _swigc__p_std__allocatorT_int_t,
+  _swigc__p_std__allocatorT_std__pairT_double_double_t_t,
   _swigc__p_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t,
   _swigc__p_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t,
   _swigc__p_std__invalid_argument,
+  _swigc__p_std__pairT_double_double_t,
+  _swigc__p_std__pairT_std__pairT_double_double_t_std__pairT_double_double_t_t,
   _swigc__p_std__runtime_error,
   _swigc__p_std__vectorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_std__allocatorT_CGAL__Delaunay_triangulation_2T_fastjet__contrib__piranha__DynamicVoronoiBase__K_fastjet__contrib__piranha__DynamicVoronoiBase__Tds2_t__Point_t_t,
   _swigc__p_std__vectorT_double_std__allocatorT_double_t_t,
   _swigc__p_std__vectorT_fastjet__contrib__piranha__SubtractionHistory_std__allocatorT_fastjet__contrib__piranha__SubtractionHistory_t_t,
   _swigc__p_std__vectorT_int_std__allocatorT_int_t_t,
+  _swigc__p_std__vectorT_std__pairT_double_double_t_std__allocatorT_std__pairT_double_double_t_t_t,
   _swigc__p_std__vectorT_std__vectorT_double_std__allocatorT_double_t_t_std__allocatorT_std__vectorT_double_std__allocatorT_double_t_t_t_t,
   _swigc__p_std__vectorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_std__allocatorT_std__vectorT_fastjet__PseudoJet_std__allocatorT_fastjet__PseudoJet_t_t_t_t,
   _swigc__p_swig__SwigPyIterator,
@@ -26908,10 +35322,13 @@ SWIG_init(void) {
   SWIG_Python_SetConstant(d, "SubtractionType_Area",SWIG_From_int(static_cast< int >(fastjet::contrib::piranha::SubtractionType::Area)));
   SWIG_Python_SetConstant(d, "SubtractionType_AreaTrackEMD",SWIG_From_int(static_cast< int >(fastjet::contrib::piranha::SubtractionType::AreaTrackEMD)));
   SWIG_Python_SetConstant(d, "SubtractionType_EMD",SWIG_From_int(static_cast< int >(fastjet::contrib::piranha::SubtractionType::EMD)));
+  SWIG_Python_SetConstant(d, "RhoSubtractionMode_Additive",SWIG_From_int(static_cast< int >(fastjet::contrib::piranha::RhoSubtractionMode::Additive)));
+  SWIG_Python_SetConstant(d, "RhoSubtractionMode_Fractional",SWIG_From_int(static_cast< int >(fastjet::contrib::piranha::RhoSubtractionMode::Fractional)));
   SWIG_Python_SetConstant(d, "RemovalResult_Success",SWIG_From_int(static_cast< int >(fastjet::contrib::piranha::RemovalResult::Success)));
   SWIG_Python_SetConstant(d, "RemovalResult_Coincidence",SWIG_From_int(static_cast< int >(fastjet::contrib::piranha::RemovalResult::Coincidence)));
   SWIG_Python_SetConstant(d, "VERTEX_DEFAULT_IND",SWIG_From_int(static_cast< int >(-1)));
-  SWIG_Python_SetConstant(d, "INVALID_PTTOT",SWIG_From_int(static_cast< int >(-1)));
+  SWIG_addvarlink(globals, "piranha_epsilon", Swig_var_piranha_epsilon_get, Swig_var_piranha_epsilon_set);
+  SWIG_Python_SetConstant(d, "INVALID_TOTAL_WEIGHT",SWIG_From_int(static_cast< int >(-1)));
 #if PY_VERSION_HEX >= 0x03000000
   return m;
 #else

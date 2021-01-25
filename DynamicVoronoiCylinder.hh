@@ -66,8 +66,10 @@ public:
                          double xmin, double ymin,
                          double xmax, double ymax);
 
-  // gets the total area of the rectangle
-  double total_area() const { return primary_region_.area(); }
+  // access region as pair of points
+  std::pair<std::pair<double,double>,std::pair<double,double>> primary_region() const {
+    return std::make_pair(std::make_pair(xmin_, ymin_), std::make_pair(xmax_, ymax_));
+  }
 
   // here, point is valid if it is in the primary region
   bool valid_point(const Point & p) const { return primary_region_.has_on_bounded_side(p); }

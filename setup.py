@@ -113,7 +113,7 @@ def run_setup():
 
     # get cxxflags from environment, add fastjet cxxflags, and SWIG type table info
     cxxflags = os.environ.get('CXXFLAGS', '').split() + fj_cxxflags.split() + ['-fopenmp']
-    libs, ldflags = [name], []
+    libs, ldflags = [name, 'EventGeometry'], []
 
     # handle multithreading with OpenMP
     if platform.system() == 'Darwin':
@@ -141,7 +141,7 @@ def run_setup():
                        include_dirs=[],
                        library_dirs=fj_libdirs + ['.'],
                        libraries=libs,
-                       extra_compile_args=cxxflags + ['-DSWIG_TYPE_TABLE=fastjet', '-g0'],
+                       extra_compile_args=cxxflags + ['-DSWIG_TYPE_TABLE=fastjet', '-g0', '-DPIRANHA_DEBUG'],
                        extra_link_args=ldflags)
 
     setup(

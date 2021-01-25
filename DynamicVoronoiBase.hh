@@ -89,8 +89,8 @@ public:
   typedef std::vector<std::pair<Point,int>> IndexedPointsVec;
 
   // allow IVSubtractorBase to access class internals
-  template<class T>
-  friend class IteratedVoronoiSubtractorBase;
+  //template<class T>
+  //friend class IteratedVoronoiSubtractorBase;
 
 protected:
 
@@ -105,6 +105,7 @@ protected:
   IndexedPointsVec indexedPoints_;
   std::vector<Vertex_handle> delaunayVerts_;
   std::vector<double> voronoiAreas_, voronoiEMDDensities_;
+  double total_area_;
 
   // map from finite faces to their circumcenters, for caching voronoi vertices
   std::unordered_map<Face_handle,std::pair<Point,bool>> voronoiVerts_;
@@ -141,24 +142,13 @@ public:
   // destructor
   virtual ~DynamicVoronoiBase() {}
 
-  // setter functions
-  void set_subtraction_type(SubtractionType subtype) {
-    subtype_ = subtype;
-    track_emds_ = (subtype_ == SubtractionType::EMD) || (subtype_ == SubtractionType::AreaTrackEMD);
-  }
-  void set_R(double R) {
-    if (R <= 0)
-      throw std::invalid_argument("R must be positive");
-    R_ = R;
-  }
-
   // return a decription of this object
   std::string description() const {
     std::ostringstream oss;
     oss << name() << '\n'
         << "  - Tracking region areas\n";
 
-    if (track_emds_)
+    if (track_emds())
     oss << "  - Tracking region EMDs\n";
     if (track_intersection_vertices_)
     oss << "  - Tracking intersection vertices\n";
@@ -169,8 +159,31 @@ public:
     return oss.str();
   }
 
+  // setter functions
+  void set_subtraction_type(SubtractionType subtype) {
+    subtype_ = subtype;
+    track_emds_ = (subtype_ == SubtractionType::EMD) || (subtype_ == SubtractionType::AreaTrackEMD);
+  }
+  virtual void set_R(double R) {
+    if (R <= 0)
+      throw std::invalid_argument("R must be positive");
+    R_ = R;
+  }
+
+  // getter functions
+  SubtractionType subtraction_type() const { return subtype_; }
+  bool track_emds() const { return track_emds_; }
+  double R() const { return R_; }
+
   // processes and stores points
-  DynamicVoronoiBase & operator()(const std::vector<Point> & points) {
+  void operator()(const std::vector<std::pair<double, double>> & coords) {
+    std::vector<Point> points(coords.size());
+    unsigned i(0);
+    for (const auto & xy : coords)
+      points[i++] = Point(xy.first, xy.second);
+    operator()(points);
+  }
+  void operator()(const std::vector<Point> & points) {
 
     // set the number of points
     nInitPoints_ = points.size();
@@ -183,23 +196,36 @@ public:
 
     // construct triangulation
     construct_triangulation();
-
-    return *this;
   }
+
+  // function to determine if point is valid
+  virtual bool valid_point(const Point & p) const = 0;
+  bool valid_point(double x, double y) const { return valid_point(Point(x, y)); }
 
   // get number of unique Delaunay vertices that were created
   unsigned number_of_primary_delaunay_vertices() const { return nPrimaryDelaunayVerts_; }
   
   // area and EMD access functions
-  virtual double total_area() const = 0;
+  double total_area() const { return total_area_; }
   const std::vector<double> & areas() const { return voronoiAreas_; }
   double area(unsigned i) const { return voronoiAreas_[i]; }
+
+  // access coincidences
+  const std::vector<int> & coincidences() const { return coincidences_; }
 
   // EMD density is EMD/rho. It has units of [length]^2.
   double emd_density(unsigned i) const { return voronoiEMDDensities_[i]; }
 
   // get neighbors of a particular vertex
   std::vector<int> neighbors(unsigned i) const;
+
+  // - a vertex is primary if its id is in 0,...,nInitPoints_-1
+  // - a vertex is active if it owns its region, that is, it is not part of
+  //   a coincidence chain or if it is, its the vertex that has the vertex
+  //   handle associated to it
+  bool vertex_is_primary_and_active(int i) const {
+    return unsigned(i) < nInitPoints_ && i >= 0 && delaunayVerts_[i]->id() == i;
+  }
 
 protected:
 
@@ -224,14 +250,6 @@ protected:
 
   // the EMD density of a triangular region
   double emd_density_triangle(const Point &, const Point &, const Point &) const;
-
-  // - a vertex is primary if its id is in 0,...,nInitPoints_-1
-  // - a vertex is active if it owns its region, that is, it is not part of
-  //   a coincidence chain or if it is, its the vertex that has the vertex
-  //   handle associated to it
-  bool vertex_is_primary_and_active(int i) const {
-    return unsigned(i) < nInitPoints_ && i >= 0 && delaunayVerts_[i]->id() == i;
-  }
 
   // clear incident faces to vertex from the voronoiVerts mapping
   void clear_voronoi_vert(Vertex_handle vh) {

@@ -113,7 +113,7 @@ void DynamicVoronoiDisk::finish_process_region(const std::vector<std::pair<Point
 
   // if we had zero intersections of any kind, there will be no points
   if (segIntVerts.size() == 0) {
-    voronoiAreas_[vhid] = piR2_;
+    voronoiAreas_[vhid] = total_area_;
     if (track_emds_)
       voronoiEMDDensities_[vhid] = emd_density_entire_circle(point);
     return;
@@ -244,7 +244,7 @@ double DynamicVoronoiDisk::circular_segment_area(const Point & p0, const Point &
 #ifdef PIRANHA_DEBUG
   assert(K::Line_2(p0, p1).has_on_negative_side(center_) == flip);
 #endif
-  if (flip) segment_area = piR2_ - segment_area;
+  if (flip) segment_area = total_area_ - segment_area;
   return std::max(segment_area, 0.0);
 }
 

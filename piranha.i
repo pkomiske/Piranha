@@ -57,10 +57,16 @@ __version__ = '1.0.0a0'
 using namespace fastjet::contrib;
 %}
 
+// pair templates
+%template(pairDouble) std::pair<double, double>;
+%template(pairPairDouble) std::pair<std::pair<double, double>, std::pair<double, double>>;
+
 // vector templates
 %template(vectorVectorDouble) std::vector<std::vector<double>>;
 %template(vectorSubtractionHistory) std::vector<PIRANHANAMESPACE::SubtractionHistory>;
 %template(vectorVectorPseudoJet) std::vector<std::vector<fastjet::PseudoJet>>;
+%template(vectorPairDouble) std::vector<std::pair<double, double>>;
+%template(vectorInt) std::vector<int>;
 
 // basic exception handling for any function
 %exception {
@@ -114,7 +120,7 @@ using namespace fastjet::contrib;
 }
 
 // ignored classes/methods
-%ignore PIRANHANAMESPACE::IVError;
+%ignore PIRANHANAMESPACE::PiranhaError;
 %ignore PIRANHANAMESPACE::RecursiveSafeSubtractor::operator()(const PseudoJet & jet);
 %ignore PIRANHANAMESPACE::RecursiveSafeSubtractor::operator()(const std::vector<PseudoJet> & pjs);
 %ignore PIRANHANAMESPACE::RecursiveSafeSubtractor::apply(double z, double f);
@@ -178,6 +184,13 @@ END_PIRANHA_NAMESPACE
   }
 }
 
+BEGIN_PIRANHA_NAMESPACE
+%template(RecursiveSafeSubtractorTransverseMomentum) RecursiveSafeSubtractor<emd::TransverseMomentum>;
+%template(RecursiveSafeSubtractorTransverseEnergy) RecursiveSafeSubtractor<emd::TransverseEnergy>;
+%template(RecursiveSafeSubtractorEnergy) RecursiveSafeSubtractor<emd::Energy>;
+%template(RecursiveSafeSubtractorMomentum) RecursiveSafeSubtractor<emd::Momentum>;
+END_PIRANHA_NAMESPACE
+
 // add convenience functions for accessing templated OptimalTransportSubtractor classes
 %pythoncode %{
 
@@ -229,4 +242,18 @@ def OptimalTransportSubtractor(*args, weight='TransverseMomentum', pairwise_dist
 
     else:
         raise TypeError('weight `{}` not recognized'.format(weight))
+
+def RecursiveSafeSubtractor(*args, weight='TransverseMomentum', **kwargs):
+
+    if weight == 'TransverseMomentum':
+        return RecursiveSafeSubtractorTransverseMomentum(*args, **kwargs)
+    elif weight == 'TransverseEnergy':
+        return RecursiveSafeSubtractorTransverseEnergy(*args, **kwargs)
+    elif weight == 'Energy':
+        return RecursiveSafeSubtractorEnergy(*args, **kwargs)
+    elif weight == 'Momentum':
+        return RecursiveSafeSubtractorMomentum(*args, **kwargs)
+    else:
+        raise TypeError('weight `{}` not recognized'.format(weight))
+
 %}

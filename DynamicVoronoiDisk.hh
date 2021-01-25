@@ -40,7 +40,7 @@ class DynamicVoronoiDisk : public DynamicVoronoiBase {
 private:
 
   // variables held by this class
-  double R2_, R2over9_, piR2_, twoR_, threeR_, x0_, y0_;
+  double R2_, R2over9_, twoR_, threeR_, x0_, y0_;
   Point center_;
 
 public:
@@ -60,11 +60,11 @@ public:
   // overloads setting R
   void set_R(double R) {
     DynamicVoronoiBase::set_R(R);
-    R2_ = R_*R_;
-    R2over9_ = R2_/9;
-    piR2_ = PI*R2_;
     twoR_ = 2*R_;
     threeR_ = 3*R_;
+    R2_ = R_*R_;
+    R2over9_ = R2_/9;
+    total_area_ = PI*R2_;
   }
 
   // function for setting the center of the circle
@@ -79,9 +79,6 @@ public:
   // functions for accessing the center
   double x0() const { return x0_; }
   double y0() const { return y0_; }
-
-  // gets the total area of the circular region
-  double total_area() const { return piR2_; }
 
   // function deciding if point is valid
   bool valid_point(const Point & p) const { return dist2(p, center_) <= R2_; }

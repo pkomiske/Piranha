@@ -4,8 +4,8 @@ FASTJETCONFIG=fastjet-config
 PREFIX=$(shell $(FASTJETCONFIG) --prefix)
 CXX=g++
 CXXFLAGS+=-O3 -Wall -g -std=c++14
-install_script = $(SHELL) ../utils/install-sh
-check_script = ../utils/check.sh
+install_script = $(SHELL) ./scripts/install-sh
+check_script = ./scripts/check.sh
 
 # global contrib-wide Makefile include may override some of the above
 # variables (leading "-" means don't give an error if you can't find
@@ -15,13 +15,13 @@ check_script = ../utils/check.sh
 #------------------------------------------------------------------------
 # things that are specific to this contrib
 NAME=Piranha
-SRCS=DynamicVoronoiBase.cc DynamicVoronoiCylinder.cc DynamicVoronoiDisk.cc RecursiveSafeSubtractor.cc
+SRCS=DynamicVoronoiBase.cc DynamicVoronoiCylinder.cc DynamicVoronoiDisk.cc IteratedVoronoiSubtractorBase.cc OptimalTransportSubtractor.cc RecursiveSafeSubtractor.cc
 EXAMPLES=example
 INSTALLED_HEADERS=DynamicVoronoiBase.hh DynamicVoronoiCylinder.hh DynamicVoronoiDisk.hh IteratedVoronoiSubtractor.hh IteratedVoronoiSubtractorBase.hh OptimalTransportSubtractor.hh Piranha.hh PiranhaUtils.hh RecursiveSafeSubtractor.hh
 #------------------------------------------------------------------------
 
 CXXFLAGS+= $(shell $(FASTJETCONFIG) --cxxflags)
-LDFLAGS += $(shell $(FASTJETCONFIG) --libs)
+LDFLAGS += $(shell $(FASTJETCONFIG) --libs) -lEventGeometry
 
 OBJS := $(SRCS:.cc=.o)
 EXAMPLES_SRCS  = $(EXAMPLES:=.cc)
@@ -60,7 +60,7 @@ lib$(NAME).a: $(OBJS)
 	ranlib lib$(NAME).a
 
 shared: $(SRCS)
-	$(CXX) $(dynlibopt) -fPIC -DPIC $(CXXFLAGS) -g0 $(LDFLAGS) -o lib$(NAME).$(dynlibext) $(SRCS)
+	$(CXX) $(dynlibopt) -fPIC -DPIC -DNDEBUG $(CXXFLAGS) -g0 $(LDFLAGS) -o lib$(NAME).$(dynlibext) $(SRCS)
 
 # building the examples
 examples: $(EXAMPLES)

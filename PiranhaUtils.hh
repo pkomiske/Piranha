@@ -35,6 +35,7 @@ inline double phi_fix(double phi, double ref_phi) {
 
 // enum to hold type of quantity to be monitored during grooming
 enum class SubtractionType { Area, AreaTrackEMD, EMD };
+enum class RhoSubtractionMode { Additive, Fractional };
 
 // internal enum to hold result of removing a point
 enum class RemovalResult { Success, Coincidence };

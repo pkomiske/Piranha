@@ -32,7 +32,8 @@
 BEGIN_PIRANHA_NAMESPACE
 
 // describes the object
-std::string RecursiveSafeSubtractor::description() const {
+template<class ParticleWeight>
+std::string RecursiveSafeSubtractor<ParticleWeight>::description() const {
   std::ostringstream oss;
   std::string jet_alg_descr;
   try { jet_alg_descr = JetDefinition::algorithm_description(jet_alg_); }
@@ -43,12 +44,15 @@ std::string RecursiveSafeSubtractor::description() const {
   oss << "RecursiveSafeSubtractor\n"
       << "  z - " << default_z_ << '\n'
       << "  f - " << default_f_ << '\n'
-      << "  jet_alg - " << JetDefinition::algorithm_description(jet_alg_) << '\n';
+      << "  jet_alg - " << JetDefinition::algorithm_description(jet_alg_) << '\n'
+      << "  particle_weight - " << ParticleWeight::name() << '\n';
   return oss.str();
 }
 
-// sets RecursiveSafeSubtractor to operate on this jet
-std::forward_list<PseudoJet> RecursiveSafeSubtractor::operator()(const PseudoJet & jet) {
+// internally set jet and groom according to default parameters
+template<class ParticleWeight>
+std::forward_list<PseudoJet>
+RecursiveSafeSubtractor<ParticleWeight>::operator()(const PseudoJet & jet) {
 
   // recluster the jet
   if (!jet.has_valid_cs())
@@ -58,9 +62,10 @@ std::forward_list<PseudoJet> RecursiveSafeSubtractor::operator()(const PseudoJet
   return init_and_run();
 }
 
-// sets RecursiveSafeSubtractor to operate on a vector of PseudoJets
-std::forward_list<PseudoJet> RecursiveSafeSubtractor::operator()(const std::vector<PseudoJet> & pjs) {
-  
+// internally set jet (given as a vector of PseudoJets) and groom according to default parameters
+template<class ParticleWeight>
+std::forward_list<PseudoJet>
+RecursiveSafeSubtractor<ParticleWeight>::operator()(const std::vector<PseudoJet> & pjs) {
   ClusterSequence * cs = new ClusterSequence(pjs, JetDefinition(jet_alg_, JetDefinition::max_allowable_R));
   reclustered_jet_ = cs->inclusive_jets()[0];
   cs->delete_self_when_unused();
@@ -68,42 +73,47 @@ std::forward_list<PseudoJet> RecursiveSafeSubtractor::operator()(const std::vect
   return init_and_run();
 }
 
-// initialize and run for the internally stored jet
-std::forward_list<PseudoJet> RecursiveSafeSubtractor::init_and_run() {
-
-  // initialize ptsums
-  ptsums_.resize(2*reclustered_jet_.validated_cs()->n_particles());
-  pttot_ = initialize_pt_sums(reclustered_jet_);
-
-  // groom according to default parameters
-  f_ = default_f_;
-  return do_RecursiveSafeSubtractor(reclustered_jet_, default_z_ * pttot_);
-}
-
-// grooms the internally set jet according to z and f parameters
-std::forward_list<PseudoJet> RecursiveSafeSubtractor::apply(double z, double f) {
-  if (z < 0 || z > 1) throw std::invalid_argument("z must be in the range [0,1]");
-  if (f < 0 || f > 1) throw std::invalid_argument("f must be in the range [0,1]");
-  if (pttot_ == INVALID_PTTOT)
+// groom the internally set jet according to the parameters z and f
+// this can be used to avoid multiple reclusterings/initializings of the same jet
+template<class ParticleWeight>
+std::forward_list<PseudoJet> RecursiveSafeSubtractor<ParticleWeight>::apply(double z, double f) {
+  validate_params(z, f);
+  if (total_weight_ == INVALID_TOTAL_WEIGHT)
     throw std::runtime_error("cannot use `apply` without first calling RecursiveSafeSubtractor directly on a jet or vector of PseudoJets");
 
   f_ = f;
-  return do_RecursiveSafeSubtractor(reclustered_jet_, z * pttot_);
+  return do_recursive_subtraction(reclustered_jet_, z * total_weight_);
 }
 
-// recursive method, returns the sum of pts of the pieces of this pseudojet
-double RecursiveSafeSubtractor::initialize_pt_sums(const PseudoJet & pj) {
+// initialize and run for the internally stored jet
+template<class ParticleWeight>
+std::forward_list<PseudoJet> RecursiveSafeSubtractor<ParticleWeight>::init_and_run() {
+
+  // initialize weight_sums
+  weight_sums_.resize(2*reclustered_jet_.validated_cs()->n_particles());
+  total_weight_ = initialize_weight_sums(reclustered_jet_);
+
+  // groom according to default parameters
+  f_ = default_f_;
+  return do_recursive_subtraction(reclustered_jet_, default_z_ * total_weight_);
+}
+
+// recursive function that tallies the pt of the particles of this jet
+template<class ParticleWeight>
+double RecursiveSafeSubtractor<ParticleWeight>::initialize_weight_sums(const PseudoJet & pj) {
   PseudoJet piece1, piece2;
   if (!pj.has_parents(piece1, piece2))
-    return ptsums_[pj.cluster_hist_index()] = pj.pt();
-  return ptsums_[pj.cluster_hist_index()] = initialize_pt_sums(piece1) + initialize_pt_sums(piece2);
+    return weight_sums_[pj.cluster_hist_index()] = ParticleWeight::weight(pj);
+  return weight_sums_[pj.cluster_hist_index()] = initialize_weight_sums(piece1) + initialize_weight_sums(piece2);
 }
 
-// recursive method, applies RecursiveSafeSubtractor algorithm
-std::forward_list<PseudoJet> RecursiveSafeSubtractor::do_RecursiveSafeSubtractor(const PseudoJet & pj, double ptsub) const {
+// recursive function that applies the safe drop by subtracting weight_sub from the jet
+template<class ParticleWeight>
+std::forward_list<PseudoJet>
+RecursiveSafeSubtractor<ParticleWeight>::do_recursive_subtraction(const PseudoJet & pj, double weight_sub) const {
 
-  // check for boundary case where ptsub is zero
-  if (ptsub <= 0) {
+  // check for boundary case where weight_sub is zero
+  if (weight_sub <= 0) {
     if (pj.has_constituents()) {
       std::vector<PseudoJet> consts(pj.constituents());
       return std::forward_list<PseudoJet>(consts.begin(), consts.end());
@@ -111,36 +121,45 @@ std::forward_list<PseudoJet> RecursiveSafeSubtractor::do_RecursiveSafeSubtractor
     else return std::forward_list<PseudoJet>{pj};
   }
 
-  // recurse to parents of this PseudoJet, if none then subtract the pt
+  // recurse to parents of this PseudoJet, if none then subtract the weight
   PseudoJet piece1, piece2;
-  if (!pj.has_parents(piece1, piece2))
-    return std::forward_list<PseudoJet>{PtYPhiM(pj.pt() - ptsub, pj.rap(), pj.phi(), pj.m())};;
+  if (!pj.has_parents(piece1, piece2)) {
+    std::forward_list<PseudoJet> pjlist{pj};
+    ParticleWeight::set_weight(pjlist.front(), ParticleWeight::weight(pj) - weight_sub);
+    return pjlist;
+  }
 
-  // lookup ptsums of each parent that were cached in initialization
-  double ptsum1(ptsums_[piece1.cluster_hist_index()]), ptsum2(ptsums_[piece2.cluster_hist_index()]);
+  // lookup weight_sums of each parent that were cached in initialization
+  double weightsum1(weight_sums_[piece1.cluster_hist_index()]), weightsum2(weight_sums_[piece2.cluster_hist_index()]);
 
   // sort out which branch is harder
-  bool piece2harder(ptsum2 > ptsum1);
-  double maxpt(ptsum1), minpt(ptsum2);
+  bool piece2harder(weightsum2 > weightsum1);
+  double maxweight(weightsum1), minweight(weightsum2);
   if (piece2harder) {
-    maxpt = ptsum2;
-    minpt = ptsum1;
+    maxweight = weightsum2;
+    minweight = weightsum1;
   }
   const PseudoJet & hard(piece2harder ? piece2 : piece1), & soft(piece2harder ? piece1 : piece2);
-  double f(minpt == maxpt ? 0.5 : f_), ptsubsoft(f*ptsub), ptsubhard((1-f)*ptsub);
+  double f(minweight == maxweight ? 0.5 : f_), weight_subsoft(f*weight_sub), weight_subhard((1-f)*weight_sub);
 
   // soft prong dies entirely
-  if (minpt <= ptsubsoft)
-    return do_RecursiveSafeSubtractor(hard, ptsub - minpt);
+  if (minweight <= weight_subsoft)
+    return do_recursive_subtraction(hard, weight_sub - minweight);
 
-  // hard prong dies entirely (can happen if f < 0.5)$
-  if (maxpt <= ptsubhard)
-    return do_RecursiveSafeSubtractor(soft, ptsub - maxpt);
+  // hard prong dies entirely (can happen if f < 0.5)
+  if (maxweight <= weight_subhard)
+    return do_recursive_subtraction(soft, weight_sub - maxweight);
 
   // run RecursiveSafeSubtractor on the hard and soft branches, splice, and return result
-  std::forward_list<PseudoJet> pieces(do_RecursiveSafeSubtractor(soft, ptsubsoft));
-  pieces.splice_after(pieces.before_begin(), do_RecursiveSafeSubtractor(hard, ptsubhard));
+  std::forward_list<PseudoJet> pieces(do_recursive_subtraction(soft, weight_subsoft));
+  pieces.splice_after(pieces.before_begin(), do_recursive_subtraction(hard, weight_subhard));
   return pieces;
 }
+
+// specify explicit templates
+template class RecursiveSafeSubtractor<emd::TransverseMomentum>;
+template class RecursiveSafeSubtractor<emd::TransverseEnergy>;
+template class RecursiveSafeSubtractor<emd::Energy>;
+template class RecursiveSafeSubtractor<emd::Momentum>;
 
 END_PIRANHA_NAMESPACE
