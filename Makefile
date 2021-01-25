@@ -41,7 +41,7 @@ else
     dynlibext=so
 endif
 
-.PHONY: clean distclean examples check install all shared
+.PHONY: clean distclean examples check install all shared install_shared
 
 # http://make.mad-scientist.net/papers/advanced-auto-dependency-generation/#combine
 DEPDIR = .deps
@@ -89,8 +89,12 @@ clean:
 distclean: clean
 	rm -f lib$(NAME).a $(EXAMPLES)
 
+install_shared: shared
+	$(install_DIR) $(PREFIX)/lib
+	$(install_LIB) lib$(NAME).$(dynlibext) $(PREFIX)/lib
+
 # install things in PREFIX/...
-install: all
+install: all install_shared
 	$(install_DIR) $(PREFIX)/include/fastjet/contrib
 	for header in $(INSTALLED_HEADERS); do\
 	  $(install_HEADER) $$header $(PREFIX)/include/fastjet/contrib/;\

@@ -8,5 +8,4 @@ make install
 cd ..
 
 # make shared library and put it in accessible location
-make shared
-cp lib*.so /usr/local/lib
+make install_shared

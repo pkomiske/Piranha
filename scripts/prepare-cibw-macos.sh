@@ -22,5 +22,4 @@ make install
 cd ..
 
 # make shared library and put it in accessible location
-make shared
-cp lib*.dylib /usr/local/lib
+make install_shared
