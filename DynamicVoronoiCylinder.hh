@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -101,13 +100,16 @@ protected:
   // setup triangulation with these points
   void construct_indexed_points(const std::vector<Point> &);
 
-  // returns true if the point is in the acceptance region, which here means it has a valid x coordinate
+  // returns true if the point is in the acceptance region, 
+  // which here means it has a valid x coordinate
   bool in_acceptance(const Point & p) const {
     return xmin_ <= p.x() && p.x() <= xmax_;
   }
 
-  // compute the intersection of the acceptance rectangle with the segment defined by these points
-  void intersect_acceptance(const std::pair<Point,bool> &, const std::pair<Point,bool> &);
+  // compute the intersection of the acceptance rectangle 
+  // with the segment defined by these points
+  void intersect_acceptance(const std::pair<Point,bool> &, 
+                            const std::pair<Point,bool> &);
 
 }; // DynamicVoronoiCylinder
 

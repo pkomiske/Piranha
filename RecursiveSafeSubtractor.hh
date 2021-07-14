@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -32,13 +31,16 @@
 #include <string>
 #include <vector>
 
-// FastJet
-#include "fastjet/JetDefinition.hh"
-#include "fastjet/PseudoJet.hh"
-#include "fastjet/tools/Recluster.hh"
+#ifdef PIRANHA_USE_PYFJCORE
+# include "EventGeometry/PyFJCore/pyfjcore/fjcore.hh"
+#else
+# include "fastjet/JetDefinition.hh"
+# include "fastjet/PseudoJet.hh"
+# include "fastjet/tools/Recluster.hh"
+#endif
 
 // EventGeometry contrib
-#include "fastjet/contrib/EventGeometry.hh"
+#include "EventGeometry/EventGeometry.hh"
 
 // Piranha contrib
 #include "PiranhaUtils.hh"
@@ -47,7 +49,7 @@
 
 BEGIN_PIRANHA_NAMESPACE
 
-template<class ParticleWeight = emd::TransverseMomentum>
+template<class ParticleWeight = eventgeometry::TransverseMomentum<double>>
 class RecursiveSafeSubtractor {
 private:
 

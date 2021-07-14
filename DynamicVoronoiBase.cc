@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -31,6 +30,23 @@ BEGIN_PIRANHA_NAMESPACE
 
 using Point = DynamicVoronoiBase::Point;
 using K = DynamicVoronoiBase::K;
+
+// return a decription of this object
+std::string DynamicVoronoiBase::description() const {
+  std::ostringstream oss;
+  oss << name() << '\n'
+      << "  - Tracking region areas\n";
+
+  if (track_emds())
+  oss << "  - Tracking region EMDs\n";
+  if (track_intersection_vertices_)
+  oss << "  - Tracking intersection vertices\n";
+
+  oss << '\n'
+      << parameters();
+
+  return oss.str();
+}
 
 void DynamicVoronoiBase::reset() {
 

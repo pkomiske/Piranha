@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -38,14 +37,30 @@
 #include <utility>
 #include <vector>
 
-#include "fastjet/PseudoJet.hh"
-#include "fastjet/tools/BackgroundEstimatorBase.hh"
+#ifdef PIRANHA_USE_PYFJCORE
+# include "pyfjcore/fjcore.hh"
+#else
+# include "fastjet/PseudoJet.hh"
+# include "fastjet/tools/BackgroundEstimatorBase.hh"
+#endif
 
 #include "PiranhaUtils.hh"
 
 #define VERTEX_DEFAULT_IND -1
 
 BEGIN_PIRANHA_NAMESPACE
+
+#ifndef __FASTJET_BACKGROUND_ESTIMATOR_BASE_HH__
+class BackgroundEstimatorBase {
+public:
+  void * rescaling_class() const { return nullptr; }
+  double rho() const {
+    throw std::invalid_argument("background estimation not available with pyfjcore");
+    return DEFAULT_VORONOI_QUANTITY;
+  }
+  double rho(const PseudoJet & jet) const { return rho(); }
+};
+#endif
 
 // a small value to use for debugging
 const double piranha_epsilon = 10*std::numeric_limits<double>::epsilon();

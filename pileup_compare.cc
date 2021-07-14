@@ -378,8 +378,11 @@ int main(int argc, char** argv) {
     area_sub.set_use_rho_m(!massless);
 
     // setup other pileup subtraction
-    fastjet::contrib::piranha::IteratedVoronoiSubtractorCylinder ivsub(rapmax);
-    ivsub.set_background_estimator(&gmbge);
+    fastjet::contrib::piranha::IteratedVoronoiSubtractorCylinder ivsub1(rapmax), ivsub2(ivsub1);
+    ivsub1.set_rho_subtraction_mode(fastjet::contrib::piranha::RhoSubtractionMode::Additive);
+    ivsub2.set_rho_subtraction_mode(fastjet::contrib::piranha::RhoSubtractionMode::Fractional);
+    ivsub1.set_background_estimator(&gmbge);
+    ivsub2.set_background_estimator(&gmbge);
     fastjet::contrib::ConstituentSubtractor cssub;
 
     cssub.set_distance_type(fastjet::contrib::ConstituentSubtractor::deltaR);
@@ -392,7 +395,8 @@ int main(int argc, char** argv) {
 
     #pragma omp single
     {
-      std::cout << ivsub.description() << std::endl
+      std::cout << ivsub1.description() << std::endl
+                << ivsub2.description() << std::endl
                 << cssub.description() << std::endl;  
     }
 
@@ -436,11 +440,12 @@ int main(int argc, char** argv) {
       std::vector<PseudoJet> area_sub_jets(fastjet::sorted_by_pt(area_sub(full_jets)));
 
       // do IVS subtraction
-      std::vector<PseudoJet> iv_sub_event(ivsub(event));
+      std::vector<PseudoJet> iv_sub_event1(ivsub1(event)), iv_sub_event2(ivsub2(event));
 
       // find IVS jets
-      fastjet::ClusterSequence cs_iv(iv_sub_event, jet_def);
-      std::vector<PseudoJet> iv_sub_jets(fastjet::sorted_by_pt(jet_sel(cs_iv.inclusive_jets())));
+      fastjet::ClusterSequence cs_iv1(iv_sub_event1, jet_def), cs_iv2(iv_sub_event2, jet_def);
+      std::vector<PseudoJet> iv_sub_jets1(fastjet::sorted_by_pt(jet_sel(cs_iv1.inclusive_jets()))),
+                             iv_sub_jets2(fastjet::sorted_by_pt(jet_sel(cs_iv2.inclusive_jets())));
 
       // constituent subtraction
       std::vector<PseudoJet> cs_sub_event(cssub.subtract_event(event));
@@ -452,32 +457,37 @@ int main(int argc, char** argv) {
       {
         if (iEvent_i < max_print)
           std::cout << "Event " << iEvent_i << ", pt_hard_jet0 = " << hard_jets[0].pt()
-                                            << ", pt_full_jet0 = " << full_jets[0].pt() 
+                                            << ", pt_full_jet0 = " << full_jets[0].pt()
                                             << ", pt_corr_jet0 = " << area_sub_jets[0].pt()
-                                            << ", pt_ivcr_jet0 = " << iv_sub_jets[0].pt() 
-                                            << ", pt_cscr_jet0 = " << cs_sub_jets[0].pt() 
+                                            << ", pt_iv1cr_jet0 = " << iv_sub_jets1[0].pt()
+                                            << ", pt_iv2cr_jet0 = " << iv_sub_jets2[0].pt()
+                                            << ", pt_cscr_jet0 = " << cs_sub_jets[0].pt()
                                             << std::endl;
         of << npu                   << ' '
            << hard_jets[0].pt()     << ' '
            << full_jets[0].pt()     << ' '
            << area_sub_jets[0].pt() << ' '
            << cs_sub_jets[0].pt()   << ' '
-           << iv_sub_jets[0].pt()   << ' '
+           << iv_sub_jets1[0].pt()  << ' '
+           << iv_sub_jets2[0].pt()  << ' '
            << hard_jets[0].m()      << ' '
            << full_jets[0].m()      << ' '
            << area_sub_jets[0].m()  << ' '
            << cs_sub_jets[0].m()    << ' '
-           << iv_sub_jets[0].m()    << ' '
+           << iv_sub_jets1[0].m()   << ' '
+           << iv_sub_jets2[0].m()   << ' '
            << hard_jets[1].pt()     << ' '
            << full_jets[1].pt()     << ' '
            << area_sub_jets[1].pt() << ' '
            << cs_sub_jets[1].pt()   << ' '
-           << iv_sub_jets[1].pt()   << ' '
+           << iv_sub_jets1[1].pt()  << ' '
+           << iv_sub_jets2[1].pt()  << ' '
            << hard_jets[1].m()      << ' '
            << full_jets[1].m()      << ' '
            << area_sub_jets[1].m()  << ' '
            << cs_sub_jets[1].m()    << ' '
-           << iv_sub_jets[1].m()    
+           << iv_sub_jets1[1].m()   << ' '
+           << iv_sub_jets2[1].m()   << ' '
            << '\n';
       }
     }

@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -26,19 +25,20 @@
 #ifndef PIRANHA_OPTIMALTRANSPORTSUBTRACTOR_HH
 #define PIRANHA_OPTIMALTRANSPORTSUBTRACTOR_HH
 
-// FastJet
-#include "fastjet/PseudoJet.hh"
+#ifdef PIRANHA_USE_PYFJCORE
+# include "pyfjcore/fjcore.hh"
+#else
+# include "fastjet/PseudoJet.hh"
+#endif
 
 // EventGeometry contrib
-#include "fastjet/contrib/EventGeometry.hh"
+#ifndef DECLARE_EVENTGEOMETRY_TEMPLATES
+#define DECLARE_EVENTGEOMETRY_TEMPLATES
+#endif
+#include "EventGeometry.hh"
 
 // Piranha contrib
 #include "PiranhaUtils.hh"
-
-// this avoids unnecessary compilation of EMD templates
-#ifndef SWIG_PREPROCESSOR
-DECLARE_EMD_TEMPLATES
-#endif
 
 BEGIN_PIRANHA_NAMESPACE
 

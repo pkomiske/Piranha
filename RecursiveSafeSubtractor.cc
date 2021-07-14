@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -24,8 +23,6 @@
 //----------------------------------------------------------------------
 
 #include <stdexcept>
-
-#include "fastjet/ClusterSequence.hh"
 
 #include "RecursiveSafeSubtractor.hh"
 
@@ -157,9 +154,9 @@ RecursiveSafeSubtractor<ParticleWeight>::do_recursive_subtraction(const PseudoJe
 }
 
 // specify explicit templates
-template class RecursiveSafeSubtractor<emd::TransverseMomentum>;
-template class RecursiveSafeSubtractor<emd::TransverseEnergy>;
-template class RecursiveSafeSubtractor<emd::Energy>;
-template class RecursiveSafeSubtractor<emd::Momentum>;
+template class RecursiveSafeSubtractor<eventgeometry::TransverseMomentum<double>>;
+template class RecursiveSafeSubtractor<eventgeometry::TransverseEnergy<double>>;
+template class RecursiveSafeSubtractor<eventgeometry::Energy<double>>;
+template class RecursiveSafeSubtractor<eventgeometry::Momentum<double>>;
 
 END_PIRANHA_NAMESPACE

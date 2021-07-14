@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -25,9 +24,6 @@
 
 #ifndef PIRANHA_ITERATEDVORONOISUBTRACTOR_HH
 #define PIRANHA_ITERATEDVORONOISUBTRACTOR_HH
-
-// FastJet
-#include "fastjet/PseudoJet.hh"
 
 // Piranha contrib
 #include "DynamicVoronoiCylinder.hh"

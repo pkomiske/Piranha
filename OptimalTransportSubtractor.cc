@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -110,7 +109,7 @@ OptimalTransportSubtractor<EMD>::subtract(const std::vector<PseudoJet> & pjs,
   emd_obj_(pjs, ghosts);
 
   // verify that extra particle went to the ghosts
-  if (emd_obj().extra() == emd::ExtraParticle::Zero)
+  if (emd_obj().extra() == eventgeometry::ExtraParticle::Zero)
     throw std::runtime_error("event should not have gotten an extra particle");
 
   // subtract pt from each PseudoJet
@@ -135,21 +134,23 @@ OptimalTransportSubtractor<EMD>::subtract(const std::vector<PseudoJet> & pjs,
   return subtracted_pjs;
 }
 
-// explicit template instantiations
-template class OptimalTransportSubtractor<emd::EMD<emd::TransverseMomentum, emd::DeltaR>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::TransverseMomentum, emd::HadronicDot>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::TransverseMomentum, emd::HadronicDotMassive>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::TransverseEnergy, emd::DeltaR>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::TransverseEnergy, emd::HadronicDot>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::TransverseEnergy, emd::HadronicDotMassive>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::Momentum, emd::EEDot>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::Momentum, emd::EEDotMassive>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::Momentum, emd::EEArcLength>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::Momentum, emd::EEArcLengthMassive>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::Energy, emd::EEDot>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::Energy, emd::EEDotMassive>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::Energy, emd::EEArcLength>>;
-template class OptimalTransportSubtractor<emd::EMD<emd::Energy, emd::EEArcLengthMassive>>;
+#define OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Weight, Distance) \
+  template class OptimalTransportSubtractor<eventgeometry::EMD<double, eventgeometry::Weight, eventgeometry::Distance>>;
 
+// explicit template instantiations
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, DeltaR)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, HadronicDot)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, HadronicDotMassive)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseEnergy, DeltaR)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseEnergy, HadronicDot)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseEnergy, HadronicDotMassive)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEDot)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEDotMassive)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEArcLength)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEArcLengthMassive)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEDot)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEDotMassive)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEArcLength)
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEArcLengthMassive)
 
 END_PIRANHA_NAMESPACE

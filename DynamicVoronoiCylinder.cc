@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -103,7 +102,8 @@ std::vector<int> DynamicVoronoiCylinder::neighbors(unsigned i) const {
   return nbs;
 }
 
-void DynamicVoronoiCylinder::intersect_acceptance(const std::pair<Point,bool> & start, const std::pair<Point,bool> & end) {
+void DynamicVoronoiCylinder::intersect_acceptance(const std::pair<Point,bool> & start, 
+                                                  const std::pair<Point,bool> & end) {
 
   // reset validities
   p0_valid_ = p1_valid_ = false;
@@ -122,7 +122,8 @@ void DynamicVoronoiCylinder::intersect_acceptance(const std::pair<Point,bool> & 
     p0_ = segInt->source();
     p1_ = segInt->target();
 
-    // validity of the endpoints is determined by whether start and end were in or out of acceptance
+    // validity of the endpoints is determined by whether 
+    // start and end were in or out of acceptance
     p0_valid_ = !start.second;
     p1_valid_ = !end.second;
   }
@@ -143,14 +144,18 @@ RemovalResult DynamicVoronoiCylinder::remove(int i) {
   // check for valid removal
 #ifdef PIRANHA_DEBUG
   if (!vertex_is_primary_and_active(i))
-    THROW_PIRANHA_ERROR("Point to be removed " + std::to_string(i) + "is not primary and/or active");
+    THROW_PIRANHA_ERROR("Point to be removed " + std::to_string(i) + 
+                        "is not primary and/or active");
 #endif
 
   // get vertex handles of this point and the translated points
   int id(nInitPoints_ + i), iu(2*nInitPoints_ + i);
-  Vertex_handle vh(delaunayVerts_[i]), vhd(delaunayVerts_[id]), vhu(delaunayVerts_[iu]);
+  Vertex_handle vh(delaunayVerts_[i]),
+                vhd(delaunayVerts_[id]),
+                vhu(delaunayVerts_[iu]);
 
-  // check that the translated points own their own vertices (only relevant if there was a coincidence previously)
+  // check that the translated points own their own vertices
+  // (only relevant if there was a coincidence previously)
 #ifdef PIRANHA_DEBUG
   if (vhd->id() != id || vhu->id() != iu)
     THROW_PIRANHA_ERROR("Translated points do not own their own vertices");
@@ -172,8 +177,10 @@ RemovalResult DynamicVoronoiCylinder::remove(int i) {
     while (coincidences_[next_i] != i)
       next_i = coincidences_[next_i];
 
-    // check if this is the index that the vertex handle is associated to currently, update to next_i
-    // update the quantity vectors for next_i to reflect those for the associated index
+    // - check if this is the index that the vertex handle is 
+    //   associated to currently, update to next_i
+    // - update the quantity vectors for next_i to reflect those 
+    //   for the associated index
     if (vh->id() == i) {
       voronoiAreas_[next_i] = voronoiAreas_[i];
       if (track_emds_)
@@ -242,8 +249,10 @@ RemovalResult DynamicVoronoiCylinder::remove(int i) {
   for (double a : voronoiAreas_) area += a;
   if (fabs(area - total_area()) > 1e-8 && area > 1e-8) {
     std::ostringstream oss;
-    oss << std::setprecision(10) << "Total area differs from expected by " << area - total_area();
-    std::cerr << __FILE__ << " - line " << __LINE__ << ": " << oss.str() << std::endl;
+    oss << std::setprecision(10) << "Total area differs from expected by " 
+        << area - total_area();
+    std::cerr << __FILE__ << " - line " << __LINE__ << ": " 
+              << oss.str() << std::endl;
   }
 #endif
 

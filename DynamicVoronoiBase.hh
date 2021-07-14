@@ -3,8 +3,7 @@
 //  Questions/comments? pkomiske@mit.edu
 //
 //  Copyright (c) 2019-2021
-//  Patrick T. Komiske III, Eric M. Metodiev,
-//  Samuel Alipour-fard, Jesse Thaler
+//  Patrick T. Komiske III
 //
 //----------------------------------------------------------------------
 // This file is part of FastJet contrib.
@@ -85,7 +84,8 @@ public:
   typedef Triangulation::Vertex_circulator Vertex_circulator;
   typedef Triangulation::Point Point;
 
-  typedef CGAL::Spatial_sort_traits_adapter_2<K,CGAL::First_of_pair_property_map<std::pair<Point,int>>> Search_traits_2;
+  typedef CGAL::First_of_pair_property_map<std::pair<Point,int>> Property_map;
+  typedef CGAL::Spatial_sort_traits_adapter_2<K,Property_map> Search_traits_2;
   typedef std::vector<std::pair<Point,int>> IndexedPointsVec;
 
   // allow IVSubtractorBase to access class internals
@@ -143,26 +143,13 @@ public:
   virtual ~DynamicVoronoiBase() {}
 
   // return a decription of this object
-  std::string description() const {
-    std::ostringstream oss;
-    oss << name() << '\n'
-        << "  - Tracking region areas\n";
-
-    if (track_emds())
-    oss << "  - Tracking region EMDs\n";
-    if (track_intersection_vertices_)
-    oss << "  - Tracking intersection vertices\n";
-
-    oss << '\n'
-        << parameters();
-
-    return oss.str();
-  }
+  std::string description() const;
 
   // setter functions
   void set_subtraction_type(SubtractionType subtype) {
     subtype_ = subtype;
-    track_emds_ = (subtype_ == SubtractionType::EMD) || (subtype_ == SubtractionType::AreaTrackEMD);
+    track_emds_ = (subtype_ == SubtractionType::EMD) || 
+                  (subtype_ == SubtractionType::AreaTrackEMD);
   }
   virtual void set_R(double R) {
     if (R <= 0)
@@ -240,13 +227,15 @@ protected:
   virtual bool in_acceptance(const Point & p) const = 0;
 
   // do intersection of a segment with the acceptance region of this object
-  virtual void intersect_acceptance(const std::pair<Point,bool> &, const std::pair<Point,bool> &) = 0;
+  virtual void intersect_acceptance(const std::pair<Point,bool> &, 
+                                    const std::pair<Point,bool> &) = 0;
 
   // processes region and updates voronoi verts and areas/emds
   void process_region(const Vertex_handle &);
 
   // handle any post-processing in process region, do nothing by default
-  virtual void finish_process_region(const std::vector<std::pair<Point,bool>> & sivs, Vertex_handle vh) {}
+  virtual void finish_process_region(const std::vector<std::pair<Point,bool>> & sivs, 
+                                     Vertex_handle vh) {}
 
   // the EMD density of a triangular region
   double emd_density_triangle(const Point &, const Point &, const Point &) const;
