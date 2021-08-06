@@ -10,6 +10,7 @@ env:
   PYPITEST: 1
   CIBW_SKIP: pp* *i686
   CIBW_BEFORE_ALL_LINUX: make shared
+  CIBW_ENVIRONMENT_LINUX: "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)"
   CIBW_MANYLINUX_X86_64_IMAGE: ghcr.io/pkomiske/piranha_manylinux2010_x86_64:latest
   GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
   TWINE_USERNAME: __token__
