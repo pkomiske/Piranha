@@ -5,7 +5,8 @@ PREFIX = $(shell $(FASTJETCONFIG) --prefix)
 CXX = g++
 CXXFLAGS += -O3 -ffast-math -Wall -std=c++14 -fPIC -DPIC -DNDEBUG -DPIRANHA_USE_PYFJCORE -DEVENTGEOMETRY_USE_PYFJCORE
 CXXFLAGS += -IEventGeometry -IEventGeometry/Wasserstein -IEventGeometry/PyFJCore
-LDFLAGS += -LEventGeometry -lEventGeometry
+LDFLAGS += -lgmp
+#LDFLAGS += -LEventGeometry -lEventGeometry
 install_script = $(SHELL) ./scripts/install-sh
 check_script = ./scripts/check.sh
 
@@ -35,11 +36,12 @@ install_SCRIPT  = $(install_script) -c
 ifeq "$(shell uname)" "Darwin"
 	dynlibopt = -dynamiclib
     dynlibext = dylib
-    LDFLAGS += -undefined dynamic_lookup -install_name @rpath/lib$(NAME).dylib -Wl,-rpath,@loader_path/EventGeometry -lgmp
+    LDFLAGS += -undefined dynamic_lookup
+    #LDFLAGS += -install_name @rpath/lib$(NAME).dylib -Wl,-rpath,@loader_path/EventGeometry -lgmp
 else
     dynlibopt = -shared
     dynlibext = so
-    LDFLAGS += -Wl,-rpath,\$$ORIGIN/EventGeometry -lgmp
+    #LDFLAGS += -Wl,-rpath,\$$ORIGIN/EventGeometry -lgmp
 endif
 
 FJ_CXXFLAGS+= $(shell $(FASTJETCONFIG) --cxxflags)

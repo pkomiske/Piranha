@@ -32,9 +32,10 @@
 
 BEGIN_PIRANHA_NAMESPACE
 
-// these templates will already be instantiated in the library
-extern template class IteratedVoronoiSubtractorBase<DynamicVoronoiCylinder>;
-extern template class IteratedVoronoiSubtractorBase<DynamicVoronoiDisk>;
+#ifdef DECLARE_PIRANHA_TEMPLATES
+  PIRANHA_TEMPLATE_CLASS(IteratedVoronoiSubtractorBase<DynamicVoronoiCylinder>)
+  PIRANHA_TEMPLATE_CLASS(IteratedVoronoiSubtractorBase<DynamicVoronoiDisk>)
+#endif
 
 ///////////////////////////////////////////////////////////////////////////////
 //
@@ -68,7 +69,7 @@ public:
   {}
 
   // version taking in a jet assumed to have constituents
-  std::vector<PseudoJet> operator()(const PseudoJet & jet) {
+  PIRANHA_PSEUDOJET_CONTAINER operator()(const PseudoJet & jet) {
     individual_jet_ = true;
     if (have_bge())
       jet_rho_ = background_estimator()->rho(jet);
@@ -78,7 +79,7 @@ public:
     return result(consts);
   }
 
-  std::vector<PseudoJet> operator()(const std::vector<PseudoJet> & pjs) {
+  PIRANHA_PSEUDOJET_CONTAINER operator()(const std::vector<PseudoJet> & pjs) {
     individual_jet_ = false;
     preprocess(pjs);
     return result(pjs);
@@ -107,7 +108,7 @@ public:
   {}
 
   // version taking in a jet assumed to have constituents
-  std::vector<PseudoJet> operator()(const PseudoJet & jet) {
+  PIRANHA_PSEUDOJET_CONTAINER operator()(const PseudoJet & jet) {
     individual_jet_ = true;
     if (have_bge())
       jet_rho_ = background_estimator()->rho(jet);
@@ -119,12 +120,12 @@ public:
   }
 
   // assume center is the origin
-  std::vector<PseudoJet> operator()(const std::vector<PseudoJet> & pjs) {
+  PIRANHA_PSEUDOJET_CONTAINER operator()(const std::vector<PseudoJet> & pjs) {
     return operator()(pjs, fastjet::PtYPhiM(0, 0, 0));
   }
 
   // take in a non-zero center
-  std::vector<PseudoJet> operator()(const std::vector<PseudoJet> & pjs, const PseudoJet & center) { 
+  PIRANHA_PSEUDOJET_CONTAINER operator()(const std::vector<PseudoJet> & pjs, const PseudoJet & center) { 
     individual_jet_ = false;
     vor_.set_center(center.rap(), center.phi());
     preprocess(pjs);

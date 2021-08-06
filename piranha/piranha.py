@@ -11,6 +11,11 @@ Python interface to the Piranha FastJet contrib package.
 
 """
 
+
+import eventgeometry
+
+
+
 from sys import version_info as _swig_python_version_info
 if _swig_python_version_info < (2, 7, 0):
     raise RuntimeError("Python 2.7 or later required")
@@ -103,7 +108,7 @@ _piranha.SwigPyIterator_swigregister(SwigPyIterator)
 import eventgeometry
 import pyfjcore
 
-from fastjet import FastJetError
+from eventgeometry import FastJetError
 
 class pairDouble(object):
     r"""Proxy of C++ std::pair< double,double > class."""
@@ -276,58 +281,6 @@ class vectorSubtractionHistory(object):
 
 # Register vectorSubtractionHistory in _piranha:
 _piranha.vectorSubtractionHistory_swigregister(vectorSubtractionHistory)
-
-class vectorVectorPseudoJet(object):
-    r"""Proxy of C++ std::vector< std::vector< fastjet::PseudoJet > > class."""
-
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-    __repr__ = _swig_repr
-    iterator = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_iterator)
-    def __iter__(self):
-        return self.iterator()
-    __nonzero__ = _swig_new_instance_method(_piranha.vectorVectorPseudoJet___nonzero__)
-    __bool__ = _swig_new_instance_method(_piranha.vectorVectorPseudoJet___bool__)
-    __len__ = _swig_new_instance_method(_piranha.vectorVectorPseudoJet___len__)
-    __getslice__ = _swig_new_instance_method(_piranha.vectorVectorPseudoJet___getslice__)
-    __setslice__ = _swig_new_instance_method(_piranha.vectorVectorPseudoJet___setslice__)
-    __delslice__ = _swig_new_instance_method(_piranha.vectorVectorPseudoJet___delslice__)
-    __delitem__ = _swig_new_instance_method(_piranha.vectorVectorPseudoJet___delitem__)
-    __getitem__ = _swig_new_instance_method(_piranha.vectorVectorPseudoJet___getitem__)
-    __setitem__ = _swig_new_instance_method(_piranha.vectorVectorPseudoJet___setitem__)
-    pop = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_pop)
-    append = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_append)
-    empty = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_empty)
-    size = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_size)
-    swap = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_swap)
-    begin = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_begin)
-    end = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_end)
-    rbegin = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_rbegin)
-    rend = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_rend)
-    clear = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_clear)
-    get_allocator = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_get_allocator)
-    pop_back = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_pop_back)
-    erase = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_erase)
-
-    def __init__(self, *args):
-        r"""
-        __init__(vectorVectorPseudoJet self) -> vectorVectorPseudoJet
-        __init__(vectorVectorPseudoJet self, vectorVectorPseudoJetr other) -> vectorVectorPseudoJet
-        __init__(vectorVectorPseudoJet self, std::vector< std::vector< fastjet::PseudoJet > >::size_type size) -> vectorVectorPseudoJet
-        __init__(vectorVectorPseudoJet self, std::vector< std::vector< fastjet::PseudoJet > >::size_type size, vectorPseudoJet value) -> vectorVectorPseudoJet
-        """
-        _piranha.vectorVectorPseudoJet_swiginit(self, _piranha.new_vectorVectorPseudoJet(*args))
-    push_back = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_push_back)
-    front = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_front)
-    back = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_back)
-    assign = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_assign)
-    resize = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_resize)
-    insert = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_insert)
-    reserve = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_reserve)
-    capacity = _swig_new_instance_method(_piranha.vectorVectorPseudoJet_capacity)
-    __swig_destroy__ = _piranha.delete_vectorVectorPseudoJet
-
-# Register vectorVectorPseudoJet in _piranha:
-_piranha.vectorVectorPseudoJet_swigregister(vectorVectorPseudoJet)
 
 class vectorPairDouble(object):
     r"""Proxy of C++ std::vector< std::pair< double,double > > class."""
@@ -616,7 +569,6 @@ class GhostGridRectangle(GhostGridBase):
         _piranha.GhostGridRectangle_swiginit(self, _piranha.new_GhostGridRectangle(*args))
     description = _swig_new_instance_method(_piranha.GhostGridRectangle_description)
     region = _swig_new_instance_method(_piranha.GhostGridRectangle_region)
-    __str__ = _swig_new_instance_method(_piranha.GhostGridRectangle___str__)
     __repr__ = _swig_new_instance_method(_piranha.GhostGridRectangle___repr__)
     __swig_destroy__ = _piranha.delete_GhostGridRectangle
 
@@ -638,7 +590,6 @@ class GhostGridDisk(GhostGridBase):
         _piranha.GhostGridDisk_swiginit(self, _piranha.new_GhostGridDisk(*args))
     description = _swig_new_instance_method(_piranha.GhostGridDisk_description)
     R = _swig_new_instance_method(_piranha.GhostGridDisk_R)
-    __str__ = _swig_new_instance_method(_piranha.GhostGridDisk___str__)
     __repr__ = _swig_new_instance_method(_piranha.GhostGridDisk___repr__)
     __swig_destroy__ = _piranha.delete_GhostGridDisk
 
@@ -651,6 +602,7 @@ class IteratedVoronoiSubtractorDiskBase(object):
     r"""Proxy of C++ fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiDisk > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
 
     def __init__(self):
         r"""__init__(IteratedVoronoiSubtractorDiskBase self) -> IteratedVoronoiSubtractorDiskBase"""
@@ -686,8 +638,6 @@ class IteratedVoronoiSubtractorDiskBase(object):
     history = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorDiskBase_history)
     hist_size = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorDiskBase_hist_size)
     hist_i_areas_size = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorDiskBase_hist_i_areas_size)
-    __str__ = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorDiskBase___str__)
-    __repr__ = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorDiskBase___repr__)
 
 # Register IteratedVoronoiSubtractorDiskBase in _piranha:
 _piranha.IteratedVoronoiSubtractorDiskBase_swigregister(IteratedVoronoiSubtractorDiskBase)
@@ -696,6 +646,7 @@ class IteratedVoronoiSubtractorCylinderBase(object):
     r"""Proxy of C++ fastjet::contrib::piranha::IteratedVoronoiSubtractorBase< fastjet::contrib::piranha::DynamicVoronoiCylinder > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
 
     def __init__(self):
         r"""__init__(IteratedVoronoiSubtractorCylinderBase self) -> IteratedVoronoiSubtractorCylinderBase"""
@@ -731,8 +682,6 @@ class IteratedVoronoiSubtractorCylinderBase(object):
     history = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorCylinderBase_history)
     hist_size = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorCylinderBase_hist_size)
     hist_i_areas_size = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorCylinderBase_hist_i_areas_size)
-    __str__ = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorCylinderBase___str__)
-    __repr__ = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorCylinderBase___repr__)
 
 # Register IteratedVoronoiSubtractorCylinderBase in _piranha:
 _piranha.IteratedVoronoiSubtractorCylinderBase_swigregister(IteratedVoronoiSubtractorCylinderBase)
@@ -750,10 +699,10 @@ class OptimalTransportSubtractorTransverseMomentumDeltaR(object):
         _piranha.OptimalTransportSubtractorTransverseMomentumDeltaR_swiginit(self, _piranha.new_OptimalTransportSubtractorTransverseMomentumDeltaR(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumDeltaR_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumDeltaR_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumDeltaR_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumDeltaR_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumDeltaR_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumDeltaR___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumDeltaR___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumDeltaR___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorTransverseMomentumDeltaR
 
@@ -773,10 +722,10 @@ class OptimalTransportSubtractorTransverseMomentumHadronicDot(object):
         _piranha.OptimalTransportSubtractorTransverseMomentumHadronicDot_swiginit(self, _piranha.new_OptimalTransportSubtractorTransverseMomentumHadronicDot(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDot_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDot_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDot_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDot_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDot_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDot___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDot___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorTransverseMomentumHadronicDot
 
@@ -796,10 +745,10 @@ class OptimalTransportSubtractorTransverseMomentumHadronicDotMassive(object):
         _piranha.OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_swiginit(self, _piranha.new_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDotMassive_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseMomentumHadronicDotMassive___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorTransverseMomentumHadronicDotMassive
 
@@ -819,10 +768,10 @@ class OptimalTransportSubtractorTransverseEnergyDeltaR(object):
         _piranha.OptimalTransportSubtractorTransverseEnergyDeltaR_swiginit(self, _piranha.new_OptimalTransportSubtractorTransverseEnergyDeltaR(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyDeltaR_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyDeltaR_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyDeltaR_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyDeltaR_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyDeltaR_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyDeltaR___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyDeltaR___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyDeltaR___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorTransverseEnergyDeltaR
 
@@ -842,10 +791,10 @@ class OptimalTransportSubtractorTransverseEnergyHadronicDot(object):
         _piranha.OptimalTransportSubtractorTransverseEnergyHadronicDot_swiginit(self, _piranha.new_OptimalTransportSubtractorTransverseEnergyHadronicDot(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDot_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDot_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDot_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDot_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDot_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDot___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDot___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorTransverseEnergyHadronicDot
 
@@ -865,10 +814,10 @@ class OptimalTransportSubtractorTransverseEnergyHadronicDotMassive(object):
         _piranha.OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_swiginit(self, _piranha.new_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDotMassive_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorTransverseEnergyHadronicDotMassive___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorTransverseEnergyHadronicDotMassive
 
@@ -888,10 +837,10 @@ class OptimalTransportSubtractorMomentumEEDot(object):
         _piranha.OptimalTransportSubtractorMomentumEEDot_swiginit(self, _piranha.new_OptimalTransportSubtractorMomentumEEDot(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDot_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDot_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDot_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDot_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDot_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDot___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDot___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDot___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorMomentumEEDot
 
@@ -911,10 +860,10 @@ class OptimalTransportSubtractorMomentumEEDotMassive(object):
         _piranha.OptimalTransportSubtractorMomentumEEDotMassive_swiginit(self, _piranha.new_OptimalTransportSubtractorMomentumEEDotMassive(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDotMassive_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDotMassive_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDotMassive_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDotMassive_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDotMassive_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDotMassive___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEDotMassive___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorMomentumEEDotMassive
 
@@ -934,10 +883,10 @@ class OptimalTransportSubtractorMomentumEEArcLength(object):
         _piranha.OptimalTransportSubtractorMomentumEEArcLength_swiginit(self, _piranha.new_OptimalTransportSubtractorMomentumEEArcLength(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLength_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLength_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLength_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLength_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLength_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLength___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLength___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorMomentumEEArcLength
 
@@ -957,10 +906,10 @@ class OptimalTransportSubtractorMomentumEEArcLengthMassive(object):
         _piranha.OptimalTransportSubtractorMomentumEEArcLengthMassive_swiginit(self, _piranha.new_OptimalTransportSubtractorMomentumEEArcLengthMassive(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLengthMassive_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLengthMassive_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLengthMassive_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLengthMassive_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLengthMassive_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLengthMassive___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorMomentumEEArcLengthMassive___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorMomentumEEArcLengthMassive
 
@@ -980,10 +929,10 @@ class OptimalTransportSubtractorEnergyEEDot(object):
         _piranha.OptimalTransportSubtractorEnergyEEDot_swiginit(self, _piranha.new_OptimalTransportSubtractorEnergyEEDot(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDot_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDot_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDot_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDot_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDot_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDot___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDot___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDot___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorEnergyEEDot
 
@@ -1003,10 +952,10 @@ class OptimalTransportSubtractorEnergyEEDotMassive(object):
         _piranha.OptimalTransportSubtractorEnergyEEDotMassive_swiginit(self, _piranha.new_OptimalTransportSubtractorEnergyEEDotMassive(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDotMassive_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDotMassive_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDotMassive_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDotMassive_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDotMassive_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDotMassive___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEDotMassive___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorEnergyEEDotMassive
 
@@ -1026,10 +975,10 @@ class OptimalTransportSubtractorEnergyEEArcLength(object):
         _piranha.OptimalTransportSubtractorEnergyEEArcLength_swiginit(self, _piranha.new_OptimalTransportSubtractorEnergyEEArcLength(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLength_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLength_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLength_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLength_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLength_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLength___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLength___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorEnergyEEArcLength
 
@@ -1049,10 +998,10 @@ class OptimalTransportSubtractorEnergyEEArcLengthMassive(object):
         _piranha.OptimalTransportSubtractorEnergyEEArcLengthMassive_swiginit(self, _piranha.new_OptimalTransportSubtractorEnergyEEArcLengthMassive(*args))
     description = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLengthMassive_description)
     emd_obj = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLengthMassive_emd_obj)
+    ghost_grid = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLengthMassive_ghost_grid)
     z = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLengthMassive_z)
     total_subtracted = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLengthMassive_total_subtracted)
     __call__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLengthMassive___call__)
-    __str__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_piranha.OptimalTransportSubtractorEnergyEEArcLengthMassive___repr__)
     __swig_destroy__ = _piranha.delete_OptimalTransportSubtractorEnergyEEArcLengthMassive
 
@@ -1063,7 +1012,6 @@ class IteratedVoronoiSubtractorCylinder(IteratedVoronoiSubtractorCylinderBase):
     r"""Proxy of C++ fastjet::contrib::piranha::IteratedVoronoiSubtractorCylinder class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-    __repr__ = _swig_repr
 
     def __init__(self, *args):
         r"""
@@ -1072,6 +1020,7 @@ class IteratedVoronoiSubtractorCylinder(IteratedVoronoiSubtractorCylinderBase):
         """
         _piranha.IteratedVoronoiSubtractorCylinder_swiginit(self, _piranha.new_IteratedVoronoiSubtractorCylinder(*args))
     __call__ = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorCylinder___call__)
+    __repr__ = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorCylinder___repr__)
     __swig_destroy__ = _piranha.delete_IteratedVoronoiSubtractorCylinder
 
 # Register IteratedVoronoiSubtractorCylinder in _piranha:
@@ -1081,12 +1030,12 @@ class IteratedVoronoiSubtractorDisk(IteratedVoronoiSubtractorDiskBase):
     r"""Proxy of C++ fastjet::contrib::piranha::IteratedVoronoiSubtractorDisk class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-    __repr__ = _swig_repr
 
     def __init__(self, *args, **kwargs):
         r"""__init__(IteratedVoronoiSubtractorDisk self, double R, fastjet::contrib::piranha::SubtractionType subtype=Area, bool allow_repeats=False, bool store_history=False, bool ensure_consistent_phi=True) -> IteratedVoronoiSubtractorDisk"""
         _piranha.IteratedVoronoiSubtractorDisk_swiginit(self, _piranha.new_IteratedVoronoiSubtractorDisk(*args, **kwargs))
     __call__ = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorDisk___call__)
+    __repr__ = _swig_new_instance_method(_piranha.IteratedVoronoiSubtractorDisk___repr__)
     __swig_destroy__ = _piranha.delete_IteratedVoronoiSubtractorDisk
 
 # Register IteratedVoronoiSubtractorDisk in _piranha:
@@ -1107,7 +1056,6 @@ class RecursiveSafeSubtractorTransverseMomentum(object):
     weight_sums = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseMomentum_weight_sums)
     total_weight = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseMomentum_total_weight)
     reclustered_jet = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseMomentum_reclustered_jet)
-    __str__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseMomentum___str__)
     __repr__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseMomentum___repr__)
     __call__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseMomentum___call__)
     apply = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseMomentum_apply)
@@ -1131,7 +1079,6 @@ class RecursiveSafeSubtractorTransverseEnergy(object):
     weight_sums = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseEnergy_weight_sums)
     total_weight = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseEnergy_total_weight)
     reclustered_jet = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseEnergy_reclustered_jet)
-    __str__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseEnergy___str__)
     __repr__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseEnergy___repr__)
     __call__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseEnergy___call__)
     apply = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorTransverseEnergy_apply)
@@ -1155,7 +1102,6 @@ class RecursiveSafeSubtractorEnergy(object):
     weight_sums = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorEnergy_weight_sums)
     total_weight = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorEnergy_total_weight)
     reclustered_jet = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorEnergy_reclustered_jet)
-    __str__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorEnergy___str__)
     __repr__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorEnergy___repr__)
     __call__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorEnergy___call__)
     apply = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorEnergy_apply)
@@ -1179,7 +1125,6 @@ class RecursiveSafeSubtractorMomentum(object):
     weight_sums = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorMomentum_weight_sums)
     total_weight = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorMomentum_total_weight)
     reclustered_jet = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorMomentum_reclustered_jet)
-    __str__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorMomentum___str__)
     __repr__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorMomentum___repr__)
     __call__ = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorMomentum___call__)
     apply = _swig_new_instance_method(_piranha.RecursiveSafeSubtractorMomentum_apply)

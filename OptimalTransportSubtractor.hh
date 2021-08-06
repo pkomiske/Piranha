@@ -25,19 +25,31 @@
 #ifndef PIRANHA_OPTIMALTRANSPORTSUBTRACTOR_HH
 #define PIRANHA_OPTIMALTRANSPORTSUBTRACTOR_HH
 
-#ifdef PIRANHA_USE_PYFJCORE
-# include "pyfjcore/fjcore.hh"
+// C++ standard library
+#include <cstddef>
+#include <memory>
+#include <sstream>
+#include <stdexcept>
+#include <string>
+#include <utility>
+#include <vector>
+
+// FastJet PseudoJet
+#if defined(PIRANHA_USE_PYFJCORE)
+# ifndef EVENTGEOMETRY_USE_PYFJCORE
+#  define EVENTGEOMETRY_USE_PYFJCORE
+# endif
 #else
 # include "fastjet/PseudoJet.hh"
 #endif
 
-// EventGeometry contrib
-#ifndef DECLARE_EVENTGEOMETRY_TEMPLATES
-#define DECLARE_EVENTGEOMETRY_TEMPLATES
-#endif
+// EventGeometry
+//#if defined(DECLARE_PIRANHA_TEMPLATES) && !defined(DECLARE_EVENTGEOMETRY_TEMPLATES)
+//# define DECLARE_EVENTGEOMETRY_TEMPLATES
+//#endif
 #include "EventGeometry.hh"
 
-// Piranha contrib
+// Piranha
 #include "PiranhaUtils.hh"
 
 BEGIN_PIRANHA_NAMESPACE
@@ -55,6 +67,7 @@ public:
     if (drap_ < 0 || dphi_ < 0)
       throw std::invalid_argument("drap and dphi must be positive");
   }
+
   GhostGridBase(unsigned nrap, unsigned nphi) :
     nrap_(nrap), nphi_(nphi), constructed_points_(false)
   {
@@ -91,13 +104,15 @@ public:
 
   // create ghosts such that their total weight is a given amount
   template<class ParticleWeight>
-  const std::vector<PseudoJet> & ghosts_with_total_weight(double total_ghost_weight, double rap_offset = 0, double phi_offset = 0) {
+  const std::vector<PseudoJet> &
+  ghosts_with_total_weight(double total_ghost_weight, double rap_offset = 0, double phi_offset = 0) {
     return ghosts_with_individual_weight<ParticleWeight>(total_ghost_weight/nghosts(), rap_offset, phi_offset);
   }
 
   // create ghosts, each with a given pt
   template<class ParticleWeight>
-  const std::vector<PseudoJet> & ghosts_with_individual_weight(double ghost_weight, double rap_offset = 0, double phi_offset = 0) {
+  const std::vector<PseudoJet> &
+  ghosts_with_individual_weight(double ghost_weight, double rap_offset = 0, double phi_offset = 0) {
     ghosts_.clear();
     for (const std::pair<double, double> & p : points()) {
       ghosts_.push_back(PtYPhiM(0, p.first + rap_offset, p.second + phi_offset));
@@ -147,27 +162,31 @@ public:
     GhostGridRectangle(rap_min, 0, rap_max, TWOPI, nrap, nphi)
   {}
 
-  // full constructors
-  GhostGridRectangle(double rap_min, double phi_min, double rap_max, double phi_max,
-                               double drap, double dphi) :
+  // full constructor, specify spacing between points
+  GhostGridRectangle(double rap_min, double phi_min,
+                     double rap_max, double phi_max,
+                     double drap, double dphi) :
     GhostGridBase(drap, dphi)
   {
     nrap_ = unsigned((rap_max - rap_min)/drap) + 1;
     nphi_ = unsigned((phi_max - phi_min)/dphi) + 1;
     setup(rap_min, phi_min, rap_max, phi_max);
   }
-  GhostGridRectangle(double rap_min, double phi_min, double rap_max, double phi_max,
-                               unsigned nrap, unsigned nphi) :
+
+  // full constructor, specify number of points along each axis
+  GhostGridRectangle(double rap_min, double phi_min,
+                     double rap_max, double phi_max,
+                     unsigned nrap, unsigned nphi) :
     GhostGridBase(nrap, nphi)
   {
-    drap_ = std::min((rap_max - rap_min)/(nrap - 1), double(1000));
-    dphi_ = std::min((phi_max - phi_min)/(nphi - 1), double(1000));
+    drap_ = std::min((rap_max - rap_min)/(nrap - 1), 1000.);
+    dphi_ = std::min((phi_max - phi_min)/(nphi - 1), 1000.);
     setup(rap_min, phi_min, rap_max, phi_max);
   }
 
   std::string description() const;
 
-  // access region as pair of points
+  // region is specified by lower left and upper right points
   std::pair<std::pair<double,double>,std::pair<double,double>> region() const {
     return std::make_pair(lower_left_, upper_right_);
   }
@@ -206,8 +225,8 @@ public:
   GhostGridDisk(double R, unsigned nrap, unsigned nphi) :
     GhostGridBase(nrap, nphi)
   {
-    drap_ = std::min(2*R/(nrap - 1), double(1000));
-    dphi_ = std::min(2*R/(nphi - 1), double(1000));
+    drap_ = std::min(2*R/(nrap - 1), 1000.);
+    dphi_ = std::min(2*R/(nphi - 1), 1000.);
     setup(R);
   }
 
@@ -243,12 +262,12 @@ public:
 
   // access underlying objects
   const EMD & emd_obj() const { return emd_obj_; }
-  const 
+  std::shared_ptr<GhostGridBase> ghost_grid() const { return grid_ptr_; }
   double z() const { return z_; }
   double total_subtracted() const { return total_subtracted_; }
   
   // operate on a single PseudoJet
-  std::vector<PseudoJet> operator()(const PseudoJet & jet, double min_weight_to_keep = 1e-14) {
+  PIRANHA_PSEUDOJET_CONTAINER operator()(const PseudoJet & jet, double min_weight_to_keep = 1e-14) {
 
     // get constituents
     if (!jet.has_constituents())
@@ -260,9 +279,9 @@ public:
   }
 
   // operator on a vector of PseudoJets
-  std::vector<PseudoJet> operator()(const std::vector<PseudoJet> & pjs,
-                                    const PseudoJet & offset = PtYPhiM(0, 0, 0),
-                                    double min_weight_to_keep = 1e-14) {
+  PIRANHA_PSEUDOJET_CONTAINER operator()(const std::vector<PseudoJet> & pjs,
+                                         const PseudoJet & offset = PtYPhiM(0, 0, 0),
+                                         double min_weight_to_keep = 1e-14) {
 
     // do the subtracting
     return subtract(pjs, construct_ghosts(pjs, offset.rap(), offset.phi()), min_weight_to_keep);
@@ -292,6 +311,30 @@ private:
   double z_, total_subtracted_;
 
 }; // OptimalTransportSubtractor
+
+#define OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Weight, Distance) \
+  PIRANHA_TEMPLATE_CLASS(OptimalTransportSubtractor<eventgeometry::EMD<double, eventgeometry::Weight, eventgeometry::Distance>>)
+
+#define OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATES \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, DeltaR) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, HadronicDot) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, HadronicDotMassive) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseEnergy, DeltaR) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseEnergy, HadronicDot) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseEnergy, HadronicDotMassive) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEDot) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEDotMassive) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEArcLength) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEArcLengthMassive) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEDot) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEDotMassive) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEArcLength) \
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEArcLengthMassive)
+
+
+#ifdef DECLARE_PIRANHA_TEMPLATES
+  OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATES
+#endif
 
 END_PIRANHA_NAMESPACE
 

@@ -33,10 +33,12 @@
 #include <limits>
 #include <sstream>
 #include <stdexcept>
+#include <string>
 #include <type_traits>
 #include <utility>
 #include <vector>
 
+// FastJet (PseudoJet and possibly BackgroundEstimatorBase)
 #ifdef PIRANHA_USE_PYFJCORE
 # include "pyfjcore/fjcore.hh"
 #else
@@ -44,6 +46,7 @@
 # include "fastjet/tools/BackgroundEstimatorBase.hh"
 #endif
 
+// Piranha
 #include "PiranhaUtils.hh"
 
 #define VERTEX_DEFAULT_IND -1
@@ -51,16 +54,19 @@
 BEGIN_PIRANHA_NAMESPACE
 
 #ifndef __FASTJET_BACKGROUND_ESTIMATOR_BASE_HH__
+
+// this class needs to be defined even when not using full fastjet library
 class BackgroundEstimatorBase {
 public:
   void * rescaling_class() const { return nullptr; }
   double rho() const {
-    throw std::invalid_argument("background estimation not available with pyfjcore");
+    THROW_PIRANHA_ERROR("background estimation not available with pyfjcore");
     return DEFAULT_VORONOI_QUANTITY;
   }
   double rho(const PseudoJet & jet) const { return rho(); }
 };
-#endif
+
+#endif // __FASTJET_BACKGROUND_ESTIMATOR_BASE_HH__
 
 // a small value to use for debugging
 const double piranha_epsilon = 10*std::numeric_limits<double>::epsilon();
@@ -133,7 +139,7 @@ public:
                                 Args && ... args) :
     vor_(subtype, R, std::forward<Args>(args)...),
     zpt_(0), zemd_(0),
-    emdtot_(-1),
+    emdtot_(0),
     nvalid_(0), nremoved_(0)
   {
     // set options

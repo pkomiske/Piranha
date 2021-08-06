@@ -8,7 +8,7 @@ Python interface to the Piranha FastJet contrib package.
 
 %module(docstring=PIRANHA_DOCSTRING) piranha
 
-#define PIRANHANAMESPACE fastjet::contrib::piranha
+#define PIRANHA_NAMESPACE fastjet::contrib::piranha
 
 // C++ standard library wrappers
 %include <exception.i>
@@ -17,32 +17,54 @@ Python interface to the Piranha FastJet contrib package.
 %include <std_string.i>
 %include <std_vector.i>
 
-// this makes SWIG aware of the types contained in the main fastjet library
-// but does not generate new wrappers for them here
-#ifdef FASTJET_PREFIX
-  %import FASTJET_PREFIX/share/fastjet/pyinterface/fastjet.i
-#else
-  //%import EventGeometry/PyFJCore/pyfjcore/swig/pyfjcore.i
+// ensure pyfjcore usage is carried along
+#ifdef PIRANHA_USE_PYFJCORE
+# define EVENTGEOMETRY_USE_PYFJCORE
 #endif
 
-// make library aware of EventGeometry fjcontrib wrappers
+%pythonbegin %{
+import eventgeometry
+%}
+
+// import eventgeometry (handles importing pyfjcore or fastjet)
 %import eventgeometry/swig/eventgeometry.i
 
 // converts fastjet::Error into a FastJetError Python exception
-FASTJET_ERRORS_AS_PYTHON_EXCEPTIONS(Piranha)
+FASTJET_ERRORS_AS_PYTHON_EXCEPTIONS(piranha)
 
 // include FastJetError in python module
-%pythoncode {
-from fastjet import FastJetError
-}
+%pythoncode %{
+  from eventgeometry import FastJetError
+%}
 
-// turn off exception handling for now, since fastjet::Error is not thrown here
-//%exception;
+// define as macro for use in contrib files
+%define PIRANHA_ERRORS_AS_PYTHON_EXCEPTIONS(module)
+%{
+// Python class for representing errors from FastJet
+static PyObject * PiranhaError_;
+%}
+
+// this gets placed in the SWIG_init function
+%init %{
+  // setup error class
+  char * msg_piranha = (char *) calloc(strlen(`module`)+15, sizeof(char));
+  strcpy(msg_piranha, `module`);
+  strcat(msg_piranha, ".PiranhaError");
+  PiranhaError_ = PyErr_NewException(msg_piranha, NULL, NULL);
+  Py_INCREF(PiranhaError_);
+  if (PyModule_AddObject(m, "PiranhaError", PiranhaError_) < 0) {
+    Py_DECREF(m);
+    Py_DECREF(PiranhaError_);
+  }
+%}
+%enddef
+
+PIRANHA_ERRORS_AS_PYTHON_EXCEPTIONS(piranha)
 
 // include headers in source file
 %{
 #ifndef SWIG
-#define SWIG
+# define SWIG
 #endif
 
 //#include "fastjet/tools/GridMedianBackgroundEstimator.hh"
@@ -58,16 +80,25 @@ using namespace fastjet::contrib;
 
 // vector templates
 %template(vectorVectorDouble) std::vector<std::vector<double>>;
-%template(vectorSubtractionHistory) std::vector<PIRANHANAMESPACE::SubtractionHistory>;
-%template(vectorVectorPseudoJet) std::vector<std::vector<fastjet::PseudoJet>>;
+%template(vectorSubtractionHistory) std::vector<PIRANHA_NAMESPACE::SubtractionHistory>;
 %template(vectorPairDouble) std::vector<std::pair<double, double>>;
 %template(vectorInt) std::vector<int>;
 
 // ignored classes/methods
-%ignore PIRANHANAMESPACE::PiranhaError;
-%ignore PIRANHANAMESPACE::RecursiveSafeSubtractor::operator()(const PseudoJet & jet);
-%ignore PIRANHANAMESPACE::RecursiveSafeSubtractor::operator()(const std::vector<PseudoJet> & pjs);
-%ignore PIRANHANAMESPACE::RecursiveSafeSubtractor::apply(double z, double f);
+%ignore PIRANHA_NAMESPACE::PiranhaError;
+
+// exception handling that catches PiranhaError
+%exception {
+  try { $action }
+  catch (piranha::PiranhaError & e) {
+    PyErr_SetString(PiranhaError_, e.what());
+    SWIG_fail;
+  }
+  SWIG_CATCH_STDEXCEPT
+  catch (...) {
+    SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+  }
+}
 
 // wrap core utils
 %include "PiranhaUtils.hh"
@@ -82,21 +113,52 @@ using namespace fastjet::contrib;
 %include "OptimalTransportSubtractor.hh"
 %include "RecursiveSafeSubtractor.hh"
 
+// explicit templates
+BEGIN_PIRANHA_NAMESPACE
+
+#ifdef PIRANHA_USE_PYFJCORE
+
+  %extend IteratedVoronoiSubtractorCylinder {
+    PIRANHA_PSEUDOJET_CONTAINER operator()(const PseudoJetContainer & pjc) {
+      return $self->operator()(pjc.as_vector());
+    }
+    PIRANHA_PSEUDOJET_CONTAINER operator()(const PseudoJetContainer & pjc) {
+      return $self->operator()(pjc.as_vector());
+    }
+  }
+
+  %extend IteratedVoronoiSubtractorDisk {
+    PIRANHA_PSEUDOJET_CONTAINER operator()(const PseudoJetContainer & pjc) {
+      return $self->operator()(pjc.as_vector());
+    }
+    PIRANHA_PSEUDOJET_CONTAINER operator()(const PseudoJetContainer & pjc, const PseudoJet & center) {
+      return $self->operator()(pjc, center);
+    }
+  }
+
+  %extend OptimalTransportSubtractor {
+    PIRANHA_PSEUDOJET_CONTAINER operator()(const PseudoJetContainer & pjc,
+                                           const PseudoJet & offset = PtYPhiM(0, 0, 0),
+                                           double min_weight_to_keep = 1e-14) {
+      return $self->operator()(pjc, offset, min_weight_to_keep);
+    }
+  }
+
+#endif // PIRANHA_USE_PYFJCORE
+
+  %extend GhostGridDisk { ADD_REPR_FROM_DESCRIPTION }
+  %extend GhostGridRectangle { ADD_REPR_FROM_DESCRIPTION }
+  %extend IteratedVoronoiSubtractorCylinder { ADD_REPR_FROM_DESCRIPTION }
+  %extend IteratedVoronoiSubtractorDisk { ADD_REPR_FROM_DESCRIPTION }
+  %extend OptimalTransportSubtractor { ADD_REPR_FROM_DESCRIPTION }
+
+  %template(IteratedVoronoiSubtractorDiskBase) IteratedVoronoiSubtractorBase<DynamicVoronoiDisk>;
+  %template(IteratedVoronoiSubtractorCylinderBase) IteratedVoronoiSubtractorBase<DynamicVoronoiCylinder>;
+
 %define PIRANHA_OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Weight, Distance)
   %template(OptimalTransportSubtractor##Weight##Distance)
         OptimalTransportSubtractor<eventgeometry::EMD<double, eventgeometry::Weight, eventgeometry::Distance>>;
 %enddef
-
-// explicit templates
-BEGIN_PIRANHA_NAMESPACE
-
-  %extend IteratedVoronoiSubtractorBase { ADD_STR_FROM_DESCRIPTION() }
-  %extend GhostGridDisk { ADD_STR_FROM_DESCRIPTION() }
-  %extend GhostGridRectangle { ADD_STR_FROM_DESCRIPTION() }
-  %extend OptimalTransportSubtractor { ADD_STR_FROM_DESCRIPTION() }
-
-  %template(IteratedVoronoiSubtractorDiskBase) IteratedVoronoiSubtractorBase<DynamicVoronoiDisk>;
-  %template(IteratedVoronoiSubtractorCylinderBase) IteratedVoronoiSubtractorBase<DynamicVoronoiCylinder>;
 
   PIRANHA_OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, DeltaR)
   PIRANHA_OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, HadronicDot)
@@ -113,21 +175,6 @@ BEGIN_PIRANHA_NAMESPACE
   PIRANHA_OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEArcLength)
   PIRANHA_OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEArcLengthMassive)
 
-/*%template(OptimalTransportSubtractorTransverseMomentumDeltaR) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::TransverseMomentum, eventgeometry::DeltaR>>;
-%template(OptimalTransportSubtractorTransverseMomentumHadronicDot) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::TransverseMomentum, eventgeometry::HadronicDot>>;
-%template(OptimalTransportSubtractorTransverseMomentumHadronicDotMassive) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::TransverseMomentum, eventgeometry::HadronicDotMassive>>;
-%template(OptimalTransportSubtractorTransverseEnergyDeltaR) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::TransverseEnergy, eventgeometry::DeltaR>>;
-%template(OptimalTransportSubtractorTransverseEnergyHadronicDot) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::TransverseEnergy, eventgeometry::HadronicDot>>;
-%template(OptimalTransportSubtractorTransverseEnergyHadronicDotMassive) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::TransverseEnergy, eventgeometry::HadronicDotMassive>>;
-%template(OptimalTransportSubtractorMomentumEEDot) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::Momentum, eventgeometry::EEDot>>;
-%template(OptimalTransportSubtractorMomentumEEDotMassive) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::Momentum, eventgeometry::EEDotMassive>>;
-%template(OptimalTransportSubtractorMomentumEEArcLength) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::Momentum, eventgeometry::EEArcLength>>;
-%template(OptimalTransportSubtractorMomentumEEArcLengthMassive) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::Momentum, eventgeometry::EEArcLengthMassive>>;
-%template(OptimalTransportSubtractorEnergyEEDot) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::Energy, eventgeometry::EEDot>>;
-%template(OptimalTransportSubtractorEnergyEEDotMassive) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::Energy, eventgeometry::EEDotMassive>>;
-%template(OptimalTransportSubtractorEnergyEEArcLength) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::Energy, eventgeometry::EEArcLength>>;
-%template(OptimalTransportSubtractorEnergyEEArcLengthMassive) OptimalTransportSubtractor<eventgeometry::EMD<eventgeometry::Energy, eventgeometry::EEArcLengthMassive>>;*/
-
 END_PIRANHA_NAMESPACE
 
 // include this after explicit IVSBase templates
@@ -136,17 +183,29 @@ END_PIRANHA_NAMESPACE
 BEGIN_PIRANHA_NAMESPACE
 
   %extend RecursiveSafeSubtractor {
-    ADD_STR_FROM_DESCRIPTION()
+    ADD_REPR_FROM_DESCRIPTION
 
-    std::vector<PseudoJet> operator()(const fastjet::PseudoJet & jet, int _ = 0) {
-      std::forward_list<fastjet::PseudoJet> result((*$self)(jet));
+    // only accept PseudoJetContainer if compiling with pyfjcore
+    #ifdef PIRANHA_USE_PYFJCORE
+      PIRANHA_PSEUDOJET_CONTAINER operator()(const PseudoJetContainer & pjc) {
+        std::forward_list<fastjet::PseudoJet> result($self->operator()(pjc.as_vector()));
+        return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
+      }
+    #endif
+
+    // accept vector of PseudoJets
+    PIRANHA_PSEUDOJET_CONTAINER operator()(const std::vector<PseudoJet> & pjs) {
+      std::forward_list<fastjet::PseudoJet> result($self->operator()(pjs));
       return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
     }
-    std::vector<PseudoJet> operator()(const std::vector<fastjet::PseudoJet> & pjs, int _ = 0) {
-      std::forward_list<fastjet::PseudoJet> result((*$self)(pjs));
+
+    // accept single PseudoJet
+    PIRANHA_PSEUDOJET_CONTAINER operator()(const fastjet::PseudoJet & jet) {
+      std::forward_list<fastjet::PseudoJet> result($self->operator()(jet));
       return std::vector<fastjet::PseudoJet>(result.begin(), result.end());
     }
-    std::vector<PseudoJet> apply(double z, double f, int _ = 0) {
+
+    PIRANHA_PSEUDOJET_CONTAINER apply(double z, double f) {
       std::forward_list<fastjet::PseudoJet> result($self->apply(z, f));
       return std::vector<fastjet::PseudoJet>(result.begin(), result.end()); 
     }

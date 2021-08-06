@@ -28,21 +28,25 @@
 // C++ standard library
 #include <forward_list>
 #include <sstream>
+#include <stdexcept>
 #include <string>
 #include <vector>
 
+// FastJet PseudoJet
 #ifdef PIRANHA_USE_PYFJCORE
-# include "EventGeometry/PyFJCore/pyfjcore/fjcore.hh"
+# ifndef EVENTGEOMETRY_USE_PYFJCORE
+#  define EVENTGEOMETRY_USE_PYFJCORE
+# endif
 #else
 # include "fastjet/JetDefinition.hh"
 # include "fastjet/PseudoJet.hh"
 # include "fastjet/tools/Recluster.hh"
 #endif
 
-// EventGeometry contrib
-#include "EventGeometry/EventGeometry.hh"
+// EventGeometry
+#include "EventGeometry.hh"
 
-// Piranha contrib
+// Piranha
 #include "PiranhaUtils.hh"
 
 #define INVALID_TOTAL_WEIGHT -1
@@ -82,6 +86,9 @@ public:
   // describes the object
   std::string description() const;
 
+// swig will redefine these methods
+#ifndef SWIG_PREPROCESSOR
+
   // internally set jet and groom according to default parameters
   std::forward_list<PseudoJet> operator()(const PseudoJet & jet);
 
@@ -91,6 +98,8 @@ public:
   // groom the internally set jet according to the parameters z and f
   // this can be used to avoid multiple reclusterings/initializings of the same jet
   std::forward_list<PseudoJet> apply(double z, double f);
+
+#endif // SWIG_PREPROCESSOR
 
   // access parameters
   double default_z() const { return default_z_; }
@@ -122,6 +131,19 @@ private:
   std::forward_list<PseudoJet> do_recursive_subtraction(const PseudoJet & pj, double weight_sub) const;
 
 }; // RecursiveSafeSubtractor
+
+#define RECURSIVE_SAFE_SUBTRACTOR_TEMPLATE(Weight) \
+  PIRANHA_TEMPLATE_CLASS(RecursiveSafeSubtractor<eventgeometry::Weight<double>>)
+
+#define RECURSIVE_SAFE_SUBTRACTOR_TEMPLATES \
+  RECURSIVE_SAFE_SUBTRACTOR_TEMPLATE(TransverseMomentum) \
+  RECURSIVE_SAFE_SUBTRACTOR_TEMPLATE(TransverseEnergy) \
+  RECURSIVE_SAFE_SUBTRACTOR_TEMPLATE(Energy) \
+  RECURSIVE_SAFE_SUBTRACTOR_TEMPLATE(Momentum)
+
+#ifdef DECLARE_PIRANHA_TEMPLATES
+  RECURSIVE_SAFE_SUBTRACTOR_TEMPLATES
+#endif
 
 END_PIRANHA_NAMESPACE
 

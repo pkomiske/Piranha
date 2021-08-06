@@ -22,9 +22,16 @@
 // along with this code. If not, see <http://www.gnu.org/licenses/>.
 //----------------------------------------------------------------------
 
+// make templates visible for compilation unit
+#define PIRANHA_TEMPLATE_VISIBILITY
+
 #include "OptimalTransportSubtractor.hh"
 
 BEGIN_PIRANHA_NAMESPACE
+
+////////////////////////////////////////////////////////////////////////////////
+// GhostGridBase
+////////////////////////////////////////////////////////////////////////////////
 
 void GhostGridBase::construct_points() {
   points_.reserve(std::size_t(nrap_)*std::size_t(nphi_));
@@ -38,6 +45,10 @@ void GhostGridBase::construct_points() {
   }
   constructed_points_ = true;
 }
+
+////////////////////////////////////////////////////////////////////////////////
+// GhostGridRectangle
+////////////////////////////////////////////////////////////////////////////////
 
 std::string GhostGridRectangle::description() const {
   std::ostringstream oss;
@@ -60,6 +71,10 @@ void GhostGridRectangle::setup(double rap_min, double phi_min, double rap_max, d
   phi_start_ = (phi_max + phi_min)/2 - (nphi_ - 1)*dphi_/2;
 }
 
+////////////////////////////////////////////////////////////////////////////////
+// GhostGridDisk
+////////////////////////////////////////////////////////////////////////////////
+
 std::string GhostGridDisk::description() const {
   std::ostringstream oss;
   oss << "GhostGridDisk\n"
@@ -78,25 +93,30 @@ void GhostGridDisk::setup(double R) {
   phi_start_ = -dphi_*(nphi_ - 1)/2;
 }
 
-// return a description of the object
+////////////////////////////////////////////////////////////////////////////////
+// OptimalTransportSubtractor
+////////////////////////////////////////////////////////////////////////////////
+
 template<class EMD>
-std::string OptimalTransportSubtractor<EMD>::description() const {
+std::string
+OptimalTransportSubtractor<EMD>::description() const {
   std::ostringstream oss;
   oss << "OptimalTransportSubtractor\n"
       << "  z - " << z_ << '\n'
       << '\n'
-      << grid_ptr_->description() << '\n'
+      << ghost_grid()->description() << '\n'
       << emd_obj().description();
   return oss.str();
 }
 
 template<class EMD>
-std::vector<PseudoJet> OptimalTransportSubtractor<EMD>::construct_ghosts(const std::vector<PseudoJet> & pjs, double rap_off, double phi_off) const {
+std::vector<PseudoJet>
+OptimalTransportSubtractor<EMD>::construct_ghosts(const std::vector<PseudoJet> & pjs, double rap_off, double phi_off) const {
   double total_weight(0);
   for (const PseudoJet & pj : pjs)
     total_weight += EMD::ParticleWeight::weight(pj);
 
-  return grid_ptr_->ghosts_with_total_weight<typename EMD::ParticleWeight>(z()*total_weight, rap_off, phi_off);
+  return ghost_grid()->template ghosts_with_total_weight<typename EMD::ParticleWeight>(z()*total_weight, rap_off, phi_off);
 }
 
 template<class EMD>
@@ -134,23 +154,7 @@ OptimalTransportSubtractor<EMD>::subtract(const std::vector<PseudoJet> & pjs,
   return subtracted_pjs;
 }
 
-#define OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Weight, Distance) \
-  template class OptimalTransportSubtractor<eventgeometry::EMD<double, eventgeometry::Weight, eventgeometry::Distance>>;
-
-// explicit template instantiations
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, DeltaR)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, HadronicDot)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseMomentum, HadronicDotMassive)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseEnergy, DeltaR)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseEnergy, HadronicDot)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(TransverseEnergy, HadronicDotMassive)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEDot)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEDotMassive)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEArcLength)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Momentum, EEArcLengthMassive)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEDot)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEDotMassive)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEArcLength)
-OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATE(Energy, EEArcLengthMassive)
+// ensure that explicit templates are included in compilation unit
+OPTIMAL_TRANSPORT_SUBTRACTOR_TEMPLATES
 
 END_PIRANHA_NAMESPACE

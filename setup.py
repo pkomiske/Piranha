@@ -62,7 +62,7 @@ if sys.argv[1] == 'swig':
     else:
         opts = '-DFASTJET_PREFIX=' + fj_prefix + ' ' + fj_cxxflags
 
-    command = ('swig -python -c++ -fastproxy -keyword -py3 -w509,511 -DSWIG_NUMPY {opts} '
+    command = ('swig -python -c++ -fastproxy -keyword -py3 -w509,511 {opts} '
                '-IEventGeometry -IEventGeometry/Wasserstein -IEventGeometry/PyFJCore '
                '-o {lname}/{lname}.cpp {lname}/swig/{lname}.i').format(opts=opts, lname=lname)
     print(command)
@@ -91,7 +91,6 @@ else:
     if not use_pyfjcore:
         cxxflags += fj_cxxflags.split()
         macros.append(('SWIG_TYPE_TABLE', 'fastjet'))
-        macros.append(('EVENTGEOMETRY_TEMPLATE_VISIBILITY', None))
         for ldflag in fj_ldflags.split():
             if ldflag.startswith('-L'):
                 library_dirs.append(ldflag[2:])
@@ -103,7 +102,6 @@ else:
     # using pyfjcore
     else:
         cxxflags.append('-std=c++14')
-        macros.append(('EVENTGEOMETRY_USE_PYFJCORE', None))
         macros.append(('PIRANHA_USE_PYFJCORE', None))
         macros.append(('SWIG_TYPE_TABLE', 'fjcore'))
         include_dirs.append('EventGeometry')
@@ -117,14 +115,10 @@ else:
 
         # on non-windows we can use shared library
         else:
-            macros.append(('DECLARE_EVENTGEOMETRY_TEMPLATES', None))
             library_dirs.extend(['.'])
             libraries.extend([name])
 
-            if platform.system() == 'Darwin':
-                ldflags.append('-Wl,-rpath,@loader_path/..')
-
-            elif platform.system() == 'Linux':
+            if platform.system() == 'Linux':
                 ldflags.append('-Wl,-rpath,$ORIGIN/..')
 
     # if not windows, further modification needed for multithreading

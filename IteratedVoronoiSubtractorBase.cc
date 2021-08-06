@@ -22,6 +22,9 @@
 // along with this code. If not, see <http://www.gnu.org/licenses/>.
 //----------------------------------------------------------------------
 
+// make templates visible
+#define PIRANHA_TEMPLATE_VISIBILITY
+
 #include "DynamicVoronoiCylinder.hh"
 #include "DynamicVoronoiDisk.hh"
 #include "IteratedVoronoiSubtractorBase.hh"
@@ -564,8 +567,8 @@ void IteratedVoronoiSubtractorBase<DynamicVoronoi>::subtract_using_areas_local_r
   }
 }
 
-// explicit template instantiations
-template class IteratedVoronoiSubtractorBase<DynamicVoronoiCylinder>;
-template class IteratedVoronoiSubtractorBase<DynamicVoronoiDisk>;
+// ensure that explicit templates are included in compilation unit
+PIRANHA_TEMPLATE_CLASS(IteratedVoronoiSubtractorBase<DynamicVoronoiCylinder>)
+PIRANHA_TEMPLATE_CLASS(IteratedVoronoiSubtractorBase<DynamicVoronoiDisk>)
 
 END_PIRANHA_NAMESPACE

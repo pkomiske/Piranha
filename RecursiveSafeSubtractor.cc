@@ -22,7 +22,8 @@
 // along with this code. If not, see <http://www.gnu.org/licenses/>.
 //----------------------------------------------------------------------
 
-#include <stdexcept>
+// make templates visible for compilation unit
+#define PIRANHA_TEMPLATE_VISIBILITY
 
 #include "RecursiveSafeSubtractor.hh"
 
@@ -153,10 +154,7 @@ RecursiveSafeSubtractor<ParticleWeight>::do_recursive_subtraction(const PseudoJe
   return pieces;
 }
 
-// specify explicit templates
-template class RecursiveSafeSubtractor<eventgeometry::TransverseMomentum<double>>;
-template class RecursiveSafeSubtractor<eventgeometry::TransverseEnergy<double>>;
-template class RecursiveSafeSubtractor<eventgeometry::Energy<double>>;
-template class RecursiveSafeSubtractor<eventgeometry::Momentum<double>>;
+// ensure that explicit templates are included in compilation unit
+RECURSIVE_SAFE_SUBTRACTOR_TEMPLATES
 
 END_PIRANHA_NAMESPACE

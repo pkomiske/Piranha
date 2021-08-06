@@ -33,8 +33,6 @@
 # define VERBOSE 1
 #endif
 
-#define DEBUG
-
 // defined constants
 #define INFINITE_VERTEX_ID -1
 #define DEFAULT_VORONOI_QUANTITY -1.0
@@ -43,6 +41,23 @@
 // namespace for this package
 #define BEGIN_PIRANHA_NAMESPACE namespace fastjet { namespace contrib { namespace piranha {
 #define END_PIRANHA_NAMESPACE } } }
+#define PIRANHA_NAMESPACE fastjet::contrib::piranha
+
+// macro for controlling template visibility
+#ifndef PIRANHA_TEMPLATE_VISIBILITY
+# define PIRANHA_TEMPLATE_VISIBILITY extern
+#endif
+
+// allows python to use PseudoJetContainer as a return type
+#ifdef PIRANHA_USE_PYFJCORE
+# define PIRANHA_PSEUDOJET_CONTAINER PseudoJetContainer
+#else
+# define PIRANHA_PSEUDOJET_CONTAINER std::vector<PseudoJet>
+#endif
+
+// macros for declaring templated types
+#define PIRANHA_TEMPLATE_CLASS(...) PIRANHA_TEMPLATE_VISIBILITY template class __VA_ARGS__;
+#define PIRANHA_TEMPLATE_STRUCT(...) PIRANHA_TEMPLATE_VISIBILITY template struct __VA_ARGS__;
 
 BEGIN_PIRANHA_NAMESPACE
 

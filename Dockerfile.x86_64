@@ -1,0 +1,5 @@
+FROM quay.io/pypa/manylinux2010_x86_64:latest
+LABEL org.opencontainers.image.source=https://github.com/pkomiske/Piranha
+COPY ./scripts/prepare-piranha-docker.sh /
+RUN bash prepare-piranha-docker.sh && rm prepare-piranha-docker.sh
+CMD ["/bin/bash"]
